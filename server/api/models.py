@@ -3,16 +3,16 @@ from django.utils.html import mark_safe
 from django.utils.translation import gettext as _
 
 
-def blog_path(instance, filename):
-    return "EventImages/{0}".format(filename)
+def blog_path(_instance, filename):
+    return f"EventImages/{filename}"
 
 
-def project_path(instance, filename):
-    return "ProjectImages/{0}".format(filename)
+def project_path(_instance, filename):
+    return f"ProjectImages/{filename}"
 
 
-def image_path(instance, filename):
-    return "TeamImages/{0}".format(filename)
+def image_path(_instance, filename):
+    return f"TeamImages/{filename}"
 
 
 class Event(models.Model):
@@ -31,16 +31,16 @@ class Event(models.Model):
     def image_preview(self):
         if self.image:
             return mark_safe(
-                '<img src="{}" width="100" height="100" />'.format(self.image.url)
+                f'<img src="{self.image.url}" width="100" height="100" />'
             )
         return ""
 
     def __str__(self):
-        return self.title
+        return str(self.title)
 
     def delete(self, *args, **kwargs):
         self.image.delete()
-        super(Event, self).delete(*args, **kwargs)
+        super().delete(*args, **kwargs)
 
     class Meta:
         verbose_name = _("Event")
@@ -59,16 +59,16 @@ class Project(models.Model):
     def image_preview(self):
         if self.image:
             return mark_safe(
-                '<img src="{}" width="100" height="100" />'.format(self.image.url)
+                f'<img src="{self.image.url}" width="100" height="100" />'
             )
         return ""
 
     def __str__(self):
-        return self.title
+        return str(self.title)
 
     def delete(self, *args, **kwargs):
         self.image.delete()
-        super(Project, self).delete(*args, **kwargs)
+        super().delete(*args, **kwargs)
 
     class Meta:
         verbose_name = _("Project")
@@ -107,17 +107,17 @@ class Team(models.Model):
     def image_preview(self):
         if self.image:
             return mark_safe(
-                '<img src="{}" width="100" height="100" />'.format(self.image.url)
+                f'<img src="{self.image.url}" width="100" height="100" />'
             )
         return ""
 
     def __str__(self):
-        return self.name
+        return str(self.name)
 
     def delete(self, *args, **kwargs):
         self.image.delete()
-        super(Team, self).delete(*args, **kwargs)
+        super().delete(*args, **kwargs)
 
     class Meta:
-        verbose_name = _("Team")
+        verbose_name = _("Member")
         verbose_name_plural = _("Team")

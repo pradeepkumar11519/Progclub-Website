@@ -8,9 +8,11 @@ def getdate():
     mydate = datetime.datetime.now()
     month = mydate.strftime("%B")
     year = today.year
-    if day == 1 or day == 21 or day == 31:
+    if day in (1, 21, 31):
         current_day = f"{day}st {month} {year}"
-    elif day == 3 or day == 23:
+    elif day in (2, 22):
+        current_day = f"{day}nd {month} {year}"
+    elif day in (3, 23):
         current_day = f"{day}rd {month} {year}"
     else:
         current_day = f"{day}th {month} {year}"
