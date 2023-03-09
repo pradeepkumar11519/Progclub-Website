@@ -1,8 +1,14 @@
+from django.contrib import admin
 from django.urls import path
-from .views import *
+
+from .views import ContactView, EventView, ProjectView
+
+admin.site.site_header = "The Programming Club"
+admin.site.index_title = "Admin Server"
+admin.site.site_title = "P; Club"
 
 urlpatterns = [
-    path("GetAllEvents/", GetAllEvents.as_view()),
-    path("GetAllProjects/", GetAllProjects.as_view()),
-    path("GetContactDetails/", GetContactDetails.as_view()),
+    path("events/", EventView.as_view()),
+    path("projects/", ProjectView.as_view()),
+    path("contacts/", ContactView.as_view()),
 ]

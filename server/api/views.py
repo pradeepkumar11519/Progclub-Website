@@ -1,23 +1,19 @@
-from django.shortcuts import render
+from rest_framework.generics import ListAPIView
 
-# Create your views here.
-from django.shortcuts import render
-from rest_framework.generics import *
-
-# Create your views here.
-from .serializers import *
+from .models import Contact, Event, Project
+from .serializers import ContactSerializer, EventSerializer, ProjectSerializer
 
 
-class GetAllEvents(ListAPIView):
+class EventView(ListAPIView):
     serializer_class = EventSerializer
     queryset = Event.objects.all()
 
 
-class GetAllProjects(ListAPIView):
+class ProjectView(ListAPIView):
     serializer_class = ProjectSerializer
     queryset = Project.objects.all()
 
 
-class GetContactDetails(CreateAPIView):
+class ContactView(ListAPIView):
     serializer_class = ContactSerializer
     queryset = Contact.objects.all()

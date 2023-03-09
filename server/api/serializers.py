@@ -1,5 +1,6 @@
 from rest_framework import serializers
-from .models import *
+
+from .models import Contact, Event, Project
 
 
 class EventSerializer(serializers.ModelSerializer):
