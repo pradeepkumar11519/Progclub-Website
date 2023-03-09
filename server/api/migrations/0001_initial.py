@@ -28,7 +28,7 @@ class Migration(migrations.Migration):
                 ('title', models.CharField(max_length=225)),
                 ('description', models.TextField()),
                 ('event_type', models.CharField(choices=[('Upcoming', 'Upcoming'), ('Ongoing', 'Ongoing'), ('Past', 'Past')], max_length=225)),
-                ('image', models.ImageField(upload_to=api.models.Blog_path)),
+                ('image', models.ImageField(upload_to=api.models.blog_path)),
             ],
         ),
         migrations.CreateModel(
@@ -38,7 +38,7 @@ class Migration(migrations.Migration):
                 ('title', models.CharField(max_length=225)),
                 ('category', models.CharField(max_length=225)),
                 ('description', models.TextField()),
-                ('image', models.ImageField(upload_to=api.models.Project_path)),
+                ('image', models.ImageField(upload_to=api.models.project_path)),
                 ('git_repo_link', models.URLField()),
             ],
         ),

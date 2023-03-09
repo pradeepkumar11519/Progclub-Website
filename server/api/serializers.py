@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from .models import Contact, Event, Project
+from .models import Team, Event, Project
 
 
 class EventSerializer(serializers.ModelSerializer):
@@ -15,7 +15,7 @@ class ProjectSerializer(serializers.ModelSerializer):
         fields = "__all__"
 
 
-class ContactSerializer(serializers.ModelSerializer):
+class TeamSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Contact
+        model = Team
         fields = "__all__"
