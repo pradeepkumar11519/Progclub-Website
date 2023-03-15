@@ -8,7 +8,7 @@ from .models import Team, Event, Project
 class EventAdmin(admin.ModelAdmin):
     model = Event
     search_fields = ("title", "subtitle")
-    list_display = ("title", "subtitle", "type")
+    list_display = ("title", "subtitle", "type","image_preview")
     list_filter = ("type",)
     readonly_fields = ("image_preview",)
 
