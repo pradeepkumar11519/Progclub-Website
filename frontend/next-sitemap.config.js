@@ -4,7 +4,7 @@ module.exports = {
     generateRobotsTxt: true,
     robotsTxtOptions: {
         additionalSitemaps: [
-        `${siteUrl}/server-sitemap-index.xml`,
+        `${siteUrl}/server-sitemap.xml`,
         ],
       },
 }
