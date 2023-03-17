@@ -3,7 +3,7 @@ import { NextSeo } from 'next-seo'
 import { QueryClient,dehydrate, useQuery } from '@tanstack/react-query'
 import axios from 'axios'
 export default function TeamPage() {
-  const AllTeamMembers = useQuery(['AllTeamMembers'],()=>{
+  const AllTeamMembers = useQuery(["AllTeamMembers"],()=>{
     return fetchAllTeamMembers()
   })
   console.log(AllTeamMembers);
@@ -15,9 +15,10 @@ export default function TeamPage() {
     />
       {AllTeamMembers?.data?.map((team)=>{
         return (
-          <div className='py-20' key={team.id}>
+          <div className='py-20 text-white' key={team.id}>
             <div>
-              Name:{team?.name}
+              Name:{team.name}
+              Email:{team.email}
             </div>
           </div>
         )
@@ -34,7 +35,7 @@ export const fetchAllTeamMembers = async () =>{
 
 export const getServerSideProps = async () =>{
   const queryClient = new QueryClient()
-  await queryClient.prefetchQuery(['AllTeamMembers'],()=>{
+  await queryClient.prefetchQuery(["AllTeamMembers"],()=>{
     return fetchAllTeamMembers()
   })
   return {
