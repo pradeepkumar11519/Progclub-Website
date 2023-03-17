@@ -4,10 +4,10 @@ import Logo from '../public/images/Logo.png'
 import Link from 'next/link'
 export default function Navbar() {
   return (
-    <div>
+    <div className='z-[1000000]'>
       <div className='grid grid-cols-2 justify-between pr-10 pl-3 py-5 w-full absolute text-white bg-blur  backdrop-blur-lg '>
         <div className='w-10 h-10 my-auto '>
-            <Image src={Logo} placeholder="blur" />
+            <Image alt="PCLUB_LOGO_LOADING" src={Logo} placeholder="blur" />
         </div>
         <ul className='lg:grid hidden grid-cols-5'>
             <li className=' p-2 m-2 text-center my-auto font-bold'>
