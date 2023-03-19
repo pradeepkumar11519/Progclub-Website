@@ -33,13 +33,13 @@ ALLOWED_HOSTS = ['.vercel.app','.now.sh','localhost','127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
-    "whitenoise.runserver_nostatic",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
     'cloudinary_storage',
+     "whitenoise.runserver_nostatic",
     "django.contrib.staticfiles",
     'cloudinary',
     "rest_framework",
@@ -137,7 +137,8 @@ MEDIA_URL = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 CORS_ALLOW_ALL_ORIGINS = True
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR,'static')
+
 
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
