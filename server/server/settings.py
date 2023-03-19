@@ -25,9 +25,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "&%bf_82zxdb_kxj49h_92f0@o1tb0s55zxu4+qv4^o+tg7jvtk"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app','.now.sh','localhost','127.0.0.1']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     'cloudinary_storage',
-     "whitenoise.runserver_nostatic",
     "django.contrib.staticfiles",
     'cloudinary',
     "rest_framework",
@@ -137,7 +136,7 @@ MEDIA_URL = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 CORS_ALLOW_ALL_ORIGINS = True
-STATIC_ROOT = os.path.join(BASE_DIR,'static')
+
 
 
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
@@ -150,3 +149,5 @@ CLOUDINARY_STORAGE = {
 }
 
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+
+STATIC_ROOT = os.path.join(BASE_DIR,'static')
