@@ -137,24 +137,8 @@ MEDIA_URL = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 CORS_ALLOW_ALL_ORIGINS = True
-<<<<<<< HEAD
 
-CLOUDINARY_STORAGE = {
-    'CLOUD_NAME': "dqo9rn5lp",
-    'API_KEY': "949841231926373",
-    'API_SECRET': "yBCagSB5wUPQc3dE-hq0sa9A7u0",
-    'STATIC_IMAGES_EXTENSIONS':'webp'
-}
-
-DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles','static')
 
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static"),
-]
-# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-=======
-STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles','static')
->>>>>>> feature
 
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
