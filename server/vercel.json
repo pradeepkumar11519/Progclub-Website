@@ -4,9 +4,10 @@
     "builds":[
         {
         "src":"server/wsgi.py",
-        "use":"@ardnt/now-python-wsgi",
+        "use":"@vercel/python",
         "config":{
-            "maxLambdaSize":"30mb"
+            "maxLambdaSize":"30mb",
+            "runtime":"python3.9"
         }
     },
     {
