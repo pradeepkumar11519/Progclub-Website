@@ -27,7 +27,7 @@ SECRET_KEY = "&%bf_82zxdb_kxj49h_92f0@o1tb0s55zxu4+qv4^o+tg7jvtk"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["progclub-website-lgs9.vercel.app"]
+ALLOWED_HOSTS = [".vercel.app",".now.sh"]
 
 
 # Application definition
