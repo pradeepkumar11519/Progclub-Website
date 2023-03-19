@@ -27,7 +27,7 @@ SECRET_KEY = "&%bf_82zxdb_kxj49h_92f0@o1tb0s55zxu4+qv4^o+tg7jvtk"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['.vercel.app','.now.sh','localhost','127.0.0.1']
+ALLOWED_HOSTS = ['.vercel.app']
 
 
 # Application definition
@@ -150,4 +150,4 @@ CLOUDINARY_STORAGE = {
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 
-STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles','static')
