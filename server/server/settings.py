@@ -139,7 +139,7 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 
 
-STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+STATICFILES_STORAGE = "django.contrib.staticfiles.storage.ManifestStaticFilesStorage"
 
 CLOUDINARY_STORAGE = {
     'CLOUD_NAME': "dqo9rn5lp",
@@ -150,4 +150,7 @@ CLOUDINARY_STORAGE = {
 
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
-STATIC_ROOT = os.path.join(BASE_DIR,'static')
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR,'static')
+]
+STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
