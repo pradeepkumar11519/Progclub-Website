@@ -3,7 +3,7 @@ from django.utils.html import mark_safe
 from django.utils.translation import gettext as _
 
 
-def blog_path(_instance, filename):
+def event_path(_instance, filename):
     return f"EventImages/{filename}"
 
 
@@ -11,7 +11,7 @@ def project_path(_instance, filename):
     return f"ProjectImages/{filename}"
 
 
-def image_path(_instance, filename):
+def team_path(_instance, filename):
     return f"TeamImages/{filename}"
 
 
@@ -25,7 +25,7 @@ class Event(models.Model):
     subtitle = models.CharField(_("Subtitle"), max_length=225)
     description = models.TextField(_("Description"))
     type = models.CharField(_("Type"), max_length=225, choices=Event_Choices)
-    image = models.ImageField(_("Poster"), upload_to=blog_path)
+    image = models.ImageField(_("Poster"), upload_to=event_path)
 
     @property
     def image_preview(self):
@@ -101,7 +101,7 @@ class Team(models.Model):
     github = models.URLField(_("GitHub Profile"))
     codeforces = models.URLField(_("Codeforces Profile"))
     linkedin = models.URLField(_("LinkedIn Profile"))
-    image = models.ImageField(_("Image"), upload_to=image_path)
+    image = models.ImageField(_("Image"), upload_to=team_path)
 
     @property
     def image_preview(self):
