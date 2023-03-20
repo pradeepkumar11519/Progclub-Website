@@ -7,4 +7,3 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'server.settings')
 
 application = get_wsgi_application()
 application = WhiteNoise(application)
-app = application
