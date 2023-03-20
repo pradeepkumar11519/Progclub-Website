@@ -1,6 +1,7 @@
 from django.db import models
 from django.utils.html import mark_safe
 from django.utils.translation import gettext as _
+from django_resized import ResizedImageField
 
 
 def blog_path(_instance, filename):
@@ -25,7 +26,7 @@ class Event(models.Model):
     subtitle = models.CharField(_("Subtitle"), max_length=225)
     description = models.TextField(_("Description"))
     type = models.CharField(_("Type"), max_length=225, choices=Event_Choices)
-    image = models.ImageField(_("Poster"), upload_to=blog_path)
+    image = ResizedImageField(_("Poster"), upload_to=blog_path,force_format="WEBP",quality=100)
 
     @property
     def image_preview(self):
@@ -52,7 +53,7 @@ class Project(models.Model):
     domain = models.CharField(_("Domain"), max_length=225)
     category = models.CharField(_("Category"), max_length=225)
     description = models.TextField(_("Description"))
-    image = models.ImageField(_("Image"), upload_to=project_path)
+    image = ResizedImageField(_("Image"), upload_to=project_path,force_format="WEBP",quality=100)
     github = models.URLField(_("Repository"))
 
     @property
@@ -101,7 +102,7 @@ class Team(models.Model):
     github = models.URLField(_("GitHub Profile"))
     codeforces = models.URLField(_("Codeforces Profile"))
     linkedin = models.URLField(_("LinkedIn Profile"))
-    image = models.ImageField(_("Image"), upload_to=image_path)
+    image = ResizedImageField(_("Image"), upload_to=image_path,force_format="WEBP",quality=100)
 
     @property
     def image_preview(self):
