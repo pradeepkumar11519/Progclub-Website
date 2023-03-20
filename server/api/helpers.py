@@ -1,6 +1,6 @@
 import datetime
 from datetime import date
-
+from PIL import Image
 
 def getdate():
     today = date.today()
@@ -32,3 +32,12 @@ def gettime():
     elif hour == 12:
         new_time = str(12) + current_time[2:] + " pm"
     return new_time
+
+
+def convert_to_webp(filename,path="images/"):
+    extension = filename.split('.')[-1]
+    fname = filename.split('.')[0]
+    img = Image.open(path + filename)
+
+    if extension != "webp":
+        img.save((path + fname + ".webp"),"webp",lossless=True)
