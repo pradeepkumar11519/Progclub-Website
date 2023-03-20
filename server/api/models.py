@@ -4,7 +4,7 @@ from django.utils.translation import gettext as _
 from django_resized import ResizedImageField
 
 
-def blog_path(_instance, filename):
+def event_path(_instance, filename):
     return f"EventImages/{filename}"
 
 
@@ -12,7 +12,7 @@ def project_path(_instance, filename):
     return f"ProjectImages/{filename}"
 
 
-def image_path(_instance, filename):
+def team_path(_instance, filename):
     return f"TeamImages/{filename}"
 
 
@@ -26,7 +26,7 @@ class Event(models.Model):
     subtitle = models.CharField(_("Subtitle"), max_length=225)
     description = models.TextField(_("Description"))
     type = models.CharField(_("Type"), max_length=225, choices=Event_Choices)
-    image = ResizedImageField(_("Poster"), upload_to=blog_path,force_format="WEBP",quality=100)
+    image = ResizedImageField(_("Poster"), upload_to=event_path,force_format="WEBP",quality=100)
 
     @property
     def image_preview(self):
@@ -102,7 +102,7 @@ class Team(models.Model):
     github = models.URLField(_("GitHub Profile"))
     codeforces = models.URLField(_("Codeforces Profile"))
     linkedin = models.URLField(_("LinkedIn Profile"))
-    image = ResizedImageField(_("Image"), upload_to=image_path,force_format="WEBP",quality=100)
+    image = ResizedImageField(_("Image"), upload_to=team_path,force_format="WEBP",quality=100)
 
     @property
     def image_preview(self):
