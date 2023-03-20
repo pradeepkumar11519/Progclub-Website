@@ -17,3 +17,5 @@ class ProjectView(ListAPIView):
 class TeamView(ListAPIView):
     serializer_class = TeamSerializer
     queryset = Team.objects.all()
+
+
