@@ -1,7 +1,7 @@
 from rest_framework.generics import ListAPIView
 
-from .models import Team, Event, Project
-from .serializers import TeamSerializer, EventSerializer, ProjectSerializer
+from .models import Team, Event, Project,Alumni
+from .serializers import TeamSerializer, EventSerializer, ProjectSerializer,AlumniSerializer
 
 
 class EventView(ListAPIView):
@@ -17,3 +17,8 @@ class ProjectView(ListAPIView):
 class TeamView(ListAPIView):
     serializer_class = TeamSerializer
     queryset = Team.objects.all()
+class AlumniView(ListAPIView):
+    serializer_class = AlumniSerializer
+    queryset = Alumni.objects.all()
+
+

@@ -14,26 +14,25 @@ import os
 from pathlib import Path
 import dj_database_url
 import environ
-
-env = environ.Env()
-environ.Env.read_env()
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+env = environ.Env()
+
+environ.Env.read_env()
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = env('SECRET_KEY')
 
+
+SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['.vercel.app','.now.sh','progclub-iiti-backend.onrender.com']
 
-
-# Application definition
 
 
 INSTALLED_APPS = [
@@ -51,9 +50,10 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    "whitenoise.middleware.WhiteNoiseMiddleware",
     "corsheaders.middleware.CorsMiddleware",
-    "django.middleware.security.SecurityMiddleware",
-    "whitenoise.middleware.WhiteNoiseMiddleware", "django.contrib.sessions.middleware.SessionMiddleware",
+    "django.middleware.security.SecurityMiddleware", 
+"django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
@@ -94,9 +94,8 @@ WSGI_APPLICATION = "server.wsgi.application"
 
 
 DATABASES = {
-    "default":dj_database_url.parse(env('DATABASE_URL'))
+    "default":dj_database_url.config(default = env('DATABASE_URL'),ssl_require=True)
 }
-
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
 
@@ -131,7 +130,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
-STATIC_URL = "static/"
+STATIC_URL = "/static/"
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
@@ -143,16 +142,24 @@ MEDIA_URL = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 CORS_ALLOW_ALL_ORIGINS = True
+<<<<<<< HEAD
 STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles','static')
 
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+=======
+>>>>>>> main
 
 
+STTAICFILES_DIRS = [
+    os.path.join(BASE_DIR,'static')
+]
+STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles','static')
 CLOUDINARY_STORAGE = {
-    'CLOUD_NAME': "dqo9rn5lp",
-    'API_KEY': "949841231926373",
-    'API_SECRET': "yBCagSB5wUPQc3dE-hq0sa9A7u0",
-    "secure":True
+    'CLOUD_NAME':env('CLOUD_NAME'),
+    'API_KEY':env("CLOUDINARY_API_KEY"),
+    'API_SECRET':env("CLOUDINARY_API_SECRET")
 }
 
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
