@@ -31,7 +31,7 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['.vercel.app','.now.sh']
 
 
 
@@ -149,9 +149,9 @@ STTAICFILES_DIRS = [
 ]
 STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles','static')
 CLOUDINARY_STORAGE = {
-    'CLOUD_NAME':"dqo9rn5lp",
-    'API_KEY':"949841231926373",
-    'API_SECRET':"yBCagSB5wUPQc3dE-hq0sa9A7u0"
+    'CLOUD_NAME':env('CLOUD_NAME'),
+    'API_KEY':env("CLOUDINARY_API_KEY"),
+    'API_SECRET':env("CLOUDINARY_API_SECRET")
 }
 
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
