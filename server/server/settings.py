@@ -147,7 +147,7 @@ CORS_ALLOW_ALL_ORIGINS = True
 STTAICFILES_DIRS = [
     os.path.join(BASE_DIR,'static')
 ]
-STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles','static')
 CLOUDINARY_STORAGE = {
     'CLOUD_NAME':"dqo9rn5lp",
     'API_KEY':"949841231926373",
