@@ -15,7 +15,8 @@ def project_path(_instance, filename):
 def team_path(_instance, filename):
     return f"TeamImages/{filename}"
 
-
+def alumni_path(_instance,filename):
+    return f"AlumniImages/{filename}"
 class Event(models.Model):
     Event_Choices = [
         ("Upcoming", _("Upcoming")),
@@ -122,3 +123,23 @@ class Team(models.Model):
     class Meta:
         verbose_name = _("Member")
         verbose_name_plural = _("Team")
+
+class Alumni(models.Model):
+    division_choices = [
+        ("Competitive Programming", _("Competitive Programming")),
+        ("Cyber Security", _("Cyber Security")),
+        ("Software Development", _("Software Development")),
+    ]
+    name = models.CharField(_("Alumni's Name"),max_length=225)
+    passing_year = models.IntegerField(_("Alumni's Passing Year"))
+    division = models.CharField(_("Alumni's Division"), max_length=225, choices=division_choices)
+    image = ResizedImageField(_("Image"), upload_to=alumni_path,force_format="WEBP",quality=100)
+    LinkedIn_Profile = models.URLField(_("Alumni's LinkedIn Profile"))
+    @property
+    def image_preview(self):
+        if self.image:
+            return mark_safe(
+                f'<img src="{self.image.url}" width="100" height="100" />'
+            )
+        return ""
+    
