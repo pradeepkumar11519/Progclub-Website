@@ -20,3 +20,7 @@ class TeamSerializer(serializers.ModelSerializer):
     class Meta:
         model = Team
         fields = "__all__"
+class AlumniSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Team
+        fields = "__all__"
