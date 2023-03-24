@@ -1,45 +1,45 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { useEffect } from 'react';
-import styles from '@/styles/Home.module.css'
-import { TypeAnimation } from 'react-type-animation';
-import PromotionIcons from '@/components/PromotionIcons'
+import {Model} from '../components/Pclub'
 import { NextSeo } from 'next-seo';
+import { Canvas } from '@react-three/fiber';
+import React from 'react';
+import { OrbitControls, PerspectiveCamera, Stars } from '@react-three/drei';
+import { ShaderNode, GeometryNode } from '@react-three/fiber';
+
 
 export default function Home() {
-  useEffect(() => {
+	//   useEffect(() => {
 
-		for (var i = 1; i <= 10; i++) {
-			const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-			var iterations = 0;
-			let element = document.querySelector(`#h${i}`);
-			console.log(element.innerText);
-			const interval = setInterval(() => {
-				element.innerText = element.innerText
-					.split("")
-					.map((letter, index) => {
-						if (index < iterations) {
-							return element.dataset.value[index];
-						}
-						return letters[Math.floor(Math.random() * 26)];
-					})
-					.join("");
-				if (iterations >= element.dataset.value.length) clearInterval(interval);
-				iterations = iterations + 1 / 220;
-			}, 30 + i);
-		}
+	// 		for (var i = 1; i <= 10; i++) {
+	// 			const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	// 			var iterations = 0;
+	// 			let element = document.querySelector(`#h${i}`);
+	// 			console.log(element.innerText);
+	// 			const interval = setInterval(() => {
+	// 				element.innerText = element.innerText
+	// 					.split("")
+	// 					.map((letter, index) => {
+	// 						if (index < iterations) {
+	// 							return element.dataset.value[index];
+	// 						}
+	// 						return letters[Math.floor(Math.random() * 26)];
+	// 					})
+	// 					.join("");
+	// 				if (iterations >= element.dataset.value.length) clearInterval(interval);
+	// 				iterations = iterations + 1 / 220;
+	// 			}, 30 + i);
+	// 		}
 
 
 
-	}, [])
-  return (
-    <>
-     <NextSeo
-      title="P;Club - IIT INDORE"
-      description="Programing Club Of IIT INDORE(IITI)"
-    />
-      <div className='bg-black text-center w-full'>
-			<div id="canvas" className='bg-cover bg-center bg-no-repeat text-center my-auto flex justify-center items-center font-bold lg:text-5xl  text-white text-xl sm:text-3xl md:text-4xl  h-screen'>
+	// 	}, [])
+	return (
+		<>
+			<NextSeo
+				title="P;Club - IIT INDORE"
+				description="Programing Club Of IIT INDORE(IITI)"
+			/>
+			<div className=' text-center w-full'>
+				{/* <div id="canvas" className='bg-cover bg-center bg-no-repeat text-center my-auto flex justify-center items-center font-bold lg:text-5xl  text-white text-xl sm:text-3xl md:text-4xl  h-screen'>
 				<div className='grid grid-rows-3 text-center  my-auto items-center'>
 					<div className='max-w-full break-all  h-full flex items-center justify-center'>
 						<TypeAnimation
@@ -79,11 +79,19 @@ export default function Home() {
 				</div>
 				</div>
 				
-			</div>
+			</div>  */}
 
+<Canvas>
+      <PerspectiveCamera position={[0, 0, 10]} />
+      <ambientLight intensity={0.2} />
+      <directionalLight intensity={0.8} position={[1, 2, 3]} />
+      <Model />
+      <OrbitControls />
+      <Stars />
+    </Canvas>
 
-			<style jsx>
-				{`
+				<style jsx>
+					{`
           #canvas{
             
             animation:bg ease-in-out infinite 20000ms;
@@ -139,8 +147,8 @@ export default function Home() {
           }
           
         `}
-			</style>
-		</div>
-    </>
-  )
+				</style>
+			</div>
+		</>
+	)
 }

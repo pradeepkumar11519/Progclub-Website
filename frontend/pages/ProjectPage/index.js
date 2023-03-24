@@ -1,6 +1,6 @@
 import React from 'react'
 import { NextSeo } from 'next-seo'
-import Carousel from '@/components/Carousel'
+import Carousel from '@/components/Carousel_3D'
 export default function index() {
   return (
     <div>
