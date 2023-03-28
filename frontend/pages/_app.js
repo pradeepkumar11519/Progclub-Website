@@ -47,7 +47,8 @@ export default function App({ Component, pageProps }) {
 						progress={progress}
 						onLoaderFinished={() => setProgress(0)}
 					/>
-					<div className='!bg-black !h-full'>
+					
+					<div className='!bg-black  !h-full'>
 						<Component {...pageProps} />
 					</div>
 				</ContextProvider>

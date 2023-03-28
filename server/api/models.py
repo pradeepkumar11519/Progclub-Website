@@ -51,6 +51,7 @@ class Event(models.Model):
 
 class Project(models.Model):
     title = models.CharField(_("Project Title"), max_length=225)
+    subtitle = models.CharField(_("Project Subtitle"), max_length=225)
     domain = models.CharField(_("Domain"), max_length=225)
     category = models.CharField(_("Category"), max_length=225)
     description = models.TextField(_("Description"))

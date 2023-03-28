@@ -20,7 +20,7 @@ export function Model(props) {
   const geometryNodes = Object.values(nodes).filter(node => node.isGeometryNode);
   console.log(geometryNodes);
   return (
-    <group ref={group} {...props} dispose={null}>
+    <group ref={group} {...props}  dispose={null}>
       
       <group name="Scene">
       {shaderNodes.map((node, index) => (

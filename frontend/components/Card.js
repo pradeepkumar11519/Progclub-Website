@@ -1,16 +1,30 @@
 import React from 'react'
 
-export default function Card({AllEvents}) {
+export default function Card({ AllEvents }) {
     return (
         <div>
-            <div className="container !w-full !grid !grid-cols-4 justify-center mx-auto">
+            <div className="md:!grid-cols-2 lg:!grid-cols-4 px-10 py-10 !w-full !grid !grid-cols-1  justify-center mx-auto">
                 {AllEvents?.data?.map((ele) => {
                     return (
                         <>
-                        {ele.type!=="Upcoming" && (
-                            null
-                        )}
-                            
+                            {ele.type !== "Upcoming" && (
+                                <div className='mx-auto flex justify-center my-10 md:my-auto'>
+                                    <article className="card">
+                                        <div className="temporary_text">
+                                            <img src={ele.image} className="h-full w-full" />
+                                        </div>
+                                        <div className="card_content">
+                                            <span className="card_title">{ele.title}</span>
+                                            <span className="card_subtitle">{ele.subtitle}</span>
+                                            <span className="card_subtitle">{ele.type}</span>
+                                            <p className="card_description">{ele.description}</p>
+                                            
+                                        </div>
+                                        
+                                    </article>
+                                </div>
+                            )}
+
                         </>
                     )
                 })}
@@ -18,105 +32,89 @@ export default function Card({AllEvents}) {
             </div>
             <style jsx>
                 {`
-                body{
-                    margin: 0;
-                    padding: 0;
-                    min-height: 100vh;
-                    background: #333;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    font-family: consolas;
-                }
-                
-                .container{
-                    
+                .card {
                     position: relative;
                     
-                }
-                
-                .container .card{
-                    position: relative;
-                    cursor: pointer;
-                }
-                
-                .container .card .face{
-                    width: 300px;
-                    height: 200px;
-                    transition: 0.5s;
-                }
-                
-                .container .card .face.face1{
-                    position: relative;
-                    background: #333;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    z-index: 1;
-                    transform: translateY(100px);
-                }
-                
-                .container .card:hover .face.face1{
-                    background: #ff0057;
-                    transform: translateY(0);
-                }
-                
-                .container .card .face.face1 .content{
-                    opacity: 0.2;
-                    transition: 0.5s;
-                }
-                
-                .container .card:hover .face.face1 .content{
-                    opacity: 1;
-                }
-                
-                .container .card .face.face1 .content img{
-                    max-width: 100%;
-                }
-                
-                .container .card .face.face1 .content h3{
-                    margin: 10px 0 0;
-                    padding: 0;
-                    color: #fff;
-                    text-align: center;
-                    font-size: 1.5em;
-                }
-                
-                .container .card .face.face2{
-                    position: relative;
-                    background: #fff;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
+                    color: #2e2d31;
+                    background: #131313;
+                    overflow: hidden;
+                    
+                  }
+                  
+                  .temporary_text {
+                    font-weight: bold;
+                    font-size: 24px;
+                    padding: 6px 12px;
+                    color: #f8f8f8;
+                  }
+                  
+                  .card_title {
+                    font-weight: bold;
+                  }
+                  
+                  .card_content {
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                      /* edit the width to fit card */
+                    width: 100%;
                     padding: 20px;
-                    box-sizing: border-box;
-                    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
-                    transform: translateY(-100px);
-                }
-                
-                .container .card:hover .face.face2{
+                    background: #f2f2f2;
+                    border-top-left-radius: 20px;
+                      /* edit here to change the height of the content box */
+                    transform: translateY(110px);
+                    transition: transform .25s;
+                  }
+                  
+                  .card_content::before {
+                    content: '';
+                    position: absolute;
+                    top: -47px;
+                    right: -45px;
+                    width: 100px;
+                    height: 100px;
+                    transform: rotate(-175deg);
+                    border-radius: 50%;
+                    box-shadow: inset 48px 48px #f2f2f2;
+                  }
+                  
+                  .card_title {
+                    color: #131313;
+                    line-height: 15px;
+                  }
+                  
+                  .card_subtitle {
+                    display: block;
+                    font-size: 12px;
+                    margin-bottom: 10px;
+                  }
+                  
+                  .card_description {
+                    font-size: 14px;
+                    opacity: 0;
+                    transition: opacity .5s;
+                  }
+                  
+                  .card:hover .card_content {
                     transform: translateY(0);
-                }
-                
-                .container .card .face.face2 .content p{
-                    margin: 0;
-                    padding: 0;
-                }
-                
-                .container .card .face.face2 .content a{
-                    margin: 15px 0 0;
-                    display:  inline-block;
-                    text-decoration: none;
-                    font-weight: 900;
-                    color: #333;
-                    padding: 5px;
-                    border: 1px solid #333;
-                }
-                
-                .container .card .face.face2 .content a:hover{
-                    background: #333;
-                    color: #fff;
-                }
+                    padding:15px 15px;
+                  }
+                  
+                  .card:hover .card_description {
+                    opacity: 1;
+                    transition-delay: .25s;
+                  }
+                  .card {
+                    width: 250px;
+                    height: 250px;
+
+                    
+                    background: #212121;
+                    box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                                -15px -15px 30px rgb(60, 60, 60);
+                   }
+                   
+                   
                 `}
             </style>
         </div>

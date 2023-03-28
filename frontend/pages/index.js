@@ -1,10 +1,12 @@
 import {Model} from '../components/Pclub'
 import { NextSeo } from 'next-seo';
 import { Canvas } from '@react-three/fiber';
-import React from 'react';
+import React,{useEffect} from 'react';
 import { OrbitControls, PerspectiveCamera, Stars } from '@react-three/drei';
 import { ShaderNode, GeometryNode } from '@react-three/fiber';
-
+import { TypeAnimation } from 'react-type-animation';
+import PromotionIcons from '@/components/PromotionIcons';
+import Parallax from '@/components/Parallax';
 
 export default function Home() {
 	//   useEffect(() => {
@@ -38,8 +40,8 @@ export default function Home() {
 				title="P;Club - IIT INDORE"
 				description="Programing Club Of IIT INDORE(IITI)"
 			/>
-			<div className=' text-center w-full'>
-				{/* <div id="canvas" className='bg-cover bg-center bg-no-repeat text-center my-auto flex justify-center items-center font-bold lg:text-5xl  text-white text-xl sm:text-3xl md:text-4xl  h-screen'>
+			 <div className=' text-center w-full'> 
+				<div id="canvas" className='bg-cover bg-center bg-no-repeat text-center my-auto flex justify-center items-center font-bold lg:text-5xl  text-white text-xl sm:text-3xl md:text-4xl  h-screen'>
 				<div className='grid grid-rows-3 text-center  my-auto items-center'>
 					<div className='max-w-full break-all  h-full flex items-center justify-center'>
 						<TypeAnimation
@@ -79,8 +81,8 @@ export default function Home() {
 				</div>
 				</div>
 				
-			</div>  */}
-
+			</div>  
+{/* <div className='z-[-1]'>
 <Canvas>
       <PerspectiveCamera position={[0, 0, 10]} />
       <ambientLight intensity={0.2} />
@@ -89,7 +91,8 @@ export default function Home() {
       <OrbitControls />
       <Stars />
     </Canvas>
-
+	</div> */}
+					
 				<style jsx>
 					{`
           #canvas{
