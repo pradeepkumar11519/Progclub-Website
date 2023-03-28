@@ -36,7 +36,7 @@ class EventAdmin(admin.ModelAdmin):
 class ProjectAdmin(admin.ModelAdmin):
     model = Project
     search_fields = ("title",)
-    list_display = ("title", "image_preview")
+    list_display = ("title", "image_preview","subtitle")
     list_filter = ("domain", "category")
     readonly_fields = ("image_preview",)
 
@@ -50,7 +50,7 @@ class ProjectAdmin(admin.ModelAdmin):
             None,
             {
                 "fields": (
-                    "title",
+                    ("title","subtitle"),
                     "github",
                     ("domain", "category"),
                     "description",
