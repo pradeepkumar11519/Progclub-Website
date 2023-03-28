@@ -7,10 +7,14 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 
 export default function Carousel_3D({ AllEvents }) {
-	let arrayIndex = AllEvents?.data?.findIndex(x => {
-		return x.type !== "Upcoming"
-	})
-	console.log(arrayIndex);
+	const [arrayIndex,setarrayIndex] = useState(0)
+	useEffect(()=>{
+		setarrayIndex(AllEvents?.data?.findIndex(x => {
+			return x.type === "Upcoming"
+		}))
+		console.log(arrayIndex);
+	},[])
+	
 
 	return (
 		<div className='mx-auto flex justify-center !w-full  '>
