@@ -1,17 +1,20 @@
+import Image from 'next/image'
 import React from 'react'
 
 export default function Card({ AllEvents }) {
+  
     return (
         <div>
             <div className="md:!grid-cols-2 lg:!grid-cols-4 px-10 py-10 !w-full !grid !grid-cols-1  justify-center mx-auto">
                 {AllEvents?.data?.map((ele) => {
                     return (
-                        <>
+                        <div key={ele.id}>
                             {ele.type !== "Upcoming" && (
                                 <div className='mx-auto flex justify-center my-10 md:my-auto'>
                                     <article className="card">
                                         <div className="temporary_text">
-                                            <img src={ele.image} className="h-full w-full" />
+                                          <div className="h-full w-full">
+                                            <Image src={ele.image} className="h-full w-full" blurDataURL={ele.image} placeholder="blur" width="100" height="100" /></div>
                                         </div>
                                         <div className="card_content">
                                             <span className="card_title">{ele.title}</span>
@@ -25,7 +28,7 @@ export default function Card({ AllEvents }) {
                                 </div>
                             )}
 
-                        </>
+                        </div>
                     )
                 })}
 

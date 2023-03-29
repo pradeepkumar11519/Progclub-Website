@@ -3,13 +3,17 @@ const runtimeCaching = require("next-pwa/cache");
 const withPWA = require('next-pwa')({
     dest:"public",
     register:true,
-    disable:process.env.NODE_ENV!=="production",
     runtimeCaching,
     skipWaiting:true,
     buildExcludes: [/middleware-manifest.json$/],
 })
-const nextConfig = {
-  reactStrictMode: true, 
-}
+const nextConfig = withPWA({
+  reactStrictMode: true,
+ 
+    images: {
+      domains: ['res.cloudinary.com'],
+    },
+  
+})
 
 module.exports = nextConfig

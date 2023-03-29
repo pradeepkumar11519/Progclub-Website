@@ -21,17 +21,18 @@ export default function App({ Component, pageProps }) {
 	React.useEffect(() => {
 
 		router.events.on('routeChangeStart', () => {
+			document.querySelector('#offcanvas').classList.remove('smenu')
 			setProgress(40)
 			
 
 		})
 		router.events.on('routeChangeComplete', () => {
 			setProgress(100)
-
+			
 
 		})
 
-	}, [])
+	}, [router])
 	return (
 		<QueryClientProvider client={queryClient}>
 			<Hydrate state={pageProps.dehydratedState}>
@@ -48,7 +49,7 @@ export default function App({ Component, pageProps }) {
 						onLoaderFinished={() => setProgress(0)}
 					/>
 					
-					<div className='!bg-black  !h-full'>
+					<div className='!text-white z-[-10] '>
 						<Component {...pageProps} />
 					</div>
 				</ContextProvider>

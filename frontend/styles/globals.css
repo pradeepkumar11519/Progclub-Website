@@ -6,3 +6,119 @@ canvas{
     width: 100%;
     height: 100vh;
 }
+
+
+#ProjectPage ::-webkit-scrollbar{
+    width:3px;
+}
+#ProjectPage ::-webkit-scrollbar-button{
+    width:5px;
+}
+
+#ProjectPage ::-webkit-scrollbar-corner{
+    width:5px;
+}
+#ProjectPage ::-webkit-scrollbar-thumb{
+    width:5px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255,0.2);
+    opacity: 20;
+}
+#ProjectPage ::-webkit-scrollbar-track{
+    width:5px;
+}
+
+#ProjectPage ::-webkit-scrollbar-track-piece{
+    width:5px;
+}
+
+.splide__arrow{
+    margin:0px -10px;
+}
+
+body{
+    width: 100%;
+    height: 100%;       
+    animation:bg ease-in-out infinite 20000ms;
+  }
+
+  @keyframes bg{
+    0%{
+      background:url('../public/images/Frame21.jpg');
+      background-size:cover;
+      background-repeat: no-repeat;
+      
+      
+    }
+    10%{
+      background:url('../public/images/Frame22.jpg');
+      background-size:cover;
+      background-repeat: no-repeat;
+      
+    }
+    20%{
+      background:url('../public/images/Frame23.jpg');
+      background-size:cover;
+      background-repeat: no-repeat;
+      
+    }
+    30%{
+      background:url('../public/images/Frame24.jpg');
+      background-size:cover;
+      background-repeat: no-repeat;
+      
+    }
+    40%{
+      background:url('../public/images/Frame25.jpg');
+      background-size:cover;
+      background-repeat: no-repeat;
+      
+    }
+    50%{
+      background:url('../public/images/Frame26.jpg');
+      background-size:cover;
+      background-repeat: no-repeat;
+    
+    }
+    60%{
+      background:url('../public/images/Frame27.jpg');
+      background-size:cover;
+      background-repeat: no-repeat;
+      
+    }
+    70%{
+      background:url('../public/images/Frame28.jpg');
+      background-size:cover;
+      background-repeat: no-repeat;
+     
+    }
+    80%{
+      background:url('../public/images/Frame29.jpg');
+      background-size:cover;
+      background-repeat: no-repeat;
+      
+    }
+    90%{
+      background:url('../public/images/Frame210.jpg');
+      background-size:cover;
+      background-repeat: no-repeat;
+      
+    }
+    100%{
+      background:url('../public/images/Frame211.jpg');
+      background-size:cover;
+      background-repeat: no-repeat;
+     
+    }
+  }
+  
+
+.show{
+  position:absolute;
+}
+
+
+.smenu{
+  left:0%;
+  
+}

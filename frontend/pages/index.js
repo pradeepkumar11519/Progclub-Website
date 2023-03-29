@@ -95,59 +95,6 @@ export default function Home() {
 					
 				<style jsx>
 					{`
-          #canvas{
-            
-            animation:bg ease-in-out infinite 20000ms;
-          }
-
-          @keyframes bg{
-            0%{
-              background:url('images/Frame21.jpg');
-			  background-size:cover;
-              
-              
-            }
-            10%{
-              background:url('images/Frame22.jpg');
-			  background-size:cover;
-            }
-            20%{
-              background:url('images/Frame23.jpg');
-              background-size:cover;
-            }
-            30%{
-              background:url('images/Frame24.jpg');
-              background-size:cover;
-            }
-            40%{
-              background:url('images/Frame25.jpg');
-              background-size:cover;
-            }
-            50%{
-              background:url('images/Frame26.jpg');
-              background-size:cover;
-            }
-            60%{
-              background:url('images/Frame27.jpg');
-              background-size:cover;
-            }
-            70%{
-              background:url('images/Frame28.jpg');
-              background-size:cover;
-            }
-            80%{
-              background:url('images/Frame29.jpg');
-              background-size:cover;
-            }
-            90%{
-              background:url('images/Frame210.jpg');
-              background-size:cover;
-            }
-            100%{
-              background:url('images/Frame211.jpg');
-              background-size:cover;
-            }
-          }
           
         `}
 				</style>
