@@ -39,7 +39,7 @@ canvas{
 body{
     width: 100%;
     height: 100%;       
-    animation:bg ease-in-out infinite 20000ms;
+    animation:bg1 ease-in-out infinite 20000ms;
   }
 
   @keyframes bg{
@@ -122,3 +122,5 @@ body{
   left:0%;
   
 }
+
+

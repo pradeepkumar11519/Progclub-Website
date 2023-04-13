@@ -22,8 +22,8 @@ export default function Navbar() {
 		document.querySelector('#offcanvas').classList.toggle('smenu')
 	}
 	return (
-		<div className='z-[10000000000]'>
-			<div className='lg:grid flex justify-between lg:grid-cols-2  pr-10 pl-3 py-5 w-full absolute text-white bg-blur  backdrop-blur-lg '>
+		<div className='z-[10000000000] '>
+			<div className='lg:grid flex justify-between lg:grid-cols-2  pr-10 pl-3 py-5 w-full absolute text-white bg-blur  backdrop-blur-lg'>
 				<div className='w-10 ml-4 h-10 my-auto '>
 					<Image alt="PCLUB_LOGO_LOADING" src={Logo} placeholder="blur" />
 				</div>
@@ -45,7 +45,7 @@ export default function Navbar() {
 					</li>
 				</ul>
 				<div id="offcanvasbtn" className='my-auto mx-0 cursor-pointer md:hidden' onClick={OpenOffCanvas} >
-					<AiOutlineBars className='w-7 h-7  my-auto text-white' />
+					<AiOutlineBars className='w-7 h-7  my-auto text-black' />
 				</div>
 			</div>
 			<div ref={ref} className='md:hidden overflow-hidden'>
