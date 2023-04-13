@@ -124,3 +124,10 @@ body{
 }
 
 
+canvas{
+  z-index: -10 !important;
+}
+
+#__next-build-watcher{
+z-index:-10;
+}

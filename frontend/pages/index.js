@@ -491,7 +491,7 @@ export default function Home() {
 				title="P;Club - IIT INDORE"
 				description="Programing Club Of IIT INDORE(IITI)"
 			/>
-			<div className=' text-center absolute w-full h-full my-32 z-[-1]'>
+			<div className=' text-center absolute w-full h-full my-32 '>
 				<div id="canvas" className='bg-cover bg-center bg-no-repeat text-center my-auto flex justify-center items-center font-bold lg:text-5xl  text-white text-xl sm:text-3xl md:text-4xl  h-screen'>
 					<div className='grid grid-rows-3 text-center  my-auto items-center'>
 						<div className='max-w-full break-all  h-full flex items-center justify-center'>
