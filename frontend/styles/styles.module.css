@@ -1,10 +1,4 @@
-.container > div > div {
-    display: flex;
-    
-    
-    align-items: center;
-    justify-content: center;
-  }
+
   
   .text {
     pointer-events: none;

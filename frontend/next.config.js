@@ -8,7 +8,7 @@ const withPWA = require('next-pwa')({
     buildExcludes: [/middleware-manifest.json$/],
 })
 const nextConfig = withPWA({
-  reactStrictMode: true,
+  reactStrictMode: false,
  
     images: {
       domains: ['res.cloudinary.com'],

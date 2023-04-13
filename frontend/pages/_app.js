@@ -49,7 +49,7 @@ export default function App({ Component, pageProps }) {
 						onLoaderFinished={() => setProgress(0)}
 					/>
 					
-					<div className='!text-black z-[-10] !bg-white'>
+					<div className='!text-black z-[-10] '>
 						<Component {...pageProps} />
 					</div>
 				</ContextProvider>

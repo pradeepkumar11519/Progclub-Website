@@ -23,7 +23,7 @@ export default function Navbar() {
 	}
 	return (
 		<div className='z-[10000000000] '>
-			<div className='lg:grid flex justify-between lg:grid-cols-2  pr-10 pl-3 py-5 w-full absolute text-white bg-blur  backdrop-blur-lg'>
+			<div className='lg:grid flex justify-between lg:grid-cols-2  pr-10 pl-3 py-5 w-full absolute text-white bg-blur bg-black bg-opacity-30  backdrop-blur-lg'>
 				<div className='w-10 ml-4 h-10 my-auto '>
 					<Image alt="PCLUB_LOGO_LOADING" src={Logo} placeholder="blur" />
 				</div>
