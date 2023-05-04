@@ -35,7 +35,7 @@ export default function TeamCard({ team }) {
 			<div className="card rounded-[2em] !transition-all !fade-in-out overflow-hidden">
 				<center>
 					<div className="profileimage rounded-full w-full h-full ">
-						<Image src={team.image} className="rounded-full w-full h-full" width={"100"} height={"100"} />
+						<Image alt="Team" src={team.image} className="rounded-full w-full h-full" width={"100"} height={"100"} />
 					</div>
 					<div className="Name">
 						<p className='break-all'>{team.position}</p>

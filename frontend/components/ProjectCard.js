@@ -10,7 +10,7 @@ export default function ProjectCard({ project }) {
                     <div className=' sm:w-fit flex justify-center items-center !h-full  my-auto'>
                         <div className="image !bg-white flex justify-center mx-auto my-auto p-2   h-full">
                           <div className='!max-w-20 !max-h-20 !mx-auto'>
-                            <Image blurDataURL={project.image}  src={project.image} width={'80'} height={"7"} placeholder="blur" /></div>
+                            <Image alt="Projects" blurDataURL={project.image}  src={project.image} width={'80'} height={"7"} placeholder="blur" /></div>
                         </div>
                     </div>
                     <div className="info !mt-3 sm:!mt-0 !w-full !text-center ">

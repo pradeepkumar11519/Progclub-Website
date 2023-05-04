@@ -5,16 +5,16 @@ export default function Card({ AllEvents }) {
   
     return (
         <div>
-            <div className="md:!grid-cols-2 lg:!grid-cols-4 px-10 py-10 !w-full !grid !grid-cols-1  justify-center mx-auto">
+            <div className="md:!grid-cols-2 lg:!grid-cols-3 px-5 py-5 !w-full !grid !grid-cols-1   mx-auto">
                 {AllEvents?.data?.map((ele) => {
                     return (
                         <div key={ele.id}>
                             {ele.type !== "Upcoming" && (
                                 <div className='mx-auto flex justify-center my-10 md:my-auto'>
-                                    <article className="card">
+                                    <article className="card !w-[300px]">
                                         <div className="temporary_text">
                                           <div className="h-full w-full">
-                                            <Image src={ele.image} className="h-full w-full" blurDataURL={ele.image} placeholder="blur" width="100" height="100" /></div>
+                                            <Image alt="Ongoing And Past Events" src={ele.image} className="h-full w-full" blurDataURL={ele.image} placeholder="blur" width="200" height="200" /></div>
                                         </div>
                                         <div className="card_content">
                                             <span className="card_title">{ele.title}</span>
@@ -65,7 +65,7 @@ export default function Card({ AllEvents }) {
                     background: #f2f2f2;
                     border-top-left-radius: 20px;
                       /* edit here to change the height of the content box */
-                    transform: translateY(110px);
+                    transform: translateY(80px);
                     transition: transform .25s;
                   }
                   
@@ -73,6 +73,7 @@ export default function Card({ AllEvents }) {
                     content: '';
                     position: absolute;
                     top: -47px;
+                    
                     right: -45px;
                     width: 100px;
                     height: 100px;
@@ -100,17 +101,18 @@ export default function Card({ AllEvents }) {
                   
                   .card:hover .card_content {
                     transform: translateY(0);
-                    padding:15px 15px;
+                    padding:20px;
                   }
                   
                   .card:hover .card_description {
                     opacity: 1;
                     transition-delay: .25s;
+                    padding:20px;
                   }
                   .card {
                     width: 250px;
                     height: 250px;
-
+                    
                     
                     background: #212121;
                     box-shadow: 15px 15px 30px rgb(25, 25, 25),

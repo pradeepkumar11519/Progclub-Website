@@ -1,9 +1,9 @@
-import React,{useState,useEffect,useRef} from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import Image from 'next/image'
 import Logo from '../public/images/Logo.png'
 import Link from 'next/link'
 import OffcanvasNavbar from './OffcanvasNavbar'
-import {AiOutlineBars} from 'react-icons/ai'
+import { AiOutlineBars } from 'react-icons/ai'
 export default function Navbar() {
 	const ref = useRef(null)
 	useEffect(() => {
@@ -20,6 +20,12 @@ export default function Navbar() {
 	}, [])
 	const OpenOffCanvas = () => {
 		document.querySelector('#offcanvas').classList.toggle('smenu')
+		// if (document.getElementById('offcanvas').offsetLeft === -500) {
+		// 	document.querySelector('#offcanvas').classList.add('smenu')
+		// }
+		// else {
+		// 	document.querySelector('#offcanvas').classList.remove('smenu')
+		// }
 	}
 	return (
 		<div className='z-[10000000000] '>
@@ -45,11 +51,11 @@ export default function Navbar() {
 					</li>
 				</ul>
 				<div id="offcanvasbtn" className='my-auto mx-0 cursor-pointer md:hidden' onClick={OpenOffCanvas} >
-					<AiOutlineBars className='w-7 h-7  my-auto text-black' />
+					<AiOutlineBars className='w-7 h-7  my-auto text-white' />
 				</div>
 			</div>
-			<div ref={ref} className='md:hidden overflow-hidden'>
-				<OffcanvasNavbar />
+			<div ref={ref} className='md:hidden overflow-hidden text-white'>
+				<OffcanvasNavbar className="" />
 			</div>
 		</div>
 	)
