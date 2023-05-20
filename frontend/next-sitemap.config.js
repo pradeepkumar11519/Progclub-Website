@@ -1,6 +1,6 @@
-const siteUrl = "http://localhost:3000"
+
 module.exports = {
-    siteUrl:siteUrl,
+    siteUrl:process.env.SITE_URL || 'http://localhost:3000',
     generateRobotsTxt: true,
     robotsTxtOptions: {
         additionalSitemaps: [

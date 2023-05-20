@@ -10,7 +10,7 @@ export default function Card({ AllEvents }) {
                     return (
                         <div key={ele.id}>
                             {ele.type !== "Upcoming" && (
-                                <div className='mx-auto flex justify-center my-10 md:my-auto'>
+                                <div className='mx-auto flex justify-center py-10 md:my-auto'>
                                     <article className="card !w-[300px]">
                                         <div className="temporary_text">
                                           <div className="h-full w-full">

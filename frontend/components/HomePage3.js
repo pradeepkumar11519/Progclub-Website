@@ -23,7 +23,7 @@ export default function HomePage3() {
         let scene = new THREE.Scene();
         scene.fog = new THREE.Fog(0x000000, 5000, 10000);
 
-        let pointLight = new THREE.PointLight(0xFF4040);
+        let pointLight = new THREE.PointLight(0x80daeb);
         pointLight.position.x = 0;
         pointLight.position.y = 1800;
         pointLight.position.z = -1800;

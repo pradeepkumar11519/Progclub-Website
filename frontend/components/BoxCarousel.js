@@ -50,7 +50,7 @@ export default function BoxCarousel({ AllEvents }) {
 
     return (
         <div className='boxcarousel'>
-            <div className='app justify-center mx-auto flex my-10 lg:my-20'>
+            <div className='app justify-center  mx-auto flex py-10 lg:py-20 ' >
                 <Carousel>
                     {AllEvents?.data?.filter(x => {
         return x.type === "Upcoming"

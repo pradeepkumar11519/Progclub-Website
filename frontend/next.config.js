@@ -11,7 +11,7 @@ const nextConfig = withPWA({
   reactStrictMode: false,
  
     images: {
-      domains: ['res.cloudinary.com'],
+      domains: ['res.cloudinary.com','cdn-images-1.medium.com'],
     },
   
 })
