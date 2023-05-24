@@ -144,3 +144,5 @@ class Alumni(models.Model):
             )
         return ""
     
+
+

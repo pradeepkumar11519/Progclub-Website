@@ -210,7 +210,7 @@ export default function EventsPage() {
 }
 
 const fetchAllEvents = async () => {
-  return axios.get('https://progclub-iiti-backend.onrender.com/api/v1/events/').then((response) => {
+  return axios.get('https://progclub-website.vercel.app/api/v1/events/').then((response) => {
     return response.data
   })
 }

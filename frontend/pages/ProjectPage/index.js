@@ -43,7 +43,7 @@ background-blend-mode: overlay, overlay, overlay, darken, normal;
 
 const fetchprojects = async () => {
   return axios
-    .get("https://progclub-iiti-backend.onrender.com/api/v1/projects")
+    .get("https://progclub-website.vercel.app/api/v1/projects/")
     .then((response) => {
       return response.data;
     });

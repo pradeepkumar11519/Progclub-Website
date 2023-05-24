@@ -584,7 +584,7 @@ export default function TeamPage() {
 
 export const fetchAllTeamMembers = async () => {
 	return axios
-		.get("https://progclub-iiti-backend.onrender.com/api/v1/team/")
+		.get("https://progclub-website.vercel.app/api/v1/team/")
 		.then((response) => {
 			return response.data;
 		});
