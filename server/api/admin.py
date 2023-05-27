@@ -1,7 +1,7 @@
 from django.contrib import admin
 
 from .models import Team, Event, Project,Alumni
-
+from django.contrib.admin import RelatedOnlyFieldListFilter
 
 # Register your models here.
 @admin.register(Event)
@@ -65,10 +65,11 @@ class ProjectAdmin(admin.ModelAdmin):
 class TeamAdmin(admin.ModelAdmin):
     model = Team
     search_fields = ("name", "email")
-    list_display = ("name", "email", "position", "division")
+    list_display = ("name", "email", "position", "division","year")
     list_filter = ("position", "division", "year")
     readonly_fields = ("image_preview",)
 
+    
     def image_preview(self, obj):
         return obj.image_preview
 

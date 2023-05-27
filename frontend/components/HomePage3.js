@@ -6,7 +6,7 @@ export default function HomePage3() {
     useEffect(() => {
         // stole the THREE setup from https://codepen.io/Xanmia/pen/FdABn since i was lazy this time around.
 
-        let stageWidth=  window.innerWidth;
+        let stageWidth=  window.innerWidth - 100;
         let stageHeight = window.innerHeight;
         let xRows = 30;
         let zRows = 30;
@@ -163,8 +163,8 @@ export default function HomePage3() {
 
     }, [])
     return (
-        <div id="container" className='bg-no-repeat relative z-[-1]'>
-            <div className="absolute w-full h-full z-[10]">
+        <div id="container" className='bg-no-repeat   overflow-x-hidden relative !w-full '>
+            <div className=" w-full h-full grid grid-cols-2 z-[10]">
                 <HomePageTextStyle />
             </div>
 

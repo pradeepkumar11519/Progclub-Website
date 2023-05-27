@@ -14,7 +14,7 @@ export default function Home() {
 				title="P;Club - IIT INDORE"
 				description="Programing Club Of IIT INDORE(IITI)"
 			/>
-			<div className="border-2 border-black ">
+			<div className="border-2 border-black overflow-hidden">
 				<HomePage3 />
 			</div>
 			<div className="mx-10 ">

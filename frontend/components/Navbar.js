@@ -28,6 +28,9 @@ export default function Navbar() {
 			document.querySelector('#offcanvas').classList.remove('smenu')
 		}
 	}
+	useEffect(() => {
+		console.log(window.scrollY)
+	}, [])
 	return (
 		<div className='z-[10000000000] sticky top-0'>
 			<div className='flex lg:grid grid-cols-2 justify-between md:pr-10 pr-3 pl-3 py-3 w-full absolute bg-backdrop shadow-[1px_1px_10px_1px]  text-white bg-white bg-opacity-30 '>

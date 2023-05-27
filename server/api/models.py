@@ -19,9 +19,9 @@ def alumni_path(_instance,filename):
     return f"AlumniImages/{filename}"
 class Event(models.Model):
     Event_Choices = [
-        ("Upcoming", _("Upcoming")),
-        ("Ongoing", _("Ongoing")),
-        ("Past", _("Past")),
+        ("aUpcoming", _("Upcoming")),
+        ("bOngoing", _("Ongoing")),
+        ("cPast", _("Past")),
     ]
     title = models.CharField(_("Event Title"), max_length=225)
     subtitle = models.CharField(_("Subtitle"), max_length=225)
@@ -81,14 +81,14 @@ class Project(models.Model):
 
 class Team(models.Model):
     position_choices = [
-        ("President", _("President")),
-        ("Member", _("Member")),
-        ("Volunteer", _("Volunteer")),
+        ("aPresident", _("President")),
+        ("bMember", _("Member")),
+        ("cVolunteer", _("Volunteer")),
     ]
     division_choices = [
-        ("Competitive Programming", _("Competitive Programming")),
-        ("Cyber Security", _("Cyber Security")),
-        ("Software Development", _("Software Development")),
+        ("aCompetitive Programming", _("Competitive Programming")),
+        ("cCyber Security", _("Cyber Security")),
+        ("bSoftware Development", _("Software Development")),
     ]
     year_choices = [
         ("First", _("First")),
