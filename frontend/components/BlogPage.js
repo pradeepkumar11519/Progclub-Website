@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-
+import BlogCard from './BlogCard'
 export default function BlogPage() {
   return (
     <div>
