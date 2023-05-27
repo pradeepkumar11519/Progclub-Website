@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
 
-export default function Card({ AllEvents }) {
+export default function Card({ Events }) {
   
     return (
         <div>
             <div className="md:!grid-cols-2 lg:!grid-cols-3 px-5 py-5 !w-full !grid !grid-cols-1   mx-auto">
-                {AllEvents?.data?.map((ele) => {
+                {Events?.map((ele) => {
                     return (
                         <div key={ele.id}>
                             {ele.type !== "Upcoming" && (

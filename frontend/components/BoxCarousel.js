@@ -8,7 +8,7 @@ import Image from 'next/image';
 const CARDS = 5;
 const MAX_VISIBILITY = 2;
 
-const Card = ({ title, subtitle, image, description,key }) => (
+const CarouselCard = ({ title, subtitle, image, description,key }) => (
     <div key={key} className='boxcarouselcard'>
         <h2>{title}</h2>
         <Image alt="Upcoming Events" blurDataURL={image} placeholder='blur' height={400} width={400} className='w-full lg:h-[400px]' src={image} />
@@ -45,18 +45,16 @@ const Carousel = ({ children }) => {
 
 
 
-export default function BoxCarousel({ AllEvents }) {
+export default function BoxCarousel({ Events }) {
     
 
     return (
         <div className='boxcarousel'>
             <div className='app justify-center  mx-auto flex py-10 lg:py-20 ' >
                 <Carousel>
-                    {AllEvents?.data?.filter(x => {
-        return x.type === "Upcoming"
-    }).map((ele, index) => {
+                    {Events?.map((ele, index) => {
                         return (
-                            <Card key={index} image={ele.image} title={ele.title} subtitle={ele.subtitle} description={ele.description} />
+                            <CarouselCard key={index} image={ele.image} title={ele.title} subtitle={ele.subtitle} description={ele.description} />
                         )
                         
                             
