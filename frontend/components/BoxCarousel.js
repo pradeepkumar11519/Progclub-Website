@@ -9,11 +9,11 @@ const CARDS = 5;
 const MAX_VISIBILITY = 2;
 
 const CarouselCard = ({ title, subtitle, image, description,key }) => (
-    <div key={key} className='boxcarouselcard'>
-        <h2>{title}</h2>
-        <Image alt="Upcoming Events" blurDataURL={image} placeholder='blur' height={400} width={400} className='w-full lg:h-[400px]' src={image} />
-        <p className='text-sm text-center my-3 text-gray-900'>{subtitle}</p>
-        <p className='text-xs text-center text-gray-700'>{description}</p>
+    <div key={key} className='boxcarouselcard xl:w-10/12 mx-auto'>
+        <h2 className='lg:text-3xl text-stone-800 lg:pb-3 m-0 pb-2 pt-3'>{title}</h2>
+        <Image alt="Upcoming Events" blurDataURL={image} placeholder='blur' height={400} width={400} className='w-full  xl:h-[320px] lg:h-[280px] mx-auto rounded-2xl' src={image} />
+        <p className='text-sm lg:text-xl text-center my-3 text-gray-900 font-medium'>{subtitle}</p>
+        <p className='text-xs lg:text-sm text-center text-gray-700'>{description}</p>
     </div>
 );
 
@@ -23,7 +23,7 @@ const Carousel = ({ children }) => {
     const [active, setActive] = useState(count>2?1:0);
     console.log(children)
     return (
-        <div className='carousel !h-[400px] lg:!h-[600px]'>
+        <div className='carousel !h-[400px] lg:!h-[520px] mt-0 pt-0'>
             {active > 0 && <button className='nav left' onClick={() => setActive(i => i - 1)}><TiChevronLeftOutline /></button>}
             {React.Children.map(children, (child, i) => (
                 <div key={i} className='card-container' style={{

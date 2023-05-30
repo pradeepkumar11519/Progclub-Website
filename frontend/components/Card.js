@@ -36,88 +36,100 @@ export default function Card({ Events }) {
             <style jsx>
                 {`
                 .card {
-                    position: relative;
-                    
-                    color: #2e2d31;
-                    background: #131313;
-                    overflow: hidden;
-                    
-                  }
+                  position: relative;
                   
-                  .temporary_text {
-                    font-weight: bold;
-                    font-size: 24px;
-                    padding: 6px 12px;
-                    color: #f8f8f8;
-                  }
+                  color: #2e2d31;
+                  background: #131313;
+                  overflow: hidden;
                   
-                  .card_title {
-                    font-weight: bold;
-                  }
+                }
+                
+                .temporary_text {
+                  font-weight: bold;
+                  font-size: 24px;
+                  padding: 6px 12px;
+                  color: #f8f8f8;
+                }
+                
+                .card_title {
+                  font-weight: bold;
+                }
+                
+                .card_status{
+                  font-weight:medium;
+                  font-size:large;
+                  transition: ease-in 100ms;
+                }
+                .card_content {
+                  position: absolute;
+                  left: 0;
+                  bottom: 0;
+                    /* edit the width to fit card */
+                  width: 100%;
+                  padding: 20px;
+                  padding-top:27px;
+                  background: #f2f2f2;
+                  border-top-left-radius: 20px;
+                    /* edit here to change the height of the content box */
+                  transform: translateY(80px);
+                  transition: transform .25s;
+                }
+                
+                .card_content::before {
+                  content: '';
+                  position: absolute;
+                  top: -47px;
                   
-                  .card_content {
-                    position: absolute;
-                    left: 0;
-                    bottom: 0;
-                      /* edit the width to fit card */
-                    width: 100%;
-                    padding: 20px;
-                    background: #f2f2f2;
-                    border-top-left-radius: 20px;
-                      /* edit here to change the height of the content box */
-                    transform: translateY(80px);
-                    transition: transform .25s;
-                  }
+                  right: -45px;
+                  width: 100px;
+                  height: 100px;
+                  transform: rotate(-175deg);
+                  border-radius: 50%;
+                  box-shadow: inset 48px 48px #f2f2f2;
+                }
+                
+                .card_title {
+                  font-size:24px;
+                  color: #131313;
+                  line-height: 10px;
+                }
+                
+                .card_subtitle {
+                  display: block;
+                  font-size: 18px;
+                  margin-bottom: 10px;
+                }
+                
+                .card_description {
+                  font-size: 15px;
+                  opacity: 0;
+                  transition: opacity .5s;
+                }
+                
+                .card:hover .card_content {
                   
-                  .card_content::before {
-                    content: '';
-                    position: absolute;
-                    top: -47px;
-                    
-                    right: -45px;
-                    width: 100px;
-                    height: 100px;
-                    transform: rotate(-175deg);
-                    border-radius: 50%;
-                    box-shadow: inset 48px 48px #f2f2f2;
+                  transform: translateY(0);
+                  padding:24px;
+                  .card_status{
+                      color:  #25257c;
+                      font-weight:bold;
                   }
+                }
+                
+                .card:hover .card_description {
+                  opacity: 1;
+                  transition-delay: .25s;
+                  padding:20px;
+                }
+                .card {
+                  width: 300px;
+                  height: 280px;
                   
-                  .card_title {
-                    color: #131313;
-                    line-height: 15px;
-                  }
                   
-                  .card_subtitle {
-                    display: block;
-                    font-size: 12px;
-                    margin-bottom: 10px;
-                  }
-                  
-                  .card_description {
-                    font-size: 14px;
-                    opacity: 0;
-                    transition: opacity .5s;
-                  }
-                  
-                  .card:hover .card_content {
-                    transform: translateY(0);
-                    padding:20px;
-                  }
-                  
-                  .card:hover .card_description {
-                    opacity: 1;
-                    transition-delay: .25s;
-                    padding:20px;
-                  }
-                  .card {
-                    width: 250px;
-                    height: 250px;
-                    
-                    
-                    background: #212121;
-                    box-shadow: 15px 15px 30px rgb(25, 25, 25),
-                                -15px -15px 30px rgb(60, 60, 60);
-                   }
+                  background: #212121;
+                  box-shadow: 15px 15px 30px rgb(25, 25, 25),
+                              -15px -15px 30px rgb(60, 60, 60);
+                 }
                    
                    
                 `}

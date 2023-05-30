@@ -36,7 +36,7 @@ export default function EventsPage() {
       {(!(AllEvents.isFetching || AllEvents.isLoading) && !AllEvents.isError && !AllEvents?.data?.length !== 0) && (
         <div className='z-[100000]'>
           <div>
-            <h1 className='text-3xl md:text-5xl font-bold text-center text-white pt-32'>Upcoming Events</h1>
+            <h1 className='text-3xl md:text-5xl font-bold text-center text-white pt-32 lg:pt-24 '>Upcoming Events</h1>
           </div>
           <BoxCarousel Events={UpcomingEvents} />
           

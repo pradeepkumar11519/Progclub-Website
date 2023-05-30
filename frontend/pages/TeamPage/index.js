@@ -81,7 +81,7 @@ export default function TeamPage() {
 							<h1 className="text-white text-center text-3xl lg:text-5xl my-10">
 									Competitive Programming Division
 								</h1>
-							<div className=" z-[-10000] grid xl:grid-cols-3 lg;grid-cols-3 sm:grid-cols-2 px-4 sm:px-20  ">
+							<div className=" z-[-10000] flex flex-wrap justify-evenly m-10 gap-y-6 ">
 								
 								{CPDiv.map((team, index) => {
 									return (
@@ -92,10 +92,11 @@ export default function TeamPage() {
 									);
 								})}
 							</div>
+								<hr className="mt-4 mb-10 col-span-full text-white font-extrabold " ></hr>
 							<h1 className="text-white text-center text-3xl lg:text-5xl my-10">
 									Software Development Division
 								</h1>
-							<div className=" z-[-10000] grid xl:grid-cols-3 lg;grid-cols-3 sm:grid-cols-2 px-4 sm:px-20  ">
+							<div className=" z-[-10000] flex flex-wrap justify-evenly m-10 gap-y-6 ">
 								
 								{SDDiv.map((team, index) => {
 									return (
@@ -106,10 +107,11 @@ export default function TeamPage() {
 									);
 								})}
 							</div>
+								<hr className="mt-4 mb-10 col-span-full text-white font-extrabold " ></hr>
 							<h1 className="text-white text-center text-3xl lg:text-5xl my-10">
 									Cyber Security Division
 								</h1>
-							<div className=" z-[-10000] grid xl:grid-cols-3 lg;grid-cols-3 sm:grid-cols-2 px-4 sm:px-20  ">
+							<div className=" z-[-10000] flex flex-wrap justify-evenly m-10 gap-y-6">
 								
 								{CCDiv.map((team, index) => {
 									return (
