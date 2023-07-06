@@ -78,10 +78,10 @@ export default function TeamPage() {
 					!AllTeamMembers.isFetching &&
 					AllTeamMembers.data.length !== 0 && (
 						<div>
-							<h1 className="text-white text-center text-3xl lg:text-5xl my-10">
+							<h1 className="text-white text-center text-3xl lg:text-5xl my-32">
 									Competitive Programming Division
 								</h1>
-							<div className=" z-[-10000] grid xl:grid-cols-3 lg;grid-cols-3 sm:grid-cols-2 px-4 sm:px-20  ">
+							<div className=" z-[-10000] grid xl:grid-cols-3 lg;grid-cols-3 sm:grid-cols-2 px-4 sm:px-20  gap-10 mb-20 mt-10">
 								
 								{CPDiv.map((team, index) => {
 									return (
@@ -92,10 +92,10 @@ export default function TeamPage() {
 									);
 								})}
 							</div>
-							<h1 className="text-white text-center text-3xl lg:text-5xl my-10">
+							<h1 className="text-white text-center text-3xl lg:text-5xl my-32">
 									Software Development Division
 								</h1>
-							<div className=" z-[-10000] grid xl:grid-cols-3 lg;grid-cols-3 sm:grid-cols-2 px-4 sm:px-20  ">
+							<div className=" z-[-10000] grid xl:grid-cols-3 lg;grid-cols-3 sm:grid-cols-2 px-4 sm:px-20  gap-10 mb-20 mt-10">
 								
 								{SDDiv.map((team, index) => {
 									return (
@@ -106,10 +106,10 @@ export default function TeamPage() {
 									);
 								})}
 							</div>
-							<h1 className="text-white text-center text-3xl lg:text-5xl my-10">
+							<h1 className="text-white text-center text-3xl lg:text-5xl my-32">
 									Cyber Security Division
 								</h1>
-							<div className=" z-[-10000] grid xl:grid-cols-3 lg;grid-cols-3 sm:grid-cols-2 px-4 sm:px-20  ">
+							<div className=" z-[-10000]  grid xl:grid-cols-3 lg;grid-cols-3 sm:grid-cols-2 px-4 sm:px-20  gap-10 mb-20 mt-10">
 								
 								{CCDiv.map((team, index) => {
 									return (
@@ -124,7 +124,7 @@ export default function TeamPage() {
 
 					)}
 			</div>
-			\
+			
 
 			<style jsx>
 				{`

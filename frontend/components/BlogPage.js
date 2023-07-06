@@ -6,7 +6,7 @@ export default function BlogPage() {
   return (
     <div>
       <div className="mx-10 ">
-        <h1 className="text-white font-bold text-3xl sm:text-5xl text-center md:text-start my-10  md:my-20">
+        <h1 className="text-white font-bold text-3xl sm:text-5xl text-center md:text-start py-10 !my-0">
           From The Blog
         </h1>
         <div className="grid lg:grid-cols-3 justify-center">

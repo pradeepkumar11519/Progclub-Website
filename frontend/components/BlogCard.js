@@ -3,7 +3,7 @@ import React from "react";
 import Link from "next/link";
 export default function BlogCard({title,subtitle,desc,image,link}) {
 	return (
-		<div className="my-10 flex justify-center">
+		<div className="py-10 flex justify-center">
 			<div className="post-card">
 				<div className="avatar"></div>
 				<a className="title" href="#">

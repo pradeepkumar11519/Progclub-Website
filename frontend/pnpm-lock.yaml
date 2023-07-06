@@ -26,6 +26,8 @@ specifiers:
   react-dom: 18.2.0
   react-icons: ^4.8.0
   react-responsive-carousel: ^3.2.23
+  react-tilt: ^1.0.2
+  react-title: ^1.0.0
   react-top-loading-bar: ^2.3.1
   react-type-animation: ^2.1.2
   sharp: ^0.32.0
@@ -57,6 +59,8 @@ dependencies:
   react-dom: 18.2.0_react@18.2.0
   react-icons: 4.8.0_react@18.2.0
   react-responsive-carousel: 3.2.23
+  react-tilt: 1.0.2_biqbaboplfbrettd7655fr4n2y
+  react-title: 1.0.0
   react-top-loading-bar: 2.3.1_react@18.2.0
   react-type-animation: 2.1.2_biqbaboplfbrettd7655fr4n2y
   sharp: 0.32.1
@@ -4734,6 +4738,22 @@ packages:
       classnames: 2.3.2
       prop-types: 15.8.1
       react-easy-swipe: 0.0.21
+    dev: false
+
+  /react-tilt/1.0.2_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-21tUUsmuw5id/6NDtKqwYTG4taVnw+BoUwIG6YsgPC9GI6cx4BnBuSqgriQYAYcv3bdGNzecaBL+rvQRAm28bg==}
+    peerDependencies:
+      '@types/react': ^18.0.29
+      '@types/react-dom': ^18.0.11
+      react: ^18.2.0
+      react-dom: ^18.2.0
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    dev: false
+
+  /react-title/1.0.0:
+    resolution: {integrity: sha512-GupybkhYn3sSYgls8hcIvbBgHblqaPSKuBBmZTRK03/dR99djj79pyjW560b1odVCZhaXG66PHxSTM/eTw8UBw==}
     dev: false
 
   /react-top-loading-bar/2.3.1_react@18.2.0:
