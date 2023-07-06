@@ -17,7 +17,7 @@ export default function Navbar() {
 	useEffect(() => {
 		window.addEventListener("scroll", change);
 		return () => window.removeEventListener("scroll", change);
-	});
+	},[val]);
 
 	const ref = useRef(null)
 	useEffect(() => {
@@ -42,8 +42,8 @@ export default function Navbar() {
 		}
 	}
 	return (
-		<div className={`z-[10000000000] sticky top-0`}>
-			<div className='flex lg:grid grid-cols-2 justify-between md:pr-10 pr-3 pl-3 py-3 w-full absolute bg-backdrop shadow-[1px_1px_10px_1px]  text-white nav'>
+		<div className={`z-[10000000000] fixed w-full top-0`}>
+			<div id="nav" className=' flex lg:grid grid-cols-2 justify-between md:pr-10 pr-3 pl-3 py-3 w-full absolute bg-backdrop shadow-[1px_1px_10px_1px]  text-white '>
 				<div className='w-10 h-10 my-auto '>
 					<Image src={Logo} placeholder="blur" />
 				</div>
@@ -78,14 +78,20 @@ export default function Navbar() {
 			<style jsx>
 				{
 					`
-						.nav{
+						#nav{
 							font-size: 17px;
 							background-color: rgba(28, 39, 76, ${router.pathname==="/"?val:1});
+							width: 100%;
+						}
+						#nav:hover{
+							font-size: 17px;
+							background-color: rgba(28, 39, 76, ${router.pathname==="/"?val:1});
+							width: 100%;
 						}
 
 						.btn{
 							cursor: pointer;
-							background: linear-gradient(to right, rgba(28, 39, 76, ${router.pathname==="/"?val:1}) 50%, white 50%);
+							background: linear-gradient(to right, rgba(28, 39, 76, ${val}) 50%, white 50%);
 							background-size: 200% 100%;
 							transition: background-position 0.3s;
 						}

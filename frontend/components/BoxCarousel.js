@@ -8,7 +8,8 @@ import Image from 'next/image';
 const CARDS = 5;
 const MAX_VISIBILITY = 2;
 
-const CarouselCard = ({ title, subtitle, image, description, key }) => (
+
+const CarouselCard = ({ title, subtitle, image, description,key }) => (
     <div key={key} className='boxcarouselcard xl:w-10/12 mx-auto'>
         <h2 className='lg:text-3xl text-stone-800 lg:pb-3 m-0 pb-2 pt-3'>{title}</h2>
         <Image alt="Upcoming Events" blurDataURL={image} placeholder='blur' height={400} width={400} className='w-full  xl:h-[320px] lg:h-[280px] mx-auto rounded-2xl' src={image} />

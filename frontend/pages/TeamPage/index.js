@@ -79,10 +79,10 @@ export default function TeamPage() {
 					AllTeamMembers.data.length !== 0 && (
 						<div>
 							<h1 className="text-white text-center text-3xl lg:text-5xl my-32">
-									Competitive Programming Division
-								</h1>
+								Competitive Programming Division
+							</h1>
 							<div className=" z-[-10000] grid xl:grid-cols-3 lg;grid-cols-3 sm:grid-cols-2 px-4 sm:px-20  gap-10 mb-20 mt-10">
-								
+
 								{CPDiv.map((team, index) => {
 									return (
 										<div key={team.id}>
@@ -93,10 +93,11 @@ export default function TeamPage() {
 								})}
 							</div>
 							<h1 className="text-white text-center text-3xl lg:text-5xl my-32">
-									Software Development Division
-								</h1>
+								Software Development Division
+							</h1>
 							<div className=" z-[-10000] grid xl:grid-cols-3 lg;grid-cols-3 sm:grid-cols-2 px-4 sm:px-20  gap-10 mb-20 mt-10">
-								
+
+
 								{SDDiv.map((team, index) => {
 									return (
 										<div key={team.id}>
@@ -110,24 +111,26 @@ export default function TeamPage() {
 									Cyber Security Division
 								</h1>
 							<div className=" z-[-10000]  grid xl:grid-cols-3 lg;grid-cols-3 sm:grid-cols-2 px-4 sm:px-20  gap-10 mb-20 mt-10">
-								
-								{CCDiv.map((team, index) => {
-									return (
-										<div key={team.id}>
 
-											<TeamCard team={team} />
-										</div>
-									);
-								})}
-							</div>
+
+				{CCDiv.map((team, index) => {
+					return (
+						<div key={team.id}>
+
+							<TeamCard team={team} />
 						</div>
-
-					)}
+					);
+				})}
 			</div>
-			
+		</div>
 
-			<style jsx>
-				{`
+					)
+}
+			</div >
+
+
+	<style jsx>
+		{`
 					html,
 					body {
 						margin: 0;
@@ -169,8 +172,8 @@ export default function TeamPage() {
 						border-bottom-color: rgba(255, 255, 255, 0.7);
 					}
 				`}
-			</style>
-		</div>
+	</style>
+		</div >
 	);
 }
 

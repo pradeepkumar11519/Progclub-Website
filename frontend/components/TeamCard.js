@@ -115,9 +115,5 @@ export default function TeamCard({ team }) {
                 `}
 			</style>
 		</div>
-		
-
-		
-		
 	)
 }
