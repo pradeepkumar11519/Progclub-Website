@@ -43,13 +43,13 @@ export default function App({ Component, pageProps }) {
 					<LoadingBar
 						color='blue'
 						shadowStyle={{'height':'3px','width':'20px'}}
-						height={3}
+						height={5}
 						waitingTime={200}
 						progress={progress}
 						onLoaderFinished={() => setProgress(0)}
 					/>
 					
-					<div className='!text-black z-[-10] '>
+					<div className='!text-black z-[-10] bg-gray-900 '>
 						<Component {...pageProps} />
 					</div>
 				</ContextProvider>

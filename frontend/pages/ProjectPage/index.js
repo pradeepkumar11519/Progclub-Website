@@ -14,10 +14,10 @@ export default function ProductPage() {
     <div id="ProjectsPage" className={`${AllProjects.isFetching ||
       AllProjects.isLoading ||
       AllProjects.isError ||
-      AllProjects?.data?.length <= 3
+      AllProjects?.data?.length === 0
       ? "h-screen"
       : "h-full"
-      } `}>
+      } pb-20`}>
       <NextSeo
         title="P;Club - Projects"
         description="Projects Page - Programing Club Of IIT INDORE(IITI)"
@@ -28,15 +28,13 @@ export default function ProductPage() {
           className={`${AllProjects.isFetching ||
             AllProjects.isLoading ||
             AllProjects.isError ||
-            AllProjects?.data?.length <= 3
+            AllProjects?.data?.length === 0
             ? "h-screen"
             : "h-full"
             } `}
         >
           <div className="">
-            <h1 className=" text-white text-4xl font-bold text-center py-32">
-              Projects Done By The PClub Of IITI
-            </h1>
+          <h1 className='text-3xl md:text-5xl font-bold text-center text-white py-32 lg:py-32 '>OUR PROJECTS</h1>
           </div>
           {(AllProjects.isLoading && !AllProjects.isError) ||
             (AllProjects.isFetching && (
@@ -82,9 +80,7 @@ export default function ProductPage() {
 
         <style jsx>
           {`
-					#ProjectsPage{
-            background:linear-gradient(to right, rgb(134, 239, 172), rgb(59, 130, 246), rgb(147, 51, 234));
-          }
+					
 				`}
         </style>
     </div>

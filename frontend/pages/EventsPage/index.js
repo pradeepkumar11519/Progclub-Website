@@ -20,7 +20,7 @@ export default function EventsPage() {
   let OngoingEvents = AllEvents.data?.filter((ele)=>ele.type=="bOngoing")
   let PastEvents = AllEvents.data?.filter((ele)=>ele.type=="cPast")
   return (
-    <div id="EventsPage" className='EventPage h-ful'>
+    <div id="EventsPage" className='EventPage h-full bg-cover bg-no-repeat'>
       
       <NextSeo
         title="P;Club - Events"
@@ -28,36 +28,36 @@ export default function EventsPage() {
       />
       
       {((AllEvents.isFetching || AllEvents.isLoading) && !AllEvents.isError && AllEvents?.data?.length !== 0) && (
-        <h1 className='text-center h-screen py-32 text-3xl font-bold text-white'>Loading...</h1>
+        <h1 className='text-center h-screen py-32 text-3xl font-bold text-white'>LOADING...</h1>
       )}
       {(!AllEvents.isFetching && !AllEvents.isLoading && AllEvents.isError) && (
-        <h1 className='text-center h-screen py-32 text-3xl font-bold text-white'>Some Error Occured</h1>
+        <h1 className='text-center h-screen py-32 text-3xl font-bold text-white'>SOME ERROR OCCURED</h1>
       )}
       {(!(AllEvents.isFetching || AllEvents.isLoading) && !AllEvents.isError && !AllEvents?.data?.length !== 0) && (
         <div  className='z-[100000]'>
           <div>
-            <h1 className='text-3xl md:text-5xl font-bold text-center text-black pt-32 lg:pt-24 '>Upcoming Events</h1>
+            <h1 className='text-3xl md:text-5xl font-bold text-center text-white pt-32 lg:pt-32 '>UPCOMING EVENTS</h1>
           </div>
           {UpcomingEvents?.length === 0 ? (
-              <h1 className='text-center  py-32 text-3xl font-bold text-white'>No Upcoming Events Currently</h1>
+              <h1 className='text-center  py-32 text-3xl font-bold text-white'>NO UPCOMING EVENTS CURRENTLY</h1>
             ):(
               <BoxCarousel Events={UpcomingEvents} />
             )}
           
           
           <div className=' h-full w-full'>
-            <h1 className='text-white text-3xl md:text-5xl text-center font-bold py-10 md:py-20 mx-5 '>Ongoing Events</h1>
+            <h1 className='text-white text-3xl md:text-5xl text-center font-bold py-10 md:py-20 mx-5 '>ONGOING EVENTS</h1>
             {OngoingEvents?.length === 0 ? (
-              <h1 className='text-center  py-32 text-3xl font-bold text-white'>No Ongoing Events Currently</h1>
+              <h1 className='text-center  py-32 text-3xl font-bold text-white'>NO ONGOING EVENTS CURRENTLY</h1>
             ):(
               <Card Events={OngoingEvents} />
             )}
             
           </div>
           <div className=' h-full w-full'>
-            <h1 className='text-white text-3xl md:text-5xl text-center font-bold py-10 md:py-20 mx-5'>Past Events</h1>
+            <h1 className='text-white text-3xl md:text-5xl text-center font-bold py-10 md:py-20 mx-5'>PAST EVENTS</h1>
             {PastEvents?.length === 0 ? (
-              <h1 className='text-center  py-32 text-3xl font-bold text-white'>No Past Events Currently</h1>
+              <h1 className='text-center  py-32 text-3xl font-bold text-white'>NO PAST EVENTS CURRENTLY</h1>
             ):(
               <Card Events={PastEvents} />
             )}
@@ -70,10 +70,7 @@ export default function EventsPage() {
       <style jsx>
         {`
         
-        #EventsPage{
-          background: radial-gradient(100% 225% at 100% 0%, #FF0000 0%, #000000 100%), linear-gradient(236deg, #00C2FF 0%, #000000 100%), linear-gradient(135deg, #CDFFEB 0%, #CDFFEB 36%, #009F9D 36%, #009F9D 60%, #07456F 60%, #07456F 67%, #0F0A3C 67%, #0F0A3C 100%);
-background-blend-mode: overlay, hard-light, normal;
-        }
+        
 
       `}
       </style>

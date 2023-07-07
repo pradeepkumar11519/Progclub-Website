@@ -3,18 +3,18 @@ import React from "react";
 import Link from "next/link";
 export default function BlogCard({title,subtitle,desc,image,link}) {
 	return (
-		<div className="py-10 flex justify-center">
+		<div className="py-10 flex justify-center invert">
 			<div className="post-card">
-				<div className="avatar"></div>
-				<a className="title" href="#">
+			
+				<a className="title" >
 					{title}
 				</a>
-				<span className="datetime">3 min to read</span>
-				<div className="image-preview">
-          <Image height={500} width={500} src={image} placeholder="blur" blurDataURL={image} />
+				<span className="datetime">5 min to read</span>
+				<div className="image-preview h-full w-full">
+          <Image height={500} width={500} src={image} placeholder="blur" className="w-full h-full invert"  />
         </div>
         <div className=" text-center my-2 rounded-md  w-full flex justify-center">
-          <Link href={link} target={"_blank"} className="border-2 text-white p-2 rounded-md">Read More</Link>
+          <Link href={link} target={"_blank"} className="border-2 text-white p-2 rounded-md hover:bg-white hover:text-black transition-all duration-500">Read More</Link>
         </div>
 				
 			</div>

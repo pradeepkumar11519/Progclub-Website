@@ -1,40 +1,96 @@
 import Image from 'next/image'
 import React from 'react'
+import Modal from 'react-modal'
 
 export default function Card({ Events }) {
-  
-    return (
-        <div>
-            <div className="md:!grid-cols-2 lg:!grid-cols-3 px-5 py-5 !w-full !grid !grid-cols-1   mx-auto">
-                {Events?.map((ele) => {
-                    return (
-                        <div key={ele.id}>
-                            {ele.type !== "Upcoming" && (
-                                <div className='mx-auto flex justify-center py-10 md:my-auto'>
-                                    <article className="card !w-[300px]">
-                                        <div className="temporary_text">
-                                          <div className="h-full w-full">
-                                            <Image alt="Ongoing And Past Events" src={ele.image} className="h-full w-full" blurDataURL={ele.image} placeholder="blur" width="200" height="200" /></div>
-                                        </div>
-                                        <div className="card_content">
-                                            <span className="card_title">{ele.title}</span>
-                                            <span className="card_subtitle">{ele.subtitle}</span>
-                                            <span className="card_subtitle">{ele.type}</span>
-                                            <p className="card_description">{ele.description}</p>
-                                            
-                                        </div>
-                                        
-                                    </article>
-                                </div>
-                            )}
+	const [modalisOpen, setIsOpen] = React.useState(false);
+	const [event, setEvent] = React.useState({})
+	const customStyles = {
+		overlay: {
+			position: "fixed",
+			zIndex: 1020,
+			top: 0,
+			left: 0,
+			width: "100%",
+			height: "100%",
+			overflow: "scroll",
+			background: "rgba(0, 0, 0, 0.75)",
+			display: "flex",
+			alignItems: "center",
+			justifyContent: "center",
+			margin: "0px",
+			padding: "0px",
+		},
+		content: {
 
-                        </div>
-                    )
-                })}
+			border: "10px",
+			top: "50%",
+			left: "51%",
+			height: "100%",
+			transform: "translate(-50%, -30%)",
+			background: "transparent",
+			border: "0px",
+			margin: "0px",
+			
+		},
+	};
+	return (
+		<div>
+			<Modal
+				isOpen={modalisOpen}
+				onRequestClose={() => setIsOpen(false)}
+				style={customStyles}
+			>
+				<div className='bg-white px-10 py-10 '>
+					<Image src={event.image} width={300} height={300} placeholder='blur' className='w-full h-full ' blurDataURL={event.image} />
+					<div className='text-black font-bold text-center text-3xl my-10'>
+						{event.title}
+					</div>
+					<div className='text-black my-10 text-center'>
+						<span className="card_title">{event.title}</span>
+					</div>
+					<div className='text-black my-10 text-center '>
+						{event.description}
+					</div>
+				</div>
 
-            </div>
-            <style jsx>
-                {`
+
+			</Modal>
+			<div className="md:!grid-cols-2 lg:!grid-cols-3 px-5 py-5 !w-full !grid !grid-cols-1   mx-auto">
+				{Events?.map((ele) => {
+					return (
+						<div key={ele.id}>
+
+							{ele.type !== "Upcoming" && (
+								<div onClick={() => {
+									setEvent(ele)
+									setIsOpen(true)
+								}} className='mx-auto flex justify-center py-10 md:my-auto'>
+
+									<article className="card !w-[300px]">
+										<div className="temporary_text">
+											<div className="h-full w-full">
+												<Image alt="Ongoing And Past Events" src={ele.image} className="h-full w-full" blurDataURL={ele.image} placeholder="blur" width="200" height="200" /></div>
+										</div>
+										<div className="card_content">
+											<span className="card_title">{ele.title}</span>
+											<span className="card_subtitle">{ele.subtitle}</span>
+											<span className="card_subtitle">{ele.type}</span>
+											<p className="card_description">{ele.description}</p>
+
+										</div>
+
+									</article>
+								</div>
+							)}
+
+						</div>
+					)
+				})}
+
+			</div>
+			<style jsx>
+				{`
                 .card {
                   position: relative;
                   
@@ -133,7 +189,7 @@ export default function Card({ Events }) {
                    
                    
                 `}
-            </style>
-        </div>
-    )
+			</style>
+		</div>
+	)
 }

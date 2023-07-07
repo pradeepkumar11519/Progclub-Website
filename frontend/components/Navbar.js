@@ -11,7 +11,7 @@ export default function Navbar() {
 	const [val, setVal] = useState(router.pathname==="/"?0.1:1);
 
 	const change = () => {
-		if(router.pathname==="/") setVal(window.scrollY / 200);
+		 setVal(window.scrollY / 200);
 	}
 
 	useEffect(() => {
@@ -80,12 +80,12 @@ export default function Navbar() {
 					`
 						#nav{
 							font-size: 17px;
-							background-color: rgba(28, 39, 76, ${router.pathname==="/"?val:1});
+							background-color: rgba(0, 0, 0, ${router.pathname==="/"?val:1});
 							width: 100%;
 						}
 						#nav:hover{
 							font-size: 17px;
-							background-color: rgba(28, 39, 76, ${router.pathname==="/"?val:1});
+							background-color: rgba(0, 0, 0, ${router.pathname==="/"?val:1});
 							width: 100%;
 						}
 

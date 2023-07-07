@@ -6,7 +6,7 @@ export default function HomePage3() {
     useEffect(() => {
         // stole the THREE setup from https://codepen.io/Xanmia/pen/FdABn since i was lazy this time around.
 
-        let stageWidth=  window.innerWidth;
+        let stageWidth=  window.innerWidth - 100;
         let stageHeight = window.innerHeight;
         let xRows = 30;
         let zRows = 30;
@@ -29,11 +29,11 @@ export default function HomePage3() {
         pointLight.position.z = -1800;
         scene.add(pointLight);
 
-        let pointLight1 = new THREE.PointLight(0x00ff0e);
-        pointLight1.position.x = 1800;
-        pointLight1.position.y = 1800;
-        pointLight1.position.z = -1800;
-        scene.add(pointLight1);
+        // let pointLight =  new THREE.PointLight(0xc0c0f0);
+        // pointLight.position.x = 0;
+        // pointLight.position.y = 800;
+        // pointLight.position.z = 1000;
+        // scene.add(pointLight);
 
         let group = new THREE.Object3D();
         scene.add(group);

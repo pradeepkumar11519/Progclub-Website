@@ -30,7 +30,7 @@ export default function TeamPage() {
 	let SDDiv = AllTeamMembers?.data?.filter((ele) => ele.division == "bSoftware Development")
 	let CCDiv = AllTeamMembers?.data?.filter((ele) => ele.division == "cCyber Security")
 	return (
-		<div className="!py-20 md:py-32 relative">
+		<div id="TeamsPage" className="!py-20 md:py-32 relative">
 			<NextSeo
 				title="P;Club - Our Team"
 				description="Teams Page - Programing Club Of IIT INDORE(IITI)"
@@ -47,9 +47,7 @@ export default function TeamPage() {
 					} `}
 			>
 				<div className="">
-					<h1 className=" text-white text-4xl font-bold text-center my-20">
-						Our Team
-					</h1>
+				
 				</div>
 				{(AllTeamMembers.isLoading && !AllTeamMembers.isError) ||
 					(AllTeamMembers.isFetching && (
@@ -78,10 +76,10 @@ export default function TeamPage() {
 					!AllTeamMembers.isFetching &&
 					AllTeamMembers.data.length !== 0 && (
 						<div>
-							<h1 className="text-white text-center text-3xl lg:text-5xl my-32">
-								Competitive Programming Division
+							<h1 className="rounded-md mx-auto text-center font-bold text-xl lg:text-3xl mb-10 md:mb-20 mt-10 text-white w-fit p-4 uppercase">
+								@Competitive Programming Division
 							</h1>
-							<div className=" z-[-10000] grid xl:grid-cols-3 lg;grid-cols-3 sm:grid-cols-2 px-4 sm:px-20  gap-10 mb-20 mt-10">
+							<div className=" z-[-10000] grid xl:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 px-4 sm:px-20  gap-10 mb-20 mt-10">
 
 								{CPDiv.map((team, index) => {
 									return (
@@ -92,10 +90,10 @@ export default function TeamPage() {
 									);
 								})}
 							</div>
-							<h1 className="text-white text-center text-3xl lg:text-5xl my-32">
-								Software Development Division
+							<h1 className="rounded-md mx-auto text-center font-bold text-xl lg:text-3xl mb-10 md:mb-20 mt-10 text-white w-fit p-4 uppercase">
+								@Software Development Division
 							</h1>
-							<div className=" z-[-10000] grid xl:grid-cols-3 lg;grid-cols-3 sm:grid-cols-2 px-4 sm:px-20  gap-10 mb-20 mt-10">
+							<div className=" z-[-10000] grid xl:grid-cols-2 lg;grid-cols-2 sm:grid-cols-1 px-4 sm:px-20  gap-10 mb-20 mt-10">
 
 
 								{SDDiv.map((team, index) => {
@@ -107,10 +105,10 @@ export default function TeamPage() {
 									);
 								})}
 							</div>
-							<h1 className="text-white text-center text-3xl lg:text-5xl my-32">
-									Cyber Security Division
-								</h1>
-							<div className=" z-[-10000]  grid xl:grid-cols-3 lg;grid-cols-3 sm:grid-cols-2 px-4 sm:px-20  gap-10 mb-20 mt-10">
+							<h1 className="rounded-md mx-auto text-center font-bold text-xl lg:text-3xl mb-10 md:mb-20 mt-10 text-white w-fit p-4 uppercase">
+								@Cyber Security Division
+							</h1>
+							<div className=" z-[-10000]  grid xl:grid-cols-2 lg;grid-cols-2 sm:grid-cols-1 px-4 sm:px-20  gap-10 mb-20 mt-10">
 
 
 				{CCDiv.map((team, index) => {
