@@ -29,9 +29,9 @@ environ.Env.read_env()
 
 SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app','.now.sh','progclub-iiti-backend.onrender.com','localhost']
+ALLOWED_HOSTS = ['.vercel.app','.now.sh','progclub-iiti-backend.onrender.com','localhost','127.0.0.1']
 
 
 
@@ -84,6 +84,15 @@ WSGI_APPLICATION = "server.wsgi.application"
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
+# DATABASES = {
+#     "default":dj_database_url.config(default = env('DATABASE_URL'),ssl_require=True)
+# }
+
+# after u upload the data then uncomment the below, makemigrations and then migrate
+DATABASES = {
+    "default":dj_database_url.config(default = env('DATABASE_URL'),ssl_require=True)
+}
+
 
 DATABASES = {
     "default": {
@@ -103,6 +112,7 @@ DATABASES = {
         'PORT': '5432',
     },
 }
+
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
 
@@ -127,7 +137,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = "en-us"
 
-TIME_ZONE = "UTC"
+TIME_ZONE = "Asia/Kolkata"
 
 USE_I18N = True
 
