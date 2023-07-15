@@ -1,0 +1,1083 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2023-07-06T05:42:45.966Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "DIVIDE BY ZERO 8.0",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2023-07-06T05:43:34.878Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Hackistica 2.0",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2023-07-06T05:44:14.392Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Capture The Flag",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2023-07-06T05:45:05.872Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Code Golf 7.0",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2023-07-06T05:58:58.510Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Capture The Flag",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2023-07-06T05:59:29.933Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "6",
+      "object_repr": "Capture The Flag",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2023-07-06T06:00:00.772Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "Surprise Language 6.0",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2023-07-06T06:02:16.800Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "8",
+      "object_repr": "DIVIDE BY ZERO 8.0",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2023-07-06T06:02:45.109Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "9",
+      "object_repr": "Capture The Flag",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2023-07-06T07:55:00.289Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "Pradeep Kumar Rebbavarapu",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2023-07-06T07:56:20.424Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "Pradeep Kumar Rebbavarapu",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2023-07-06T07:57:09.254Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "Pradeep Kumar Rebbavarapu",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2023-07-06T07:58:03.520Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "4",
+      "object_repr": "Pradeep Kumar Rebbavarapu",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2023-07-06T07:58:47.414Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "5",
+      "object_repr": "Pradeep Kumar Rebbavarapu",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2023-07-06T07:59:36.144Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "6",
+      "object_repr": "Pradeep Kumar Rebbavarapu",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2023-07-06T08:00:01.604Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "7",
+      "object_repr": "Pradeep Kumar Rebbavarapu",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2023-07-06T08:00:26.402Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "8",
+      "object_repr": "Pradeep Kumar Rebbavarapu",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2023-07-06T08:01:01.280Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "9",
+      "object_repr": "Pradeep Kumar Rebbavarapu",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2023-07-06T12:21:36.678Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "aaaaaaaa",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2023-07-06T17:33:34.846Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Project Title\", \"Project Subtitle\", \"Domain\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2023-07-06T17:51:03.175Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "HoRC Elections",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Project Title\", \"Project Subtitle\", \"Repository\", \"Category\", \"Description\", \"Image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2023-07-06T17:51:57.567Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "HoRC Elections",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Domain\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2023-07-06T18:00:56.767Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Ingenium",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2023-07-06T18:06:54.960Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3",
+      "object_repr": "Mess Website",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2023-07-12T08:44:30.083Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "10",
+      "object_repr": "P C Uma Mahesh",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2023-07-12T19:34:38.793Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "9",
+      "object_repr": "Pradeep Kumar Rebbavarapu",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2023-07-12T19:34:38.868Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "8",
+      "object_repr": "Pradeep Kumar Rebbavarapu",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2023-07-12T19:34:38.935Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "7",
+      "object_repr": "Pradeep Kumar Rebbavarapu",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2023-07-12T19:34:38.988Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "6",
+      "object_repr": "Pradeep Kumar Rebbavarapu",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2023-07-12T19:34:39.041Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "5",
+      "object_repr": "Pradeep Kumar Rebbavarapu",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2023-07-12T19:34:39.099Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "4",
+      "object_repr": "Pradeep Kumar Rebbavarapu",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2023-07-12T19:34:39.152Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "Pradeep Kumar Rebbavarapu",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2023-07-12T19:34:39.205Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "Pradeep Kumar Rebbavarapu",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2023-07-12T19:34:39.260Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "Pradeep Kumar Rebbavarapu",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add alumni",
+      "content_type": 7,
+      "codename": "add_alumni"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change alumni",
+      "content_type": 7,
+      "codename": "change_alumni"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete alumni",
+      "content_type": 7,
+      "codename": "delete_alumni"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view alumni",
+      "content_type": 7,
+      "codename": "view_alumni"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add Event",
+      "content_type": 8,
+      "codename": "add_event"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change Event",
+      "content_type": 8,
+      "codename": "change_event"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete Event",
+      "content_type": 8,
+      "codename": "delete_event"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view Event",
+      "content_type": 8,
+      "codename": "view_event"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add Project",
+      "content_type": 9,
+      "codename": "add_project"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change Project",
+      "content_type": 9,
+      "codename": "change_project"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete Project",
+      "content_type": 9,
+      "codename": "delete_project"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view Project",
+      "content_type": 9,
+      "codename": "view_project"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add Member",
+      "content_type": 10,
+      "codename": "add_team"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change Member",
+      "content_type": 10,
+      "codename": "change_team"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete Member",
+      "content_type": 10,
+      "codename": "delete_team"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view Member",
+      "content_type": 10,
+      "codename": "view_team"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$i0xYo6XKlnwhPfc4TYub7U$RSsbcwgMAmI/pyKUDZdV3LjN7S7SOb9tV4vy5jft27c=",
+      "last_login": "2023-07-12T19:34:03.110Z",
+      "is_superuser": true,
+      "username": "progclub",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2023-07-06T05:41:03.263Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$390000$4nsBHkKK6e7QRgDz3O4KQu$q7Bp2UXE8OvK3Ra2S8vmIRYTcfUA+OBXZvkzEBsHlZg=",
+      "last_login": null,
+      "is_superuser": true,
+      "username": "pradeepkumar",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2023-07-12T19:32:01.636Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": { "app_label": "admin", "model": "logentry" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": { "app_label": "auth", "model": "permission" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": { "app_label": "auth", "model": "group" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": { "app_label": "auth", "model": "user" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": { "app_label": "contenttypes", "model": "contenttype" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": { "app_label": "sessions", "model": "session" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": { "app_label": "api", "model": "alumni" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": { "app_label": "api", "model": "event" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": { "app_label": "api", "model": "project" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": { "app_label": "api", "model": "team" }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "3ety7watl49b0gdkip16tcqoqkm3phzn",
+    "fields": {
+      "session_data": ".eJxVjDkOAjEQBP_iGFkej09Cct6wGl94AdnSHhHi72BpAwi7q1QvNtG-1Wlf8zLNiZ0ZsNPvFyg-chsg3andOo-9bcsc-FD4QVd-7Sk_L4f7F6i01pEF7TVEARQFBQOkiwzoMKGxBqV15AlVAHRaKV_EdxSFstiCFryx7P0Bt282eA:1qJfb9:LH1mAgd1N2Ml3qNmk4oHnfcbO1dyPVpJFmVEdS4OHWQ",
+      "expire_date": "2023-07-26T19:34:03.167Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "4jyf7exdo6tonhntbi492oevgnz4082k",
+    "fields": {
+      "session_data": ".eJxVjDkOAjEQBP_iGFkej09Cct6wGl94AdnSHhHi72BpAwi7q1QvNtG-1Wlf8zLNiZ0ZsNPvFyg-chsg3andOo-9bcsc-FD4QVd-7Sk_L4f7F6i01pEF7TVEARQFBQOkiwzoMKGxBqV15AlVAHRaKV_EdxSFstiCFryx7P0Bt282eA:1qJVR3:zqlhUrLzMRmi_xzWf81tYNf4v9urk0t7beEx1dbpo-I",
+      "expire_date": "2023-07-26T08:42:57.720Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "9ronn75aprjky0y1p2wlhk7hrnds0gpb",
+    "fields": {
+      "session_data": ".eJxVjDkOAjEQBP_iGFkej09Cct6wGl94AdnSHhHi72BpAwi7q1QvNtG-1Wlf8zLNiZ0ZsNPvFyg-chsg3andOo-9bcsc-FD4QVd-7Sk_L4f7F6i01pEF7TVEARQFBQOkiwzoMKGxBqV15AlVAHRaKV_EdxSFstiCFryx7P0Bt282eA:1qHHjr:3fJv6fmX9_KxQgdOeiRDuPheygKEHHgnS91HjExwe8w",
+      "expire_date": "2023-07-20T05:41:11.805Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "l23kv1bu91u05s62ie4pqk9rz54xkngi",
+    "fields": {
+      "session_data": ".eJxVjDkOAjEQBP_iGFkej09Cct6wGl94AdnSHhHi72BpAwi7q1QvNtG-1Wlf8zLNiZ0ZsNPvFyg-chsg3andOo-9bcsc-FD4QVd-7Sk_L4f7F6i01pEF7TVEARQFBQOkiwzoMKGxBqV15AlVAHRaKV_EdxSFstiCFryx7P0Bt282eA:1qHNy3:g_IUzxK2HJpPTw8QQM4CeRz2jAF2IvV3Ia0k8r8_fgY",
+      "expire_date": "2023-07-20T12:20:15.243Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "v05msuxmes7kjuyftrf2dfg466n8ez0v",
+    "fields": {
+      "session_data": ".eJxVjDkOAjEQBP_iGFkej09Cct6wGl94AdnSHhHi72BpAwi7q1QvNtG-1Wlf8zLNiZ0ZsNPvFyg-chsg3andOo-9bcsc-FD4QVd-7Sk_L4f7F6i01pEF7TVEARQFBQOkiwzoMKGxBqV15AlVAHRaKV_EdxSFstiCFryx7P0Bt282eA:1qJf8N:oDAHIifXkXZszGjDNw3wsbFptECEATKjB2vd6TK6vfo",
+      "expire_date": "2023-07-26T19:04:19.426Z"
+    }
+  },
+  {
+    "model": "api.event",
+    "pk": 1,
+    "fields": {
+      "title": "DIVIDE BY ZERO 8.0",
+      "subtitle": "DIVIDE BY ZERO 8.0",
+      "description": "Our flagship event, a short duration programming contest held on Codeforces.\r\n\r\nPrevious",
+      "type": "aUpcoming",
+      "image": "media/EventImages/DBZ_g0farn"
+    }
+  },
+  {
+    "model": "api.event",
+    "pk": 2,
+    "fields": {
+      "title": "Hackistica 2.0",
+      "subtitle": "Hackistica 2.0",
+      "description": "A social coding event to build a new software under the to-be-announced broad themes. Each team can consist of a maximum of 4 people.",
+      "type": "aUpcoming",
+      "image": "media/EventImages/Hackistica_gudslc"
+    }
+  },
+  {
+    "model": "api.event",
+    "pk": 3,
+    "fields": {
+      "title": "Capture The Flag",
+      "subtitle": "Capture The Flag",
+      "description": "A Capture the Flag Competition held by Byte Bandits, IIT Indore's academic CTF team. The team size for the CTF should be a maximum 4 people.",
+      "type": "bOngoing",
+      "image": "media/EventImages/BBCTF_hkhyr8"
+    }
+  },
+  {
+    "model": "api.event",
+    "pk": 4,
+    "fields": {
+      "title": "Code Golf 7.0",
+      "subtitle": "Code Golf 7.0",
+      "description": "A unique programming contest, shorter the code, greater are the points.",
+      "type": "cPast",
+      "image": "media/EventImages/CodeGolf_eelx2r"
+    }
+  },
+  {
+    "model": "api.event",
+    "pk": 5,
+    "fields": {
+      "title": "Capture The Flag",
+      "subtitle": "Capture The Flag",
+      "description": "A Capture the Flag Competition held by Byte Bandits, IIT Indore's academic CTF team. The team size for the CTF should be a maximum 4 people.",
+      "type": "aUpcoming",
+      "image": "media/EventImages/BBCTF_rpbkyy"
+    }
+  },
+  {
+    "model": "api.event",
+    "pk": 6,
+    "fields": {
+      "title": "Capture The Flag",
+      "subtitle": "Capture The Flag",
+      "description": "A Capture the Flag Competition held by Byte Bandits, IIT Indore's academic CTF team. The team size for the CTF should be a maximum 4 people",
+      "type": "bOngoing",
+      "image": "media/EventImages/CodeGolf_nydhx7"
+    }
+  },
+  {
+    "model": "api.event",
+    "pk": 7,
+    "fields": {
+      "title": "Surprise Language 6.0",
+      "subtitle": "Surprise Language 6.0",
+      "description": "A Capture the Flag Competition held by Byte Bandits, IIT Indore's academic CTF team. The team size for the CTF should be a maximum 4 people.",
+      "type": "bOngoing",
+      "image": "media/EventImages/Hackistica_ogursx"
+    }
+  },
+  {
+    "model": "api.event",
+    "pk": 8,
+    "fields": {
+      "title": "DIVIDE BY ZERO 8.0",
+      "subtitle": "DIVIDE BY ZERO 8.0",
+      "description": "Our flagship event, a short duration programming contest held on Codeforces.",
+      "type": "cPast",
+      "image": "media/EventImages/CodeGolf_ncudu1"
+    }
+  },
+  {
+    "model": "api.event",
+    "pk": 9,
+    "fields": {
+      "title": "Capture The Flag",
+      "subtitle": "Capture The Flag",
+      "description": "A Capture the Flag Competition held by Byte Bandits, IIT Indore's academic CTF team. The team size for the CTF should be a maximum 4 people.",
+      "type": "cPast",
+      "image": "media/EventImages/CodeGolf_y2gub9"
+    }
+  },
+  {
+    "model": "api.project",
+    "pk": 1,
+    "fields": {
+      "title": "HoRC Elections",
+      "subtitle": "Software Development",
+      "domain": "None",
+      "category": "Ongoing / Completed",
+      "description": "This application was used to hold the HoRC Elections for all the hostels of IIT Indore, for different posts of the Hall of Residence.",
+      "image": "media/ProjectImages/django-icon_eg1htz",
+      "github": "https://github.com/DaemonLab/HORC-Elections"
+    }
+  },
+  {
+    "model": "api.project",
+    "pk": 2,
+    "fields": {
+      "title": "Ingenium",
+      "subtitle": "Web Development",
+      "domain": "None",
+      "category": "Ongoing / Completed",
+      "description": "This website was created for Ingenium, the Techfest of IIT Indore which was held in association with Fluxus this year.",
+      "image": "media/ProjectImages/nextjs_kf9zud",
+      "github": "https://github.com/DaemonLab/Techfest"
+    }
+  },
+  {
+    "model": "api.project",
+    "pk": 3,
+    "fields": {
+      "title": "Mess Website",
+      "subtitle": "Full Stack Development",
+      "domain": "None",
+      "category": "Ongoing / Completed",
+      "description": "This application aims to create a platform for the Mess, Cafeteria and Allied Services. This will enable students to get regular updates, access Contact Info, Rules and Regulations",
+      "image": "media/ProjectImages/django-icon_mjbwrm",
+      "github": "https://github.com/DaemonLab/Mess-Website"
+    }
+  },
+  {
+    "model": "api.team",
+    "pk": 10,
+    "fields": {
+      "name": "P C Uma Mahesh",
+      "email": "pcumamahesh@gmail.com",
+      "position": "cVolunteer",
+      "division": "bSoftware Development",
+      "year": "Second",
+      "github": "https://github.com/Hi-TechMissile",
+      "codeforces": "https://codeforces.com/profile/Hi-TechMissile",
+      "linkedin": "https://www.linkedin.com/in/p-c-uma-mahesh-221513258/",
+      "image": "media/TeamImages/ancientcodeforces_rsvewu"
+    }
+  }
+]

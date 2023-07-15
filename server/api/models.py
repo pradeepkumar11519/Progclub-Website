@@ -23,10 +23,10 @@ class Event(models.Model):
         ("bOngoing", _("Ongoing")),
         ("cPast", _("Past")),
     ]
-    title = models.CharField(_("Event Title"), max_length=225)
-    subtitle = models.CharField(_("Subtitle"), max_length=225)
-    description = models.TextField(_("Description"))
-    type = models.CharField(_("Type"), max_length=225, choices=Event_Choices)
+    title = models.CharField(_("Event Title"), max_length=225,blank=True, null=True)
+    subtitle = models.CharField(_("Subtitle"), max_length=225,blank=True, null=True)
+    description = models.TextField(_("Description"),blank=True, null=True)
+    type = models.CharField(_("Type"), max_length=225, choices=Event_Choices,blank=True, null=True)
     image = ResizedImageField(_("Poster"), upload_to=event_path,force_format="WEBP",quality=100)
 
     @property
@@ -50,13 +50,13 @@ class Event(models.Model):
 
 
 class Project(models.Model):
-    title = models.CharField(_("Project Title"), max_length=225)
-    subtitle = models.CharField(_("Project Subtitle"), max_length=225)
-    domain = models.CharField(_("Domain"), max_length=225)
-    category = models.CharField(_("Category"), max_length=225)
-    description = models.TextField(_("Description"))
+    title = models.CharField(_("Project Title"), max_length=225,blank=True, null=True)
+    subtitle = models.CharField(_("Project Subtitle"), max_length=225,blank=True, null=True)
+    domain = models.CharField(_("Domain"), max_length=225,blank=True, null=True)
+    category = models.CharField(_("Category"), max_length=225,blank=True, null=True)
+    description = models.TextField(_("Description"),blank=True, null=True)
     image = ResizedImageField(_("Image"), upload_to=project_path,force_format="WEBP",quality=100)
-    github = models.URLField(_("Repository"))
+    github = models.URLField(_("Repository"),blank=True, null=True)
 
     @property
     def image_preview(self):
@@ -96,16 +96,17 @@ class Team(models.Model):
         ("Third", _("Third")),
         ("Fourth", _("Fourth")),
     ]
-    name = models.CharField(_("Name"), max_length=225)
-    email = models.EmailField(_("Email"))
-    position = models.CharField(_("Position"), max_length=225, choices=position_choices)
-    division = models.CharField(_("Division"), max_length=225, choices=division_choices)
-    year = models.CharField(_("Year"), max_length=10, choices=year_choices)
-    github = models.URLField(_("GitHub Profile"))
-    codeforces = models.URLField(_("Codeforces Profile"))
-    linkedin = models.URLField(_("LinkedIn Profile"))
-    image = ResizedImageField(_("Image"), upload_to=team_path,force_format="WEBP",quality=100)
-
+    name = models.CharField(_("Name"), max_length=225,blank=True, null=True)
+    email = models.EmailField(_("Email"),blank=True, null=True)
+    position = models.CharField(_("Position"), max_length=225, choices=position_choices,blank=True, null=True)
+    division = models.CharField(_("Division"), max_length=225, choices=division_choices,blank=True, null=True)
+    year = models.CharField(_("Year"), max_length=10, choices=year_choices,blank=True, null=True)
+    github = models.URLField(_("GitHub Profile"),blank=True, null=True)
+    codeforces = models.URLField(_("Codeforces Profile"),blank=True, null=True)
+    linkedin = models.URLField(_("LinkedIn Profile"),blank=True, null=True)
+    image = ResizedImageField(_("Image"), upload_to=team_path,force_format="WEBP",quality=100,)
+    instagram = models.URLField(_("Instagram Profile"), blank=True, null=True)
+    phone_number = models.CharField(_("Phone Number"), max_length=225,blank=True, null=True)
     @property
     def image_preview(self):
         if self.image:
