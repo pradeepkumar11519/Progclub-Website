@@ -3,7 +3,7 @@ import {AiFillInstagram,AiFillYoutube,AiFillLinkedin,AiFillFacebook} from 'react
 import {BsDiscord} from 'react-icons/bs'
 export default function PromotionIcons() {
     return (
-        <div className=''>
+        <div className=' w-fit !mx-auto  z-[10000]'>
             <div className="wrapper">
                 <div className="navbar">
                     <div className="navbar__item">
