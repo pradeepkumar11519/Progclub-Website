@@ -89,9 +89,6 @@ WSGI_APPLICATION = "server.wsgi.application"
 # }
 
 # after u upload the data then uncomment the below, makemigrations and then migrate
-DATABASES = {
-    "default":dj_database_url.config(default = env('DATABASE_URL'),ssl_require=True)
-}
 
 
 DATABASES = {
@@ -112,6 +109,11 @@ DATABASES = {
         'PORT': '5432',
     },
 }
+
+DATABASES = {
+    "default":dj_database_url.config(default = env('DATABASE_URL'),ssl_require=False)
+}
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
