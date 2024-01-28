@@ -8,6 +8,7 @@ import LoadingBar from "react-top-loading-bar";
 import * as THREE from "three";
 import chroma from "chroma-js";
 import { useEffect } from "react";
+import Loader from "@/components/Loader";
 export default function TeamPage() {
 
 	const AllTeamMembers = useQuery(
@@ -21,8 +22,8 @@ export default function TeamPage() {
 	);
 	if (AllTeamMembers.isLoading && !AllTeamMembers.isError) {
 		return (
-			<h1 className="py-20 text-white text-3xl text-center h-full">
-				Loading...
+			<h1 className="py-20 text-white text-3xl text-center h-screen flex justify-center items-center">
+				<Loader />
 			</h1>
 		);
 	}
@@ -54,9 +55,9 @@ export default function TeamPage() {
 				
 				</div>
 				{(AllTeamMembers.isLoading && !AllTeamMembers.isError) ||
-					(AllTeamMembers.isFetching && (
-						<h1 className="text-white text-center text-3xl my-10">
-							Loading...
+					(AllTeamMembers.isFetching && AllTeamMembers?.data?.length !== 0 && (
+						<h1 className="py-20 text-white text-3xl text-center h-screen flex justify-center items-center">
+							<Loader />
 						</h1>
 					))}
 				{AllTeamMembers.isError &&

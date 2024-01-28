@@ -8,6 +8,7 @@ import Card from '@/components/Card'
 import * as THREE from 'three'
 import BoxCarousel from '@/components/BoxCarousel'
 import { useEffect } from 'react'
+import Loader from '@/components/Loader'
 
 export default function EventsPage() {
   const AllEvents = useQuery(['AllEvents'], () => {
@@ -16,6 +17,13 @@ export default function EventsPage() {
     refetchOnWindowFocus: false,
     refetchOnMount: false
   })
+  if ((AllEvents.isLoading && !AllProjects.isError)) {
+    return (
+      <h1 className="py-20 text-white text-3xl text-center h-screen flex justify-center items-center">
+        <Loader />
+      </h1>
+    );
+  }
   let UpcomingEvents = AllEvents.data?.filter((ele)=>ele.type=="aUpcoming")
   let OngoingEvents = AllEvents.data?.filter((ele)=>ele.type=="bOngoing")
   let PastEvents = AllEvents.data?.filter((ele)=>ele.type=="cPast")
@@ -27,9 +35,12 @@ export default function EventsPage() {
         description="Events Page - Programing Club Of IIT INDORE(IITI)"
       />
       
-      {((AllEvents.isFetching || AllEvents.isLoading) && !AllEvents.isError && AllEvents?.data?.length !== 0) && (
-        <h1 className='text-center h-screen py-32 text-3xl font-bold text-white'>LOADING...</h1>
-      )}
+      {(AllEvents.isLoading && !AllEvents.isError) ||
+					(AllEvents.isFetching && AllEvents?.data?.length !== 0 && (
+						<h1 className="py-20 text-white text-3xl text-center h-screen flex justify-center items-center">
+							<Loader />
+						</h1>
+					))}
       {(!AllEvents.isFetching && !AllEvents.isLoading && AllEvents.isError) && (
         <h1 className='text-center h-screen py-32 text-3xl font-bold text-white'>SOME ERROR OCCURED</h1>
       )}
@@ -46,11 +57,15 @@ export default function EventsPage() {
           
           
           <div className=' h-full w-full'>
-            <h1 className='text-white text-3xl md:text-5xl text-center font-bold py-10 md:py-20 mx-5 '>ONGOING EVENTS</h1>
+            
             {OngoingEvents?.length === 0 ? (
-              <h1 className='text-center  py-32 text-3xl font-bold text-white'>NO ONGOING EVENTS CURRENTLY</h1>
+              null
             ):(
-              <Card Events={OngoingEvents} />
+              <>
+                <h1 className='text-white text-3xl md:text-5xl text-center font-bold py-10 md:py-20 mx-5 '>ONGOING EVENTS</h1>
+                <Card Events={OngoingEvents} />
+              </>
+              
             )}
             
           </div>
