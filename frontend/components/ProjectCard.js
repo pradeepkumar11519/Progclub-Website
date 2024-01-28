@@ -5,12 +5,12 @@ import { useEffect,useRef } from 'react'
 import VanillaTilt from 'vanilla-tilt';
 const options = {
   reverse: true,
-  max: 15,
-  speed: 20,
-  scale: 1.01,
+  max: 20,
+  speed: 100,
+  scale: 1.02,
   glare: true,
   reset: true,
-  perspective: 50000,
+  perspective: 10000,
   transition: true,
   "max-glare": 0.4,
   "glare-prerender": false,
@@ -33,9 +33,9 @@ export default function ProjectCard({ ele }) {
 	}
 	return (
 		<div id="ProjectPage" className='justify-center flex !mb-32  '>
-			<Tilt className=" " options={options} >
+			<Tilt className="card  max-w-[500px] md:w-[500px] rounded-lg" options={options} >
 				<div className=''>
-					<div className="card max-w-[500px] md:w-[500px]">
+					<div className="">
 						{/* <div className="circle"></div> */}
 						{/* <div className="circle"></div> */}
 						<div className="card-inner ">
