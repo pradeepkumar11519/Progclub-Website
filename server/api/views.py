@@ -20,7 +20,7 @@ class ProjectView(ListAPIView):
 class TeamView(ListAPIView):
     serializer_class = TeamSerializer
     def get_queryset(self):
-        return Team.objects.all().order_by('division','position')
+        return Team.objects.all().order_by('division','position','year')
     
     
 class AlumniView(ListAPIView):

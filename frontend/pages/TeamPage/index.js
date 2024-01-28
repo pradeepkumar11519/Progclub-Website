@@ -26,9 +26,13 @@ export default function TeamPage() {
 			</h1>
 		);
 	}
-	let CPDiv = AllTeamMembers?.data?.filter((ele) => ele.division == "aCompetitive Programming")
-	let SDDiv = AllTeamMembers?.data?.filter((ele) => ele.division == "bSoftware Development")
-	let CCDiv = AllTeamMembers?.data?.filter((ele) => ele.division == "cCyber Security")
+	let CPHead = AllTeamMembers?.data?.filter((ele) => (ele.division == "aCompetitive Programming" && ele.position == "aPresident"))
+	let CPDiv = AllTeamMembers?.data?.filter((ele) => (ele.division == "aCompetitive Programming" && ele.position != "aPresident"))
+	let SDHead = AllTeamMembers?.data?.filter((ele) => (ele.division == "bSoftware Development" && ele.position == "aPresident"))
+	let SDDiv = AllTeamMembers?.data?.filter((ele) => (ele.division == "bSoftware Development" && ele.position != "aPresident"))
+
+	let CCHead = AllTeamMembers?.data?.filter((ele) => (ele.division == "cCyber Security" && ele.position == "aPresident"))
+	let CCDiv = AllTeamMembers?.data?.filter((ele) => (ele.division == "cCyber Security" && ele.position != "aPresident"))
 	return (
 		<div id="TeamsPage" className="!py-20 md:py-32 relative">
 			<NextSeo

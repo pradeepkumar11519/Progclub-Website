@@ -91,10 +91,10 @@ class Team(models.Model):
         ("bSoftware Development", _("Software Development")),
     ]
     year_choices = [
-        ("First", _("First")),
-        ("Second", _("Second")),
-        ("Third", _("Third")),
-        ("Fourth", _("Fourth")),
+        ("dFirst", _("First")),
+        ("cSecond", _("Second")),
+        ("bThird", _("Third")),
+        ("aFourth", _("Fourth")),
     ]
     name = models.CharField(_("Name"), max_length=225,blank=True, null=True)
     email = models.EmailField(_("Email"),blank=True, null=True)
