@@ -69,7 +69,7 @@ export default function ProductPage() {
           AllProjects.data.length !== 0 && (
             <>
               <div className="">
-                <h1 className='text-3xl md:text-5xl font-bold text-center text-white py-32 lg:py-32 '>OUR PROJECTS</h1>
+                <h1 className='text-3xl md:text-5xl font-bold text-center text-white pt-32 pb-12 '>OUR PROJECTS</h1>
               </div>
 
               <div className="grid lg:grid-cols-2 md:grid grid-cols-1">
