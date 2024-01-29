@@ -6,15 +6,17 @@ export default function Loader() {
   let [color, setColor] = useState("#ffffff");
 
   return (
-    <div className="sweet-loading">
-      <PuffLoader
+    <div className='h-screen flex justify-center items-center'>
+      <div className="sweet-loading">
+        <PuffLoader
 
-        color={color}
-        loading={loading}
-        size={150}
-        aria-label="Loading Spinner"
-        data-testid="loader"
-      />
+          color={color}
+          loading={loading}
+          size={150}
+          aria-label="Loading Spinner"
+          data-testid="loader"
+        />
+      </div>
     </div>
   );
 }
