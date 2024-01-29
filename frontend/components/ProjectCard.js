@@ -58,7 +58,7 @@ export default function ProjectCard({ ele }) {
 									{ele.description}
 									<div className='my-5 flex'>
 										<Link target={"_blank"} href={ele.github} className='border-2 border-black bg-white p-2 rounded-full w-full text-black font-bold hover:underline hover:bg-black hover:text-white transition-all fade-in-out duration-500'>Github</Link>
-										{ele.domain!=="None" && (
+										{(ele.domain!=="None") && (
 											<Link target={"_blank"} href={ele.domain} className='border-2 border-black bg-white p-2 rounded-full w-full text-black font-bold hover:underline hover:bg-black hover:text-white transition-all fade-in-out duration-500'>Website Link</Link>
 										)}
 										

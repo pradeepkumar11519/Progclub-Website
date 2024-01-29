@@ -1209,6 +1209,630 @@
         }
     },
     {
+        "model": "admin.logentry",
+        "pk": 94,
+        "fields": {
+            "action_time": "2024-01-28T13:11:04.243Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "48",
+            "object_repr": "Vashistha Chaturvedi",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 95,
+        "fields": {
+            "action_time": "2024-01-28T13:11:32.037Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "47",
+            "object_repr": "Khushi Agarwal",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 96,
+        "fields": {
+            "action_time": "2024-01-28T13:11:53.598Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "45",
+            "object_repr": "Aditya Yadav",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Year\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 97,
+        "fields": {
+            "action_time": "2024-01-28T13:12:15.149Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "44",
+            "object_repr": "Anjani kumar",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Year\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 98,
+        "fields": {
+            "action_time": "2024-01-28T13:12:43.908Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "42",
+            "object_repr": "Samyak Dhyani",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Year\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 99,
+        "fields": {
+            "action_time": "2024-01-28T13:13:04.250Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "41",
+            "object_repr": "Sushil Yadav",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Year\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 100,
+        "fields": {
+            "action_time": "2024-01-28T13:13:25.353Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "40",
+            "object_repr": "Vedant Agrawal",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Year\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 101,
+        "fields": {
+            "action_time": "2024-01-28T13:13:49.306Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "39",
+            "object_repr": "Nilesh Kumar",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Year\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 102,
+        "fields": {
+            "action_time": "2024-01-28T13:14:13.418Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "38",
+            "object_repr": "Debasish Padhy",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Year\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 103,
+        "fields": {
+            "action_time": "2024-01-28T13:14:35.387Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "37",
+            "object_repr": "Mahendraker Gaurav",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Year\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 104,
+        "fields": {
+            "action_time": "2024-01-28T13:15:14.191Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "36",
+            "object_repr": "Darshil Patel",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Year\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 105,
+        "fields": {
+            "action_time": "2024-01-28T13:36:09.226Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "7",
+            "object_repr": "Surprise Language 6.0",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Type\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 106,
+        "fields": {
+            "action_time": "2024-01-28T13:36:31.299Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "6",
+            "object_repr": "Capture The Flag",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Type\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 107,
+        "fields": {
+            "action_time": "2024-01-28T13:36:53.250Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "3",
+            "object_repr": "Capture The Flag",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Type\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 108,
+        "fields": {
+            "action_time": "2024-01-29T07:57:28.952Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "8",
+            "object_repr": "Game of Life",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 109,
+        "fields": {
+            "action_time": "2024-01-29T07:58:38.968Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "9",
+            "object_repr": "IIT/NIT Guidance Portal",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 110,
+        "fields": {
+            "action_time": "2024-01-29T07:59:32.565Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "10",
+            "object_repr": "Alumni Portal",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 111,
+        "fields": {
+            "action_time": "2024-01-29T08:00:25.649Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "11",
+            "object_repr": "Perspective",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 112,
+        "fields": {
+            "action_time": "2024-01-29T08:01:06.946Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "12",
+            "object_repr": "Infinity Remote",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 113,
+        "fields": {
+            "action_time": "2024-01-29T08:01:58.536Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "13",
+            "object_repr": "ClockIn",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 114,
+        "fields": {
+            "action_time": "2024-01-29T08:02:57.470Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "14",
+            "object_repr": "Classroom IITI",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 115,
+        "fields": {
+            "action_time": "2024-01-29T08:03:47.535Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "15",
+            "object_repr": "YouWatch",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 116,
+        "fields": {
+            "action_time": "2024-01-29T08:04:21.601Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "15",
+            "object_repr": "YouWatch",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 117,
+        "fields": {
+            "action_time": "2024-01-29T08:05:08.656Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "16",
+            "object_repr": "HotelX",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 118,
+        "fields": {
+            "action_time": "2024-01-29T08:05:53.273Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "17",
+            "object_repr": "Covid Survivors",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 119,
+        "fields": {
+            "action_time": "2024-01-29T08:06:42.294Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "18",
+            "object_repr": "JobFinder",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 120,
+        "fields": {
+            "action_time": "2024-01-29T08:07:26.424Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "19",
+            "object_repr": "Greasy Spoon",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 121,
+        "fields": {
+            "action_time": "2024-01-29T08:08:07.743Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "20",
+            "object_repr": "Live Programming Contest Website",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 122,
+        "fields": {
+            "action_time": "2024-01-29T08:08:54.524Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "21",
+            "object_repr": "Attendance Tool for Students residing in Hostels",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 123,
+        "fields": {
+            "action_time": "2024-01-29T08:10:01.284Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "22",
+            "object_repr": "Covid-19 Live Tracker",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 124,
+        "fields": {
+            "action_time": "2024-01-29T08:10:43.405Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "23",
+            "object_repr": "3D Volume/Area Calculator",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 125,
+        "fields": {
+            "action_time": "2024-01-29T08:11:26.459Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "24",
+            "object_repr": "La Fresco in Pocket",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 126,
+        "fields": {
+            "action_time": "2024-01-29T08:12:32.127Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "25",
+            "object_repr": "Security Camera Face Recognition",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 127,
+        "fields": {
+            "action_time": "2024-01-29T08:13:37.456Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "26",
+            "object_repr": "Mess@IITI",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 128,
+        "fields": {
+            "action_time": "2024-01-29T08:14:21.679Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "27",
+            "object_repr": "Nightmare",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 129,
+        "fields": {
+            "action_time": "2024-01-29T08:15:54.701Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "28",
+            "object_repr": "Technical Clubs Website",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 130,
+        "fields": {
+            "action_time": "2024-01-29T08:16:29.932Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "29",
+            "object_repr": "IITI MESS MANAGEMENT",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 131,
+        "fields": {
+            "action_time": "2024-01-29T08:17:10.122Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "30",
+            "object_repr": "The Literary club website",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 132,
+        "fields": {
+            "action_time": "2024-01-29T08:17:57.565Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "31",
+            "object_repr": "Infinite Runner",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 133,
+        "fields": {
+            "action_time": "2024-01-29T08:18:38.548Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "32",
+            "object_repr": "Q and A forum",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 134,
+        "fields": {
+            "action_time": "2024-01-29T08:19:17.517Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "33",
+            "object_repr": "Rave Media Player",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 135,
+        "fields": {
+            "action_time": "2024-01-29T08:19:53.703Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "34",
+            "object_repr": "Local Quora",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 136,
+        "fields": {
+            "action_time": "2024-01-29T08:20:40.154Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "35",
+            "object_repr": "Query",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 137,
+        "fields": {
+            "action_time": "2024-01-29T08:21:28.457Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "36",
+            "object_repr": "Computer learns to play mario.",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 138,
+        "fields": {
+            "action_time": "2024-01-29T11:43:04.293Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "4",
+            "object_repr": "Greed Control",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 139,
+        "fields": {
+            "action_time": "2024-01-29T11:45:48.607Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "31",
+            "object_repr": "Infinite Runner",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Domain\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 140,
+        "fields": {
+            "action_time": "2024-01-29T12:11:07.180Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "37",
+            "object_repr": "Inter IIT - Trumio",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 141,
+        "fields": {
+            "action_time": "2024-01-29T12:11:51.604Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "37",
+            "object_repr": "Inter IIT - Trumio",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Domain\", \"Category\"]}}]"
+        }
+    },
+    {
         "model": "auth.permission",
         "pk": 1,
         "fields": {
@@ -1573,7 +2197,7 @@
         "pk": 1,
         "fields": {
             "password": "pbkdf2_sha256$390000$i0xYo6XKlnwhPfc4TYub7U$RSsbcwgMAmI/pyKUDZdV3LjN7S7SOb9tV4vy5jft27c=",
-            "last_login": "2024-01-28T13:00:50.052Z",
+            "last_login": "2024-01-29T12:07:52.119Z",
             "is_superuser": true,
             "username": "progclub",
             "first_name": "",
@@ -1710,6 +2334,14 @@
     },
     {
         "model": "sessions.session",
+        "pk": "5em8t24khkvhru7d578m48vfae9gdvu8",
+        "fields": {
+            "session_data": ".eJxVjDkOAjEQBP_iGFkej09Cct6wGl94AdnSHhHi72BpAwi7q1QvNtG-1Wlf8zLNiZ0ZsNPvFyg-chsg3andOo-9bcsc-FD4QVd-7Sk_L4f7F6i01pEF7TVEARQFBQOkiwzoMKGxBqV15AlVAHRaKV_EdxSFstiCFryx7P0Bt282eA:1rUQQa:Z2bEMFzKcVn0I2GcntsnQnJHOsShFEJDno1e6jG63l0",
+            "expire_date": "2024-02-12T12:07:52.462Z"
+        }
+    },
+    {
+        "model": "sessions.session",
         "pk": "5jrjsd9q4pi66zfhkxbe479ydkwi9h1r",
         "fields": {
             "session_data": ".eJxVjDkOAjEQBP_iGFkej09Cct6wGl94AdnSHhHi72BpAwi7q1QvNtG-1Wlf8zLNiZ0ZsNPvFyg-chsg3andOo-9bcsc-FD4QVd-7Sk_L4f7F6i01pEF7TVEARQFBQOkiwzoMKGxBqV15AlVAHRaKV_EdxSFstiCFryx7P0Bt282eA:1rSdfX:Hwk4QfQIt4mL6489xJee0N6Cja4LLucfeD1tiySEnCU",
@@ -1841,7 +2473,7 @@
             "title": "Capture The Flag",
             "subtitle": "Capture The Flag",
             "description": "A Capture the Flag Competition held by Byte Bandits, IIT Indore's academic CTF team. The team size for the CTF should be a maximum 4 people.",
-            "type": "bOngoing",
+            "type": "cPast",
             "image": "media/EventImages/BBCTF_hkhyr8"
         }
     },
@@ -1874,7 +2506,7 @@
             "title": "Capture The Flag",
             "subtitle": "Capture The Flag",
             "description": "A Capture the Flag Competition held by Byte Bandits, IIT Indore's academic CTF team. The team size for the CTF should be a maximum 4 people",
-            "type": "bOngoing",
+            "type": "cPast",
             "image": "media/EventImages/CodeGolf_nydhx7"
         }
     },
@@ -1885,7 +2517,7 @@
             "title": "Surprise Language 6.0",
             "subtitle": "Surprise Language 6.0",
             "description": "A Capture the Flag Competition held by Byte Bandits, IIT Indore's academic CTF team. The team size for the CTF should be a maximum 4 people.",
-            "type": "bOngoing",
+            "type": "cPast",
             "image": "media/EventImages/Hackistica_ogursx"
         }
     },
@@ -2000,6 +2632,396 @@
             "description": "This application is made for the accessibility of meals by the students and the management of students' data by authorities. It provides facilities like QR Scanning, history, payments, reviews etc.",
             "image": "media/ProjectImages/image9_d3jatu",
             "github": "https://github.com/E13ctron/IITISoC-22-App-5-Mess_QR"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 8,
+        "fields": {
+            "title": "Game of Life",
+            "subtitle": "Web Development",
+            "domain": "None",
+            "category": "IITISoC 2022",
+            "description": "The Game of Life is played on an infinite two-dimensional rectangular grid of cells. Each cell can either be alive or dead. Users can create various patterns based on the simple rules of the game.",
+            "image": "media/ProjectImages/JavaScript-logo_nvu9s0",
+            "github": "https://github.com/rashimotwani/IITISoC-22-Web-3-GameOfLife"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 9,
+        "fields": {
+            "title": "IIT/NIT Guidance Portal",
+            "subtitle": "App Development",
+            "domain": "None",
+            "category": "IITISoC 2022",
+            "description": "This app, for JEE entrance exam aspirants creates a medium of communication between IIT/NITians and upcoming JEE aspirants. It contains a channel of guides who can solve their doubts and motivate them towards their final goal.",
+            "image": "media/ProjectImages/flutter5786_uloxox",
+            "github": "https://github.com/PrabhakarAgrawal/Guidance_app"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 10,
+        "fields": {
+            "title": "Alumni Portal",
+            "subtitle": "Full Stack Development",
+            "domain": "None",
+            "category": "IITISoC 2022",
+            "description": "This application aims to provide an Alumni Portal for IIT Indore and where current students can connect with the Alumni. It provides a platform to maintain alumni data and update the same.",
+            "image": "media/ProjectImages/React-icon.svg_c6dbhz",
+            "github": "https://github.com/Rebel9829/IITISoC-22-Web-30-Alumni_Portal"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 11,
+        "fields": {
+            "title": "Perspective",
+            "subtitle": "Web Development",
+            "domain": "None",
+            "category": "IITISoC 2022",
+            "description": "A website where students and other members of the IITI community could read and post their life experiences as blogs. Users can visit other's profiles, format text, add tags and comment on the blogs as well.",
+            "image": "media/ProjectImages/2560px-Flask_logo.svg_ehvsgh",
+            "github": "https://github.com/mansi-ch17/perspective"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 12,
+        "fields": {
+            "title": "Infinity Remote",
+            "subtitle": "Chrome Extension + PWA",
+            "domain": "None",
+            "category": "IITISoC 2021",
+            "description": "This application gives you a Chrome Extension and a Progressive Web App (PWA) allowing you to control Youtube on your Desktop Browser from the PWA in your Mobile.",
+            "image": "media/ProjectImages/images_k6haeq",
+            "github": "https://github.com/AshishRajIITI/Misc-6-Infinity-Remote"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 13,
+        "fields": {
+            "title": "ClockIn",
+            "subtitle": "Full Stack Development",
+            "domain": "None",
+            "category": "IITISoC 2021",
+            "description": "ClockIn is an event schedular website made exclusively for the members of the IIT Indore Community. Using ClockIn the users can add events to their calendar, edit them, get reminders through emails all combined with different view modes.",
+            "image": "media/ProjectImages/2560px-Node.js_logo.svg_lpwbzv",
+            "github": "https://github.com/rashimotwani/clockin"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 14,
+        "fields": {
+            "title": "Classroom IITI",
+            "subtitle": "Full Stack Development",
+            "domain": "None",
+            "category": "IITISoC 2021",
+            "description": "This application was made to replace the old drive system with which seniors used to share academic material with us, as their college IDs used to get deactivated after graduation. It takes inspiration from google drive structure.",
+            "image": "media/ProjectImages/React-icon.svg_qnephy",
+            "github": "https://github.com/Suman-Jaiswal/classroom"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 15,
+        "fields": {
+            "title": "YouWatch",
+            "subtitle": "Software Development",
+            "domain": "None",
+            "category": "IITISoC 2021",
+            "description": "This web app is made for the entire IITI Community where webinars, workshops and event recordings and different videos can be stored. Users can create their channels, upload videos and watch them.",
+            "image": "media/ProjectImages/png-transparent-firebase-hd-logo-thumbnail_uzp2mr",
+            "github": "https://github.com/E13ctron/Web16_YoutubeClone"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 16,
+        "fields": {
+            "title": "HotelX",
+            "subtitle": "Web Development",
+            "domain": "None",
+            "category": "IITISoC 2021",
+            "description": "This project aims to develop a full-stack social website for a restaurant with modern UI, realtime order updates and payment integration.",
+            "image": "media/ProjectImages/React-icon.svg_zop5id",
+            "github": "https://github.com/Kuldeep-Singh-28/web19_Restaurant-social-website"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 17,
+        "fields": {
+            "title": "Covid Survivors",
+            "subtitle": "Full Stack Development",
+            "domain": "None",
+            "category": "IITISoC 2021",
+            "description": "A portal where the retrieved data of the covid+ patients is registered and made available to the needy in the future. It provides an open chat option for people seeking advice and assistance in the mental health of patients.",
+            "image": "media/ProjectImages/django-icon-1606x2048-lwmw1z73_jsorbn",
+            "github": "https://github.com/Bhavishya-tiwari/Web1_Covid-Survivors"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 18,
+        "fields": {
+            "title": "JobFinder",
+            "subtitle": "Web Development",
+            "domain": "None",
+            "category": "IITISoC 2021",
+            "description": "A portal for getting various internship and job opportunities posted the Training and Placement Cell of IIT Indore. You can create an account and apply various filters find the perfect job for you.",
+            "image": "media/ProjectImages/2560px-Node.js_logo.svg_giv79c",
+            "github": "https://github.com/pallavi-1812/Off-campus-Job-Opportunities-Portal"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 19,
+        "fields": {
+            "title": "Greasy Spoon",
+            "subtitle": "Full Stack Development",
+            "domain": "None",
+            "category": "IITISoC 2020",
+            "description": "As most of the eateries in our campus ( except mess ) are overcrowded during peak time of the day which results in a lot of time waste of students and staff. This web application features pre booking your meal and taking away your meal when it is ready. There will be an option for getting it delivered to your place. This will save a lot of time and helps in maintaining social distancing.",
+            "image": "media/ProjectImages/2560px-Node.js_logo.svg_ubvsga",
+            "github": "https://github.com/akashg3627/greasyspoon/"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 20,
+        "fields": {
+            "title": "Live Programming Contest Website",
+            "subtitle": "Web Development",
+            "domain": "None",
+            "category": "IITISoC 2020",
+            "description": "The website will tabulate all the ongoing and future programming on certain popular sites like codechef, codeforces, etc providing with the details on the timings and other critical details regarding them.",
+            "image": "media/ProjectImages/React-icon.svg_txsxdd",
+            "github": "https://github.com/neelanshu2001/Contest"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 21,
+        "fields": {
+            "title": "Attendance Tool for Students residing in Hostels",
+            "subtitle": "Software Development",
+            "domain": "None",
+            "category": "IITISoC 2020",
+            "description": "The Project aims to create an online tool which could be used to keep track of all students residing inside the hostels on a day to day basis.",
+            "image": "media/ProjectImages/2560px-Node.js_logo.svg_q7rw5r",
+            "github": "https://github.com/kushaangowda/IITISoC---Attendance-Tool"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 22,
+        "fields": {
+            "title": "Covid-19 Live Tracker",
+            "subtitle": "Software Development",
+            "domain": "None",
+            "category": "IITISoC 2020",
+            "description": "Coronavirus live tracking website which will display the number of active cases and all the relevant information regarding it in different regions. The project can also use crowdsourcing so as to receive data from people on the internet.",
+            "image": "media/ProjectImages/React-icon.svg_gi5gy1",
+            "github": "https://github.com/pranjall29/covid-19-project"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 23,
+        "fields": {
+            "title": "3D Volume/Area Calculator",
+            "subtitle": "App Development",
+            "domain": "None",
+            "category": "IITISoC 2020",
+            "description": "Calculate the area and volume of different shapes depending upon the different dimensions provided. Introducing complex shapes and diagrams where a 2D/3D structure may comprise multiple smaller structures.",
+            "image": "media/ProjectImages/flutter5786_bsbsju",
+            "github": "https://github.com/gg-dev-05/3dVolume-Area"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 24,
+        "fields": {
+            "title": "La Fresco in Pocket",
+            "subtitle": "Web Development",
+            "domain": "None",
+            "category": "IITISoC 2020",
+            "description": "A website that by which we can place an order La Fresco staff will receive the order and generate a unique code. A mail will be sent when the order is ready to collect in a definite time slot. In this way the number of contacts will be reduced and social distancing will be maintained.",
+            "image": "media/ProjectImages/React-icon.svg_stpceg",
+            "github": "https://github.com/BugsBunny1812/LA-Fresco-In-Pocket"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 25,
+        "fields": {
+            "title": "Security Camera Face Recognition",
+            "subtitle": "Machine Learning",
+            "domain": "None",
+            "category": "IITISoC 2020",
+            "description": "A software by which we can recognize the face through security cameras, if any unpleasant thing happens then it sends you an alert and it will recognize the face and then try to match the person details from the database and gives you message about the person.",
+            "image": "media/ProjectImages/Python-logo-notext.svg_oqno3c",
+            "github": "https://github.com/Team-Ragnarok/Face_Detection"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 26,
+        "fields": {
+            "title": "Mess@IITI",
+            "subtitle": "App Development",
+            "domain": "None",
+            "category": "IITISoC 2018",
+            "description": "The Mobile Application helps students at IITI to buy and use mess E-coupons based on per meal scheme. The E-coupons can also be transferred from one student to another.",
+            "image": "media/ProjectImages/Java-Logo_vupl6s",
+            "github": "https://github.com/abhishek-kr-01/Mess"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 27,
+        "fields": {
+            "title": "Nightmare",
+            "subtitle": "Game Development",
+            "domain": "None",
+            "category": "IITISoC 2018",
+            "description": "Nightmare is survival shooter video game developed using Unity3D engine and is written in C#. Its a simple arcade style shooter where you kill enemies and earn points and create High Score.",
+            "image": "media/ProjectImages/Unity_Technologies_logo.svg_dnphqq",
+            "github": "https://github.com/Ronak-B/IITISoC_Project/tree/master/Survival%20Shooter"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 28,
+        "fields": {
+            "title": "Technical Clubs Website",
+            "subtitle": "Machine Learning",
+            "domain": "None",
+            "category": "IITISoC 2018",
+            "description": "Websites for the Programming, Electronics and CAE club of IIT Indore",
+            "image": "media/ProjectImages/Vue.js_Logo_2.svg_cyh6om",
+            "github": "https://github.com/DaemonLab/technical-individual"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 29,
+        "fields": {
+            "title": "IITI MESS MANAGEMENT",
+            "subtitle": "Web Development",
+            "domain": "None",
+            "category": "IITISoC 2018",
+            "description": "It is a client-side web-development project which facilitates buying and selling of food-coupons online.",
+            "image": "media/ProjectImages/Vue.js_Logo_2.svg_hgfmpf",
+            "github": "https://github.com/vandan-agarwal/IITI-MESS-MANAGEMENT"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 30,
+        "fields": {
+            "title": "The Literary club website",
+            "subtitle": "Web Development",
+            "domain": "None",
+            "category": "IITISoC 2018",
+            "description": "The Literary Club website is made as a part of the IITISoC project under the web development section.",
+            "image": "media/ProjectImages/Vue.js_Logo_2.svg_sqxtlm",
+            "github": "https://github.com/Ayyk-123/Ayyk-%20123.github.io"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 31,
+        "fields": {
+            "title": "Infinite Runner",
+            "subtitle": "Game Development",
+            "domain": "None",
+            "category": "IITISoC 2017",
+            "description": "The game is an infinite runner with the main objective of collecting as many bananas as possible. The game uses Unity Engine.",
+            "image": "media/ProjectImages/Unity_Technologies_logo.svg_tnpsqa",
+            "github": "https://github.com/sreevatsank1999/Project_M"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 32,
+        "fields": {
+            "title": "Q and A forum",
+            "subtitle": "Full Stack Development",
+            "domain": "None",
+            "category": "IITISoC 2017",
+            "description": "This is a question answer web app like Quora where one can share his/her knowledge/experience in the form of text or pictures.",
+            "image": "media/ProjectImages/2560px-Node.js_logo.svg_pgrjz5",
+            "github": "https://github.com/Mohit-Nathrani/question-answer-site"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 33,
+        "fields": {
+            "title": "Rave Media Player",
+            "subtitle": "Software Development",
+            "domain": "None",
+            "category": "IITISoC 2017",
+            "description": "A media player with an intuitive media library management capabilities built on Python and Qt.",
+            "image": "media/ProjectImages/Python-logo-notext.svg_zwajsy",
+            "github": "https://github.com/kanishkarj/rave"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 34,
+        "fields": {
+            "title": "Local Quora",
+            "subtitle": "Full Stack Development",
+            "domain": "None",
+            "category": "IITISoC 2017",
+            "description": "This is a question answer web app like Quora where one can share his/her knowledge/experience in the form of text or pictures.",
+            "image": "media/ProjectImages/React-icon.svg_l8e0pb",
+            "github": "https://github.com/Harsh860/IITI-SOC"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 35,
+        "fields": {
+            "title": "Query",
+            "subtitle": "Full Stack Development",
+            "domain": "None",
+            "category": "IITISoC 2017",
+            "description": "This is a question answer web app like Quora where one can share his/her knowledge/experience in the form of text or pictures.",
+            "image": "media/ProjectImages/php_e7mkcv",
+            "github": "https://github.com/kpranav1998/query"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 36,
+        "fields": {
+            "title": "Computer learns to play mario.",
+            "subtitle": "Machine Learning",
+            "domain": "None",
+            "category": "IITISoC 2017",
+            "description": "A machine learning algorithm that successfully learns to play Super Mario 64, after learning from test runs played by us.",
+            "image": "media/ProjectImages/Tensorflow_logo.svg_zcezwp",
+            "github": "https://github.com/Mohit-Nathrani/question-answer-site"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 37,
+        "fields": {
+            "title": "Inter IIT - Trumio",
+            "subtitle": "Fullstack + ML",
+            "domain": "None",
+            "category": "Inter IIT 12.0",
+            "description": "� A community engagement platform built to engage people and attract towards the main product, available on \r\nTrumio website, which aims to increase university-Industry Collaborations.\r\n� Made a concept idea of community engagement platform, further developed its frontend and integrated with backend made by other team members.",
+            "image": "media/ProjectImages/trumio_inc_logo_vmw7xp",
+            "github": "https://github.com/trumio-interiit/team_22"
         }
     },
     {
@@ -2452,7 +3474,7 @@
             "email": "cse220001024@iiti.ac.in",
             "position": "bMember",
             "division": "cCyber Security",
-            "year": "Second",
+            "year": "cSecond",
             "github": "https://github.com/LED-0102",
             "codeforces": "https://codeforces.com/profile/LED_0102",
             "linkedin": "https://www.linkedin.com/in/darshil-patel-30a880252",
@@ -2469,7 +3491,7 @@
             "email": "cse210001036@iiti.ac.in",
             "position": "bMember",
             "division": "aCompetitive Programming",
-            "year": "Third",
+            "year": "bThird",
             "github": "https://github.com/gauravmahendraker",
             "codeforces": "https://codeforces.com/profile/gauravmahendraker",
             "linkedin": "https://www.linkedin.com/in/gaurav-mahendraker-3599ab223",
@@ -2486,7 +3508,7 @@
             "email": "cse220001025@iiti.ac.in",
             "position": "bMember",
             "division": "aCompetitive Programming",
-            "year": "Second",
+            "year": "cSecond",
             "github": "https://github.com/Debasishhh",
             "codeforces": "https://codeforces.com/profile/parzival81",
             "linkedin": "https://www.linkedin.com/in/debasish-b99a2b268",
@@ -2503,7 +3525,7 @@
             "email": "cse210001043@iiti.ac.in",
             "position": "bMember",
             "division": "aCompetitive Programming",
-            "year": "Third",
+            "year": "bThird",
             "github": "https://github.com/1NileshKumar",
             "codeforces": null,
             "linkedin": "https://www.linkedin.com/in/nilesh-kumar-7103a6243/",
@@ -2520,7 +3542,7 @@
             "email": "cse210001074@iiti.ac.in",
             "position": "bMember",
             "division": "aCompetitive Programming",
-            "year": "Third",
+            "year": "bThird",
             "github": "https://github.com/Vedant-03",
             "codeforces": "https://codeforces.com/profile/Vedant_05",
             "linkedin": "https://www.linkedin.com/in/vedantagrawal21/",
@@ -2537,7 +3559,7 @@
             "email": "cse210001080@iiti.ac.in",
             "position": "bMember",
             "division": "aCompetitive Programming",
-            "year": "Third",
+            "year": "bThird",
             "github": "https://github.com/sushil538",
             "codeforces": "https://codeforces.com/profile/yadavsushil538",
             "linkedin": "https://www.linkedin.com/in/sushil-yadav-576a01238?trk=contact-info",
@@ -2554,7 +3576,7 @@
             "email": "cse220001068@iiti.ac.in",
             "position": "bMember",
             "division": "aCompetitive Programming",
-            "year": "Second",
+            "year": "cSecond",
             "github": "https://github.com/samd-990",
             "codeforces": "https://codeforces.com/profile/sam990",
             "linkedin": "https://www.linkedin.com/in/samyak-dhyani-a4aa89272/",
@@ -2588,7 +3610,7 @@
             "email": "cse210001004@iiti.ac.in",
             "position": "bMember",
             "division": "aCompetitive Programming",
-            "year": "Third",
+            "year": "bThird",
             "github": "https://github.com/ANJani9web",
             "codeforces": "https://codeforces.com/profile/Lucifer_09",
             "linkedin": "https://www.linkedin.com/in/anjani-kumar-38b805223/",
@@ -2605,7 +3627,7 @@
             "email": "cse220001006@iiti.ac.in",
             "position": "bMember",
             "division": "aCompetitive Programming",
-            "year": "Second",
+            "year": "cSecond",
             "github": "https://github.com/adiydvv",
             "codeforces": "https://codeforces.com/profile/adiydvv",
             "linkedin": "https://www.linkedin.com/in/aditya-yadav-60258b259/",
@@ -2627,23 +3649,6 @@
             "codeforces": "https://codeforces.com/profile/P.V.Sekhar",
             "linkedin": "https://www.linkedin.com/in/p-v-sekhar-bb4612239/",
             "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_ys2dym",
-            "instagram": null,
-            "phone_number": null
-        }
-    },
-    {
-        "model": "api.team",
-        "pk": 47,
-        "fields": {
-            "name": "Khushi Agarwal",
-            "email": "cse210001028@iiti.ac.in",
-            "position": "bMember",
-            "division": "aCompetitive Programming",
-            "year": "bThird",
-            "github": "https://github.com/Khushi724",
-            "codeforces": null,
-            "linkedin": "https://www.linkedin.com/in/khushi-agarwal-5895b6243",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_cmnwif",
             "instagram": null,
             "phone_number": null
         }

@@ -14,7 +14,7 @@ class EventView(ListAPIView):
 
 class ProjectView(ListAPIView):
     serializer_class = ProjectSerializer
-    queryset = Project.objects.all()
+    queryset = Project.objects.all().order_by('created_on')
 
 
 class TeamView(ListAPIView):
