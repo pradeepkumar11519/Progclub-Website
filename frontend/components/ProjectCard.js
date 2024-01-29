@@ -41,7 +41,7 @@ export default function ProjectCard({ ele }) {
     return (<div ref={tilt} {...rest} >{children}</div>);
   }
   return (
-    <div id="ProjectPage" className='justify-center flex !mb-32  '>
+    <div id="ProjectPage" className='justify-center flex !mb-28 '>
       <Tilt className="card  max-w-[500px] md:w-[500px] rounded-lg" options={options} >
         <div className=''>
           <div className="">
