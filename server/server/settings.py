@@ -100,17 +100,6 @@ DATABASES = {
 
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'progclub_database',
-        'USER': 'progclub_database_user',
-        'PASSWORD': '9QfVq9SOtierZb3K2FFkrjHbIi7rjLP8',
-        'HOST': 'dpg-cignbtlph6erq6ksuidg-a.singapore-postgres.render.com',
-        'PORT': '5432',
-    },
-}
-
-DATABASES = {
     "default":dj_database_url.config(default = env('DATABASE_URL'),ssl_require=False)
 }
 

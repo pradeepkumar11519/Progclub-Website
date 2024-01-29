@@ -48,20 +48,20 @@ export default function Navbar() {
 					<Image src={Logo} placeholder="blur" />
 				</div>
 				<ul className='lg:grid hidden grid-cols-5'>
-					<li className=' p-2 m-2 text-center my-auto font-bold'>
+					<li className=' py-2 px-0 border-0 text-center my-auto font-bold'>
 						<Link href="/"><button className="btn  px-4 py-1 rounded-2xl">Home</button></Link>
 					</li>
-					<li className=' p-2 m-2 text-center my-auto font-bold'>
-						<Link href="/EventsPage"><button className="btn  px-4 py-1 rounded-2xl">Events</button></Link>
+					<li className=' py-2 px-0 border-0 text-center my-auto font-bold'>
+						<Link href="/EventsPage"><button className="btn  px-4  py-1 rounded-2xl">Events</button></Link>
 					</li>
-					<li className=' p-2 m-2 text-center my-auto font-bold'>
-						<Link href="/ProjectPage"><button className="btn  px-4 py-1 rounded-2xl">Projects</button></Link>
+					<li className=' py-2 px-0 border-0 text-center my-auto font-bold'>
+						<Link href="/ProjectPage"><button className="btn  px-4  py-1 rounded-2xl">Projects</button></Link>
 					</li>
-					<li className='p-2 m-2 text-center my-auto font-bold'>
-						<Link href="/TeamPage"><button className="btn  px-4 py-1 rounded-2xl">Our Team</button></Link>
+					<li className='py-2 px-0 border-0 text-center my-auto font-bold'>
+						<Link href="/TeamPage"><button className="btn  px-4  py-1 rounded-2xl">Team</button></Link>
 					</li>
-					<li className=' p-2 m-2 text-center my-auto font-bold'>
-						<Link href="#"><button className="btn  px-4 py-1 rounded-2xl">Alumni</button></Link>
+					<li className=' py-2 px-0 border-0 text-center my-auto font-bold'>
+						<Link href="/Alumni"><button className="btn  px-4 py-1  rounded-2xl">Alumni</button></Link>
 					</li>
 				</ul>
 				<button id="offcanvas-btn" className='offcanvas-btn lg:hidden !ml-auto' data-offcanvas-button onClick={() => {

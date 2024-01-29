@@ -1,15 +1,41 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { useEffect } from 'react'
-import Tilt from 'react-parallax-tilt';
+import { useEffect,useRef } from 'react'
+import VanillaTilt from 'vanilla-tilt';
+const options = {
+  reverse: true,
+  max: 20,
+  speed: 100,
+  scale: 1.02,
+  glare: true,
+  reset: true,
+  perspective: 10000,
+  transition: true,
+  "max-glare": 0.4,
+  "glare-prerender": false,
+  gyroscope: true,
+  gyroscopeMinAngleX: -45,
+  gyroscopeMaxAngleX: 45,
+  gyroscopeMinAngleY: -45,
+  gyroscopeMaxAngleY: 45
+}
 export default function ProjectCard({ ele }) {
+  function Tilt(props) {
+		const { children, options, ...rest } = props;
+		const tilt = useRef(null);
 
+		useEffect(() => {
+			VanillaTilt.init(tilt.current, options);
+		}, [options]);
+
+		return (<div ref={tilt} {...rest} >{children}</div>);
+	}
 	return (
 		<div id="ProjectPage" className='justify-center flex !mb-32  '>
-			<Tilt>
+			<Tilt className="card  max-w-[500px] md:w-[500px] rounded-lg" options={options} >
 				<div className=''>
-					<div className="card max-w-[500px] md:w-[500px]">
+					<div className="">
 						{/* <div className="circle"></div> */}
 						{/* <div className="circle"></div> */}
 						<div className="card-inner ">
@@ -32,8 +58,8 @@ export default function ProjectCard({ ele }) {
 									{ele.description}
 									<div className='my-5 flex'>
 										<Link target={"_blank"} href={ele.github} className='border-2 border-black bg-white p-2 rounded-full w-full text-black font-bold hover:underline hover:bg-black hover:text-white transition-all fade-in-out duration-500'>Github</Link>
-										{ele.domain!=="None" && (
-											<Link target={"_blank"} href="#" className='border-2 border-black bg-white p-2 rounded-full w-full text-black font-bold hover:underline hover:bg-black hover:text-white transition-all fade-in-out duration-500'>Website Link</Link>
+										{(ele.domain!=="None") && (
+											<Link target={"_blank"} href={ele.domain} className='border-2 border-black bg-white p-2 rounded-full w-full text-black font-bold hover:underline hover:bg-black hover:text-white transition-all fade-in-out duration-500'>Website Link</Link>
 										)}
 										
 									</div>

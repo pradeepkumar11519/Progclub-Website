@@ -41,7 +41,8 @@
     "react-type-animation": "^2.1.2",
     "sharp": "^0.32.0",
     "simplex-noise": "^4.0.1",
-    "three": "^0.152.2"
+    "three": "^0.152.2",
+    "vanilla-tilt": "^1.8.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",

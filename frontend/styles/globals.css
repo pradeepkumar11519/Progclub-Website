@@ -520,7 +520,8 @@ hr {
   transform: scale(0.9);
 }
 
-#EventsPage,#ProjectsPage,#TeamsPage {
+#EventsPage,#ProjectsPage,#TeamsPage,#AlumniPage {
+  
   background: radial-gradient(100% 225% at 100% 0%, #ff0000 0%, #000000 100%),
     linear-gradient(
       236deg,

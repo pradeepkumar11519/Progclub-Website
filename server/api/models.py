@@ -2,7 +2,7 @@ from django.db import models
 from django.utils.html import mark_safe
 from django.utils.translation import gettext as _
 from django_resized import ResizedImageField
-
+from datetime import datetime
 
 def event_path(_instance, filename):
     return f"EventImages/{filename}"
@@ -57,6 +57,7 @@ class Project(models.Model):
     description = models.TextField(_("Description"),blank=True, null=True)
     image = ResizedImageField(_("Image"), upload_to=project_path,force_format="WEBP",quality=100)
     github = models.URLField(_("Repository"),blank=True, null=True)
+    created_on = models.DateTimeField(default=datetime.now(),null=True,blank=True)
 
     @property
     def image_preview(self):

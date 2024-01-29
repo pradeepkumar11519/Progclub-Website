@@ -101,6 +101,9 @@ dependencies:
   three:
     specifier: ^0.152.2
     version: 0.152.2
+  vanilla-tilt:
+    specifier: ^1.8.1
+    version: 1.8.1
 
 devDependencies:
   autoprefixer:
@@ -6058,6 +6061,10 @@ packages:
   /utility-types@3.10.0:
     resolution: {integrity: sha512-O11mqxmi7wMKCo6HKFt5AhO4BwY3VV68YU07tgxfz8zJTIxr4BpsezN49Ffwy9j3ZpwwJp4fkRwjRzq3uWE6Rg==}
     engines: {node: '>= 4'}
+    dev: false
+
+  /vanilla-tilt@1.8.1:
+    resolution: {integrity: sha512-hPB1XUsnh+SIeVSW2beb5RnuFxz4ZNgxjGD78o52F49gS4xaoLeEMh9qrQnJrnEn/vjjBI7IlxrrXmz4tGV0Kw==}
     dev: false
 
   /warning@4.0.3:
