@@ -43,10 +43,13 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     'cloudinary_storage',
     "django.contrib.staticfiles",
+    'drf_yasg',
     'cloudinary',
     "rest_framework",
     "api.apps.ApiConfig",
     "corsheaders",
+    'import_export',
+    'django_admin_logs'
 ]
 
 MIDDLEWARE = [

@@ -28,7 +28,8 @@ class Event(models.Model):
     description = models.TextField(_("Description"),blank=True, null=True)
     type = models.CharField(_("Type"), max_length=225, choices=Event_Choices,blank=True, null=True)
     image = ResizedImageField(_("Poster"), upload_to=event_path,force_format="WEBP",quality=100)
-
+    created_on = models.DateTimeField(default=datetime.now(),null=True,blank=True)
+    updated_on = models.DateTimeField(default=datetime.now(),null=True,blank=True)
     @property
     def image_preview(self):
         if self.image:
@@ -58,7 +59,7 @@ class Project(models.Model):
     image = ResizedImageField(_("Image"), upload_to=project_path,force_format="WEBP",quality=100)
     github = models.URLField(_("Repository"),blank=True, null=True)
     created_on = models.DateTimeField(default=datetime.now(),null=True,blank=True)
-
+    updated_on = models.DateTimeField(default=datetime.now(),null=True,blank=True)
     @property
     def image_preview(self):
         if self.image:
@@ -108,6 +109,8 @@ class Team(models.Model):
     image = ResizedImageField(_("Image"), upload_to=team_path,force_format="WEBP",quality=100,)
     instagram = models.URLField(_("Instagram Profile"), blank=True, null=True)
     phone_number = models.CharField(_("Phone Number"), max_length=225,blank=True, null=True)
+    created_on = models.DateTimeField(default=datetime.now(),null=True,blank=True)
+    updated_on = models.DateTimeField(default=datetime.now(),null=True,blank=True)
     @property
     def image_preview(self):
         if self.image:
@@ -138,6 +141,8 @@ class Alumni(models.Model):
     division = models.CharField(_("Alumni's Division"), max_length=225, choices=division_choices)
     image = ResizedImageField(_("Image"), upload_to=alumni_path,force_format="WEBP",quality=100)
     LinkedIn_Profile = models.URLField(_("Alumni's LinkedIn Profile"))
+    created_on = models.DateTimeField(default=datetime.now(),null=True,blank=True)
+    updated_on = models.DateTimeField(default=datetime.now(),null=True,blank=True)
     @property
     def image_preview(self):
         if self.image:
