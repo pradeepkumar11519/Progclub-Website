@@ -33,7 +33,7 @@ export default function Card({ Events }) {
         },
     };
     return (
-        <div>
+        <div className="cursor-pointer">
             <Modal
                 isOpen={modalisOpen}
                 onRequestClose={() => setIsOpen(false)}
@@ -52,7 +52,7 @@ export default function Card({ Events }) {
                         {event.title}
                     </div>
                     <div className="text-black my-10 text-center">
-                        <span className="card_title">{event.title}</span>
+                        <span className="card_title">{event.subtitle}</span>
                     </div>
                     <div className="text-black my-10 text-center ">
                         {event.description}
@@ -89,15 +89,10 @@ export default function Card({ Events }) {
                                             <span className="card_title">
                                                 {ele.title}
                                             </span>
-                                            <span className="card_subtitle">
-                                                {ele.subtitle}
+                                            <span className="card_subtitle my-2">
+                                                {ele?.subtitle?.slice(0,50)}...
                                             </span>
-                                            <span className="card_subtitle">
-                                                {ele.type}
-                                            </span>
-                                            <p className="card_description">
-                                                {ele.description}
-                                            </p>
+                                            
                                         </div>
                                     </article>
                                 </div>
@@ -141,9 +136,9 @@ export default function Card({ Events }) {
                         padding: 20px;
                         padding-top: 27px;
                         background: #f2f2f2;
-                        border-top-left-radius: 20px;
+                        border-top-left-radius: 0px;
                         /* edit here to change the height of the content box */
-                        transform: translateY(80px);
+                        transform: translateY(0px);
                         transition: transform 0.25s;
                     }
 
@@ -178,14 +173,7 @@ export default function Card({ Events }) {
                         transition: opacity 0.5s;
                     }
 
-                    .card:hover .card_content {
-                        transform: translateY(0);
-                        padding: 24px;
-                        .card_status {
-                            color: #25257c;
-                            font-weight: bold;
-                        }
-                    }
+                    
 
                     .card:hover .card_description {
                         opacity: 1;

@@ -98,7 +98,7 @@ export default function ProductPage() {
 
 const fetchprojects = async () => {
     return axios
-        .get(`${process.env.SERVER_URL}/api/v1/projects/`)
+        .get(`https://progclub-website.vercel.app/api/v1/projects/`)
         .then((response) => {
             return response.data;
         });

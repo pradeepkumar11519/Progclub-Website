@@ -102,7 +102,7 @@ export default function EventsPage() {
 
 const fetchAllEvents = async () => {
     return axios
-        .get(`${process.env.SERVER_URL}/api/v1/events/`)
+        .get(`https://progclub-iiti-backend.onrender.com/api/v1/events/`)
         .then((response) => {
             return response.data;
         });
