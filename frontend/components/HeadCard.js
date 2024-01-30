@@ -3,26 +3,34 @@ import Link from 'next/link';
 import React from 'react'
 import { SiCodeforces } from 'react-icons/si'
 
-export default function TeamCard({ team }) {
+export default function HeadCard({ team }) {
   return (
     <div className='w-full h-full flex justify-center items-center'>
-      <div className="mx-10 max-w-[600px] w-full h-full bg-white rounded-lg shadow-md p-6 border-gray-400 border-4">
-        <h2 className="text-3xl font-bold mb-4 text-center">{team.name}</h2>
-        <div className="flex justify-between items-center px-5">
-          <div className="mr-8">
+      <div className="mx-12 w-fit max-w-[400px] lg:w-full h-full bg-white rounded-lg shadow-md p-6 border-gray-400 border-4">
+        <h2 className="text-xl md:text-3xl font-bold mb-4 text-center">{team.name}</h2>
+        <div className="flex flex-col justify-between items-center px-5">
+        <div className="relative w-40 sm:w-60 h-40 sm:h-60">
+            <Image
+              src={team.image}
+              alt={team.name}
+              layout="fill"
+              className="rounded-md"
+            />
+          </div>
+          <div className="">
             <div id="About">
-              <h2 className="text-xl mb-2 text-start">ABOUT</h2>
-              <p className="text-md">{team.position.slice(1)}</p>
-              <p className="text-md">{team.year.slice(1)} Year</p>
-              <p className="text-md">@{team.division.slice(1)}</p>
+              <h2 className="text-md md:text-xl text-center my-2">ABOUT</h2>
+              <p className="text-sm md:text-md text-center">{team.position.slice(1)}</p>
+              <p className="text-sm md:text-md text-center">{team.year.slice(1)} Year</p>
+              <p className="text-sm md:text-md text-center">@{team.division.slice(1)}</p>
             </div>
             <div id="Contact" className='mt-4'>
-              <h2 className="text-xl mb-2 text-start">CONTACT</h2>
-              <p className="text-md">{team.email}</p>
+              <h2 className="text-md md:text-xl mb-2 text-center">CONTACT</h2>
+              <p className="text-sm md:text-md text-center">{team.email}</p>
               
             </div>
-            <div className="flex mt-4">
-              <ul className="flex space-x-2">
+            <div className="flex mt-4 justify-center">
+              <ul className="flex space-x-2 justify-center">
                 {team.codeforces && (
                   <li>
                     <Link target={"_blank"}
@@ -96,15 +104,7 @@ export default function TeamCard({ team }) {
               </ul>
             </div>
           </div>
-          <div className="relative w-60 h-60">
-            <Image
-              src={team.image}
-              alt={team.name}
-              layout="fill"
-              objectFit="cover"
-              className="rounded-md"
-            />
-          </div>
+          
         </div>
       </div>
     </div>

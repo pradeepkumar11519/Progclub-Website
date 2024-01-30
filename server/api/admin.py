@@ -2,13 +2,15 @@ from django.contrib import admin
 
 from .models import Team, Event, Project,Alumni
 from django.contrib.admin import RelatedOnlyFieldListFilter
-
+from import_export.admin import ImportExportModelAdmin
+from .resources import ProjectResource,EventResource,TeamResource,AlumniResource
 # Register your models here.
 @admin.register(Event)
-class EventAdmin(admin.ModelAdmin):
+class EventAdmin(ImportExportModelAdmin):
     model = Event
+    resource_class = EventResource
     search_fields = ("title", "subtitle")
-    list_display = ("title", "subtitle", "type","image_preview")
+    list_display = ("title", "subtitle", "type","image_preview","created_on","updated_on")
     list_filter = ("type",)
     readonly_fields = ("image_preview",)
 
@@ -26,6 +28,7 @@ class EventAdmin(admin.ModelAdmin):
                     "subtitle",
                     "description",
                     ("image", "image_preview"),
+                    ("created_on","updated_on")
                 )
             },
         ),
@@ -33,8 +36,9 @@ class EventAdmin(admin.ModelAdmin):
 
 
 @admin.register(Project)
-class ProjectAdmin(admin.ModelAdmin):
+class ProjectAdmin(ImportExportModelAdmin):
     model = Project
+    resource_class = ProjectResource
     search_fields = ("title",)
     list_display = ("title", "image_preview","subtitle","created_on")
     list_filter = ("domain", "category")
@@ -55,6 +59,7 @@ class ProjectAdmin(admin.ModelAdmin):
                     ("domain", "category"),
                     "description",
                     ("image", "image_preview"),
+                    ("created_on","updated_on")
                 )
             },
         ),
@@ -62,10 +67,11 @@ class ProjectAdmin(admin.ModelAdmin):
 
 
 @admin.register(Team)
-class TeamAdmin(admin.ModelAdmin):
+class TeamAdmin(ImportExportModelAdmin):
     model = Team
+    resource_class = TeamResource
     search_fields = ("name", "email")
-    list_display = ("name", "email", "position", "division","year")
+    list_display = ("name", "email", "position", "division","year","created_on")
     list_filter = ("position", "division", "year")
     readonly_fields = ("image_preview",)
 
@@ -87,16 +93,18 @@ class TeamAdmin(admin.ModelAdmin):
                     "github",
                     "codeforces",
                     "linkedin",
+                    ("created_on","updated_on")
                 )
             },
         ),
     )
 
 @admin.register(Alumni)
-class AlumniAdmin(admin.ModelAdmin):
+class AlumniAdmin(ImportExportModelAdmin):
     model = Event
+    resource_class = Alumni
     search_fields = ("name", "division","passing_year")
-    list_display = ("name", "division", "passing_year","image_preview")
+    list_display = ("name", "division", "passing_year","image_preview","created_on")
     list_filter = ("division",)
     readonly_fields = ("image_preview",)
 
@@ -114,6 +122,7 @@ class AlumniAdmin(admin.ModelAdmin):
                     "passing_year",
                     "LinkedIn_Profile",
                     ("image", "image_preview"),
+                    ("created_on","updated_on")
                 )
             },
         ),

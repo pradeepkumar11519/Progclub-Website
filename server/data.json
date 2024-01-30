@@ -1833,6 +1833,1332 @@
         }
     },
     {
+        "model": "admin.logentry",
+        "pk": 142,
+        "fields": {
+            "action_time": "2024-01-29T12:20:28.735Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "38",
+            "object_repr": "Mess Website",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 143,
+        "fields": {
+            "action_time": "2024-01-29T12:22:15.292Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "38",
+            "object_repr": "Mess Website",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 144,
+        "fields": {
+            "action_time": "2024-01-29T12:23:13.914Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "39",
+            "object_repr": "The Programming Club Website",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 145,
+        "fields": {
+            "action_time": "2024-01-29T12:25:01.439Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "40",
+            "object_repr": "RepoHeaven",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 146,
+        "fields": {
+            "action_time": "2024-01-29T12:25:52.785Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "39",
+            "object_repr": "The Pclub Website",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Project Title\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 147,
+        "fields": {
+            "action_time": "2024-01-29T12:28:22.324Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "41",
+            "object_repr": "Image Classifier",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 148,
+        "fields": {
+            "action_time": "2024-01-29T12:29:34.687Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "42",
+            "object_repr": "NFT Marketplace",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 149,
+        "fields": {
+            "action_time": "2024-01-29T12:31:52.261Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "43",
+            "object_repr": "Expense Management System",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 150,
+        "fields": {
+            "action_time": "2024-01-29T12:32:49.315Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "44",
+            "object_repr": "Pokemania",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 151,
+        "fields": {
+            "action_time": "2024-01-29T12:34:12.705Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "45",
+            "object_repr": "Weather And Air Report",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 152,
+        "fields": {
+            "action_time": "2024-01-29T12:49:55.106Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "46",
+            "object_repr": "Conferolive",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 153,
+        "fields": {
+            "action_time": "2024-01-29T12:51:44.229Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "47",
+            "object_repr": "Stadium Seat Booking Platform",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 154,
+        "fields": {
+            "action_time": "2024-01-29T12:51:46.829Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "48",
+            "object_repr": "Stadium Seat Booking Platform",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 155,
+        "fields": {
+            "action_time": "2024-01-29T12:52:51.539Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "47",
+            "object_repr": "Stadium Seat Booking Platform",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Domain\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 156,
+        "fields": {
+            "action_time": "2024-01-29T12:53:13.076Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "48",
+            "object_repr": "Stadium Seat Booking Platform",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Domain\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 157,
+        "fields": {
+            "action_time": "2024-01-29T12:53:32.987Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "48",
+            "object_repr": "Stadium Seat Booking Platform",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 158,
+        "fields": {
+            "action_time": "2024-01-29T12:54:44.582Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "47",
+            "object_repr": "Stadium Seat Booking Platform",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Repository\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 159,
+        "fields": {
+            "action_time": "2024-01-29T12:55:31.212Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "47",
+            "object_repr": "Stadium Seat Booking",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Project Title\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 160,
+        "fields": {
+            "action_time": "2024-01-29T12:56:26.841Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "48",
+            "object_repr": "Vashistha Chaturvedi",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 161,
+        "fields": {
+            "action_time": "2024-01-29T12:57:43.257Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "46",
+            "object_repr": "P. V. Sekhar",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 162,
+        "fields": {
+            "action_time": "2024-01-29T12:58:35.984Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "45",
+            "object_repr": "Aditya Yadav",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 163,
+        "fields": {
+            "action_time": "2024-01-29T12:59:51.524Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "49",
+            "object_repr": "Hostel Room Allocation",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 164,
+        "fields": {
+            "action_time": "2024-01-29T12:59:57.163Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "44",
+            "object_repr": "Anjani kumar",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 165,
+        "fields": {
+            "action_time": "2024-01-29T13:00:17.014Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "49",
+            "object_repr": "Hostel Room Allocation",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 166,
+        "fields": {
+            "action_time": "2024-01-29T13:01:11.932Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "42",
+            "object_repr": "Samyak Dhyani",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 167,
+        "fields": {
+            "action_time": "2024-01-29T13:02:27.033Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "43",
+            "object_repr": "Naren Kumar Sai",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 168,
+        "fields": {
+            "action_time": "2024-01-29T13:02:42.899Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "50",
+            "object_repr": "Classroom Attendance",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 169,
+        "fields": {
+            "action_time": "2024-01-29T13:03:37.420Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "41",
+            "object_repr": "Sushil Yadav",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 170,
+        "fields": {
+            "action_time": "2024-01-29T13:03:43.658Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "50",
+            "object_repr": "Classroom Attendance",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 171,
+        "fields": {
+            "action_time": "2024-01-29T13:04:21.864Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "40",
+            "object_repr": "Vedant Agrawal",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 172,
+        "fields": {
+            "action_time": "2024-01-29T13:05:25.550Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "39",
+            "object_repr": "Nilesh Kumar",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 173,
+        "fields": {
+            "action_time": "2024-01-29T13:06:33.555Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "37",
+            "object_repr": "Mahendraker Gaurav",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 174,
+        "fields": {
+            "action_time": "2024-01-29T13:07:07.995Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "51",
+            "object_repr": "MunchMates Vendor",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 175,
+        "fields": {
+            "action_time": "2024-01-29T13:08:12.760Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "10",
+            "object_repr": "P C Uma Mahesh",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Year\", \"Email\", \"Position\", \"Division\", \"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 176,
+        "fields": {
+            "action_time": "2024-01-29T13:09:00.430Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "51",
+            "object_repr": "MunchMates Vendor",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 177,
+        "fields": {
+            "action_time": "2024-01-29T13:09:07.349Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "16",
+            "object_repr": "Mihir Patel",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 178,
+        "fields": {
+            "action_time": "2024-01-29T13:10:03.566Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "51",
+            "object_repr": "MunchMates Vendor",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 179,
+        "fields": {
+            "action_time": "2024-01-29T13:10:06.813Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "30",
+            "object_repr": "Rajat Vishwakarma",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Year\", \"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 180,
+        "fields": {
+            "action_time": "2024-01-29T13:10:29.477Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "51",
+            "object_repr": "MunchMates Vendor",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 181,
+        "fields": {
+            "action_time": "2024-01-29T13:11:03.049Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "21",
+            "object_repr": "Trishant Talluri",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Year\", \"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 182,
+        "fields": {
+            "action_time": "2024-01-29T13:12:07.687Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "20",
+            "object_repr": "Yatharth Gupta",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Year\", \"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 183,
+        "fields": {
+            "action_time": "2024-01-29T13:13:10.141Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "19",
+            "object_repr": "Krish Agrawal",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 184,
+        "fields": {
+            "action_time": "2024-01-29T13:13:15.374Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "20",
+            "object_repr": "Live Programming Contest",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Project Title\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 185,
+        "fields": {
+            "action_time": "2024-01-29T13:13:54.603Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "36",
+            "object_repr": "Computer Plays Mario.",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Project Title\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 186,
+        "fields": {
+            "action_time": "2024-01-29T13:14:19.916Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "36",
+            "object_repr": "Computer Plays Mario",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Project Title\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 187,
+        "fields": {
+            "action_time": "2024-01-29T13:14:27.690Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "21",
+            "object_repr": "Attendance for Students in Hostels",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Project Title\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 188,
+        "fields": {
+            "action_time": "2024-01-29T13:14:53.551Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "18",
+            "object_repr": "Aditya Kshitiz",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Year\", \"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 189,
+        "fields": {
+            "action_time": "2024-01-29T13:16:59.757Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "17",
+            "object_repr": "Ayush Awasthi",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Year\", \"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 190,
+        "fields": {
+            "action_time": "2024-01-29T13:17:34.397Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "12",
+            "object_repr": "Harsh Sinha",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Year\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 191,
+        "fields": {
+            "action_time": "2024-01-29T13:18:32.270Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "13",
+            "object_repr": "Sarthak Nandre",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Year\", \"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 192,
+        "fields": {
+            "action_time": "2024-01-29T13:19:19.310Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "14",
+            "object_repr": "Harsh Ripalkumar Talati",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Year\", \"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 193,
+        "fields": {
+            "action_time": "2024-01-29T13:20:12.401Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "15",
+            "object_repr": "Pradeep Kumar Rebbavarapu",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 194,
+        "fields": {
+            "action_time": "2024-01-29T13:22:01.334Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "15",
+            "object_repr": "Pradeep Kumar Rebbavarapu",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 195,
+        "fields": {
+            "action_time": "2024-01-29T13:22:35.029Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "11",
+            "object_repr": "Darryl David",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Year\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 196,
+        "fields": {
+            "action_time": "2024-01-29T13:23:22.569Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "36",
+            "object_repr": "Darshil Patel",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 197,
+        "fields": {
+            "action_time": "2024-01-29T13:24:13.474Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "35",
+            "object_repr": "Purav Biyani",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 198,
+        "fields": {
+            "action_time": "2024-01-29T13:25:06.853Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "34",
+            "object_repr": "Siddhesh waje",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Year\", \"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 199,
+        "fields": {
+            "action_time": "2024-01-29T13:26:04.247Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "29",
+            "object_repr": "Gourav Ahlawat",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Year\", \"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 200,
+        "fields": {
+            "action_time": "2024-01-29T13:26:52.934Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "28",
+            "object_repr": "Satvik Desai",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Year\", \"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 201,
+        "fields": {
+            "action_time": "2024-01-29T13:27:40.276Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "27",
+            "object_repr": "Ampady B R",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Year\", \"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 202,
+        "fields": {
+            "action_time": "2024-01-29T13:28:25.450Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "15",
+            "object_repr": "Pradeep Kumar Rebbavarapu",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 203,
+        "fields": {
+            "action_time": "2024-01-29T13:28:41.461Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "26",
+            "object_repr": "Yash Vashistha",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Year\", \"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 204,
+        "fields": {
+            "action_time": "2024-01-29T13:29:06.063Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "15",
+            "object_repr": "Pradeep Kumar Rebbavarapu",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 205,
+        "fields": {
+            "action_time": "2024-01-29T13:29:26.678Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "25",
+            "object_repr": "surya karthikeya",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Year\", \"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 206,
+        "fields": {
+            "action_time": "2024-01-29T13:30:31.179Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "24",
+            "object_repr": "Anirudh Gautam",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Year\", \"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 207,
+        "fields": {
+            "action_time": "2024-01-29T13:31:24.540Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "23",
+            "object_repr": "Aaryaa Ram",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Year\", \"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 208,
+        "fields": {
+            "action_time": "2024-01-29T13:35:14.029Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "22",
+            "object_repr": "Ishaan Mittal",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Year\", \"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 209,
+        "fields": {
+            "action_time": "2024-01-29T13:39:21.757Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "33",
+            "object_repr": "Bharat Kaurav",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 210,
+        "fields": {
+            "action_time": "2024-01-29T13:39:22.008Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "32",
+            "object_repr": "Abhishek",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 211,
+        "fields": {
+            "action_time": "2024-01-29T13:39:22.258Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "31",
+            "object_repr": "Riddhi Chandekar",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 212,
+        "fields": {
+            "action_time": "2024-01-30T08:10:37.053Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "9",
+            "object_repr": "Capture The Flag",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 213,
+        "fields": {
+            "action_time": "2024-01-30T08:10:37.335Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "8",
+            "object_repr": "DIVIDE BY ZERO 8.0",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 214,
+        "fields": {
+            "action_time": "2024-01-30T08:10:37.596Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "7",
+            "object_repr": "Surprise Language 6.0",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 215,
+        "fields": {
+            "action_time": "2024-01-30T08:10:37.838Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "6",
+            "object_repr": "Capture The Flag",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 216,
+        "fields": {
+            "action_time": "2024-01-30T08:10:38.079Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "5",
+            "object_repr": "Capture The Flag",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 217,
+        "fields": {
+            "action_time": "2024-01-30T08:10:38.355Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "4",
+            "object_repr": "Code Golf 7.0",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 218,
+        "fields": {
+            "action_time": "2024-01-30T08:10:38.599Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "3",
+            "object_repr": "Capture The Flag",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 219,
+        "fields": {
+            "action_time": "2024-01-30T08:10:38.848Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "Hackistica 2.0",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 220,
+        "fields": {
+            "action_time": "2024-01-30T08:10:39.107Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "DIVIDE BY ZERO 8.0",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 221,
+        "fields": {
+            "action_time": "2024-01-30T08:13:05.924Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "10",
+            "object_repr": "Design Dash",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 222,
+        "fields": {
+            "action_time": "2024-01-30T08:13:36.353Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "10",
+            "object_repr": "Design Dash",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Type\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 223,
+        "fields": {
+            "action_time": "2024-01-30T08:18:15.623Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "11",
+            "object_repr": "Summer of CP",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 224,
+        "fields": {
+            "action_time": "2024-01-30T08:19:56.346Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "12",
+            "object_repr": "Intro To Web Development",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 225,
+        "fields": {
+            "action_time": "2024-01-30T08:21:00.932Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "13",
+            "object_repr": "IITI SOC",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 226,
+        "fields": {
+            "action_time": "2024-01-30T08:22:36.710Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "14",
+            "object_repr": "HFTS demystified",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 227,
+        "fields": {
+            "action_time": "2024-01-30T08:24:36.285Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "15",
+            "object_repr": "CP 101 Workshop",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 228,
+        "fields": {
+            "action_time": "2024-01-30T08:25:41.341Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "16",
+            "object_repr": "Intro to Cyber Security",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 229,
+        "fields": {
+            "action_time": "2024-01-30T08:26:40.956Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "17",
+            "object_repr": "Genesis project",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 230,
+        "fields": {
+            "action_time": "2024-01-30T08:27:35.705Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "18",
+            "object_repr": "Skill Up Mentoriship programme",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 231,
+        "fields": {
+            "action_time": "2024-01-30T08:28:26.257Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "19",
+            "object_repr": "UI / UX Workshop",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 232,
+        "fields": {
+            "action_time": "2024-01-30T08:38:11.381Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "20",
+            "object_repr": "Open Source Workshop",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 233,
+        "fields": {
+            "action_time": "2024-01-30T08:38:49.816Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "21",
+            "object_repr": "Linux Workshops",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 234,
+        "fields": {
+            "action_time": "2024-01-30T08:39:29.681Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "22",
+            "object_repr": "Binary brains",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 235,
+        "fields": {
+            "action_time": "2024-01-30T08:40:18.661Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "23",
+            "object_repr": "Winter of CP",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 236,
+        "fields": {
+            "action_time": "2024-01-30T08:41:00.235Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "24",
+            "object_repr": "Fool You '23",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 237,
+        "fields": {
+            "action_time": "2024-01-30T08:41:43.650Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "25",
+            "object_repr": "Hackistica '23",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 238,
+        "fields": {
+            "action_time": "2024-01-30T08:42:17.731Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "26",
+            "object_repr": "Divide BY zero '23",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 239,
+        "fields": {
+            "action_time": "2024-01-30T08:42:52.048Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "27",
+            "object_repr": "Surprise Lnaguage '23",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 240,
+        "fields": {
+            "action_time": "2024-01-30T08:43:41.090Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "28",
+            "object_repr": "Code Golf '23",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 241,
+        "fields": {
+            "action_time": "2024-01-30T08:44:43.592Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "29",
+            "object_repr": "BBCTF '23",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 242,
+        "fields": {
+            "action_time": "2024-01-30T08:45:16.345Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "30",
+            "object_repr": "Talk with Alumni",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 243,
+        "fields": {
+            "action_time": "2024-01-30T08:45:59.637Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "31",
+            "object_repr": "PCD's",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
         "model": "auth.permission",
         "pk": 1,
         "fields": {
@@ -2197,7 +3523,7 @@
         "pk": 1,
         "fields": {
             "password": "pbkdf2_sha256$390000$i0xYo6XKlnwhPfc4TYub7U$RSsbcwgMAmI/pyKUDZdV3LjN7S7SOb9tV4vy5jft27c=",
-            "last_login": "2024-01-29T12:07:52.119Z",
+            "last_login": "2024-01-29T12:41:50.003Z",
             "is_superuser": true,
             "username": "progclub",
             "first_name": "",
@@ -2445,102 +3771,253 @@
         }
     },
     {
-        "model": "api.event",
-        "pk": 1,
+        "model": "sessions.session",
+        "pk": "xmntmydssw4rsg1h3yze21jgcfgtugl1",
         "fields": {
-            "title": "DIVIDE BY ZERO 8.0",
-            "subtitle": "DIVIDE BY ZERO 8.0",
-            "description": "Our flagship event, a short duration programming contest held on Codeforces.\r\n\r\nPrevious",
-            "type": "aUpcoming",
-            "image": "media/EventImages/DBZ_g0farn"
+            "session_data": ".eJxVjDkOAjEQBP_iGFkej09Cct6wGl94AdnSHhHi72BpAwi7q1QvNtG-1Wlf8zLNiZ0ZsNPvFyg-chsg3andOo-9bcsc-FD4QVd-7Sk_L4f7F6i01pEF7TVEARQFBQOkiwzoMKGxBqV15AlVAHRaKV_EdxSFstiCFryx7P0Bt282eA:1rUQxS:NVf8lde-CAE2ktqLkObGWPYamuz4nFDEN0CdXg6qT-Q",
+            "expire_date": "2024-02-12T12:41:50.100Z"
         }
     },
     {
         "model": "api.event",
-        "pk": 2,
+        "pk": 10,
         "fields": {
-            "title": "Hackistica 2.0",
-            "subtitle": "Hackistica 2.0",
-            "description": "A social coding event to build a new software under the to-be-announced broad themes. Each team can consist of a maximum of 4 people.",
-            "type": "aUpcoming",
-            "image": "media/EventImages/Hackistica_gudslc"
-        }
-    },
-    {
-        "model": "api.event",
-        "pk": 3,
-        "fields": {
-            "title": "Capture The Flag",
-            "subtitle": "Capture The Flag",
-            "description": "A Capture the Flag Competition held by Byte Bandits, IIT Indore's academic CTF team. The team size for the CTF should be a maximum 4 people.",
+            "title": "Design Dash",
+            "subtitle": "A front end/ web Design Competition",
+            "description": "Design Dash: Premier web design competition celebrating excellence in UI/UX. Clear objectives, stringent eligibility, and strategic sponsorships. Expert judging panel ensures discerning evaluation. Prizes include cash, gift cards, and cutting-edge tools.",
             "type": "cPast",
-            "image": "media/EventImages/BBCTF_hkhyr8"
+            "image": "media/EventImages/1000067823_fbgmct"
         }
     },
     {
         "model": "api.event",
-        "pk": 4,
+        "pk": 11,
         "fields": {
-            "title": "Code Golf 7.0",
-            "subtitle": "Code Golf 7.0",
-            "description": "A unique programming contest, shorter the code, greater are the points.",
+            "title": "Summer of CP",
+            "subtitle": "Cp contest organized by CP divsion",
+            "description": "Summer of CP is a prestigious coding contest hosted by the Programming Club (pClub) at IIT Indore. This CP competition, organized by the CP division, showcases top-notch coding skills, offering participants a platform to demonstrate their excellence in competitive programming",
             "type": "cPast",
-            "image": "media/EventImages/CodeGolf_eelx2r"
+            "image": "media/EventImages/1000067827_nhipd9"
         }
     },
     {
         "model": "api.event",
-        "pk": 5,
+        "pk": 12,
         "fields": {
-            "title": "Capture The Flag",
-            "subtitle": "Capture The Flag",
-            "description": "A Capture the Flag Competition held by Byte Bandits, IIT Indore's academic CTF team. The team size for the CTF should be a maximum 4 people.",
-            "type": "aUpcoming",
-            "image": "media/EventImages/BBCTF_rpbkyy"
-        }
-    },
-    {
-        "model": "api.event",
-        "pk": 6,
-        "fields": {
-            "title": "Capture The Flag",
-            "subtitle": "Capture The Flag",
-            "description": "A Capture the Flag Competition held by Byte Bandits, IIT Indore's academic CTF team. The team size for the CTF should be a maximum 4 people",
+            "title": "Intro To Web Development",
+            "subtitle": "Worshop that covers basics of Web Development",
+            "description": "The 'Intro to Web Development Workshop' is a comprehensive session delving into the fundamentals of web development. Organized to provide a solid foundation, this workshop covers the basics of HTML, CSS, and JavaScript, offering participants essential skills for creating and enhancing web content",
             "type": "cPast",
-            "image": "media/EventImages/CodeGolf_nydhx7"
+            "image": "media/EventImages/1000067828_y25pfm"
         }
     },
     {
         "model": "api.event",
-        "pk": 7,
+        "pk": 13,
         "fields": {
-            "title": "Surprise Language 6.0",
-            "subtitle": "Surprise Language 6.0",
-            "description": "A Capture the Flag Competition held by Byte Bandits, IIT Indore's academic CTF team. The team size for the CTF should be a maximum 4 people.",
+            "title": "IITI SOC",
+            "subtitle": "Annual Event of Gymkhana",
+            "description": "IITISOC, an annual event hosted by Gymkhana at IIT Indore every summer, welcomes the active participation of all students, including fourth-year students. This event serves as a vibrant platform for the entire student community to engage, connect, and partake in a variety of activities.",
             "type": "cPast",
-            "image": "media/EventImages/Hackistica_ogursx"
+            "image": "media/EventImages/1000067829_wwhslw"
         }
     },
     {
         "model": "api.event",
-        "pk": 8,
+        "pk": 14,
         "fields": {
-            "title": "DIVIDE BY ZERO 8.0",
-            "subtitle": "DIVIDE BY ZERO 8.0",
-            "description": "Our flagship event, a short duration programming contest held on Codeforces.",
+            "title": "HFTS demystified",
+            "subtitle": "Talk from Alumni of IIT bombay on recent HFT comapnies",
+            "description": "HFTS Demystified is an illuminating workshop featuring an insightful talk by an esteemed alumnus of IIT Bombay. Focused on recent developments in High-Frequency Trading (HFT) companies, this workshop aims to unravel the intricacies of HFT and provides valuable insights on securing employment in this dynamic sector. Attendees will gain a comprehensive understanding of HFT companies and practical guidance on navigating the job landscape within this domain.",
             "type": "cPast",
-            "image": "media/EventImages/CodeGolf_ncudu1"
+            "image": "media/EventImages/1000067830_ugucpp"
         }
     },
     {
         "model": "api.event",
-        "pk": 9,
+        "pk": 15,
         "fields": {
-            "title": "Capture The Flag",
-            "subtitle": "Capture The Flag",
-            "description": "A Capture the Flag Competition held by Byte Bandits, IIT Indore's academic CTF team. The team size for the CTF should be a maximum 4 people.",
+            "title": "CP 101 Workshop",
+            "subtitle": "Worshop that covers basics of COmpetitive Programming and CP",
+            "description": "CP 101 is an engaging workshop designed to provide a foundational understanding of Competitive Programming (CP). This session serves as an introduction to the world of CP, offering participants insights into the basics of competitive programming and effective problem-solving strategies. Join us to explore the fundamentals and enhance your skills in tackling CP questions.",
             "type": "cPast",
-            "image": "media/EventImages/CodeGolf_y2gub9"
+            "image": "media/EventImages/1000067831_j48fzy"
+        }
+    },
+    {
+        "model": "api.event",
+        "pk": 16,
+        "fields": {
+            "title": "Intro to Cyber Security",
+            "subtitle": "Worshop that covers basics of Cyber Security",
+            "description": "The 'Intro to Cybersecurity Workshop' is an informative session designed to cover the essentials of cybersecurity. This workshop not only defines the core concepts of cybersecurity but also outlines the key areas to master in order to excel in this field. Join us to gain a comprehensive understanding of cybersecurity and learn the foundational elements crucial for mastering this dynamic and vital domain.",
+            "type": "cPast",
+            "image": "media/EventImages/1000067832_n0yjcp"
+        }
+    },
+    {
+        "model": "api.event",
+        "pk": 17,
+        "fields": {
+            "title": "Genesis project",
+            "subtitle": "A small project for freshers",
+            "description": "Genesis Project is a tailored initiative aimed at empowering freshers through hands-on learning experiences in diverse development fields. This small-scale project provides an immersive platform for participants to explore and develop skills in various areas, fostering a foundation for their growth and proficiency in the dynamic field of development.",
+            "type": "cPast",
+            "image": "media/EventImages/1000067833_dljfky"
+        }
+    },
+    {
+        "model": "api.event",
+        "pk": 18,
+        "fields": {
+            "title": "Skill Up Mentoriship programme",
+            "subtitle": "Menotrship prgramme to improve skills",
+            "description": "The 'Skill Up Mentorship Programme' is a transformative initiative focused on skill enhancement. This mentorship program is dedicated to elevating participants' competetive programming capabilities through guidance from experienced seniors. By offering personalized mentorship and valuable resources, the program aims to equip individuals with the knowledge and skills necessary to excel in the competitive programming domain.",
+            "type": "cPast",
+            "image": "media/EventImages/1000067834_soi1wz"
+        }
+    },
+    {
+        "model": "api.event",
+        "pk": 19,
+        "fields": {
+            "title": "UI / UX Workshop",
+            "subtitle": null,
+            "description": "",
+            "type": "cPast",
+            "image": "media/EventImages/1000067835_dbe0rp"
+        }
+    },
+    {
+        "model": "api.event",
+        "pk": 20,
+        "fields": {
+            "title": "Open Source Workshop",
+            "subtitle": null,
+            "description": "",
+            "type": "cPast",
+            "image": "media/EventImages/1000067840_azghyc"
+        }
+    },
+    {
+        "model": "api.event",
+        "pk": 21,
+        "fields": {
+            "title": "Linux Workshops",
+            "subtitle": null,
+            "description": "",
+            "type": "cPast",
+            "image": "media/EventImages/1000067841_z1giom"
+        }
+    },
+    {
+        "model": "api.event",
+        "pk": 22,
+        "fields": {
+            "title": "Binary brains",
+            "subtitle": null,
+            "description": "",
+            "type": "cPast",
+            "image": "media/EventImages/1000067842_ommgbq"
+        }
+    },
+    {
+        "model": "api.event",
+        "pk": 23,
+        "fields": {
+            "title": "Winter of CP",
+            "subtitle": null,
+            "description": "",
+            "type": "cPast",
+            "image": "media/EventImages/1000067843_z8qu0h"
+        }
+    },
+    {
+        "model": "api.event",
+        "pk": 24,
+        "fields": {
+            "title": "Fool You '23",
+            "subtitle": null,
+            "description": "",
+            "type": "cPast",
+            "image": "media/EventImages/1000067844_ehly56"
+        }
+    },
+    {
+        "model": "api.event",
+        "pk": 25,
+        "fields": {
+            "title": "Hackistica '23",
+            "subtitle": null,
+            "description": "",
+            "type": "cPast",
+            "image": "media/EventImages/1000067845_xndcxx"
+        }
+    },
+    {
+        "model": "api.event",
+        "pk": 26,
+        "fields": {
+            "title": "Divide BY zero '23",
+            "subtitle": null,
+            "description": "",
+            "type": "cPast",
+            "image": "media/EventImages/1000067846_ijablg"
+        }
+    },
+    {
+        "model": "api.event",
+        "pk": 27,
+        "fields": {
+            "title": "Surprise Lnaguage '23",
+            "subtitle": null,
+            "description": "",
+            "type": "cPast",
+            "image": "media/EventImages/1000067847_ehlwqn"
+        }
+    },
+    {
+        "model": "api.event",
+        "pk": 28,
+        "fields": {
+            "title": "Code Golf '23",
+            "subtitle": null,
+            "description": "",
+            "type": "cPast",
+            "image": "media/EventImages/1000067848_gzcyak"
+        }
+    },
+    {
+        "model": "api.event",
+        "pk": 29,
+        "fields": {
+            "title": "BBCTF '23",
+            "subtitle": null,
+            "description": "",
+            "type": "cPast",
+            "image": "media/EventImages/1000067849_r55reh"
+        }
+    },
+    {
+        "model": "api.event",
+        "pk": 30,
+        "fields": {
+            "title": "Talk with Alumni",
+            "subtitle": null,
+            "description": "",
+            "type": "cPast",
+            "image": "media/EventImages/1000067850_i7xk2l"
+        }
+    },
+    {
+        "model": "api.event",
+        "pk": 31,
+        "fields": {
+            "title": "PCD's",
+            "subtitle": null,
+            "description": "",
+            "type": "cPast",
+            "image": "media/EventImages/1000067851_f2jvno"
         }
     },
     {
@@ -2553,7 +4030,8 @@
             "category": "Ongoing / Completed",
             "description": "This application was used to hold the HoRC Elections for all the hostels of IIT Indore, for different posts of the Hall of Residence.",
             "image": "media/ProjectImages/django-icon_eg1htz",
-            "github": "https://github.com/DaemonLab/HORC-Elections"
+            "github": "https://github.com/DaemonLab/HORC-Elections",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
@@ -2566,7 +4044,8 @@
             "category": "Ongoing / Completed",
             "description": "This website was created for Ingenium, the Techfest of IIT Indore which was held in association with Fluxus this year.",
             "image": "media/ProjectImages/nextjs_kf9zud",
-            "github": "https://github.com/DaemonLab/Techfest"
+            "github": "https://github.com/DaemonLab/Techfest",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
@@ -2579,7 +4058,8 @@
             "category": "Ongoing / Completed",
             "description": "This application aims to create a platform for the Mess, Cafeteria and Allied Services. This will enable students to get regular updates, access Contact Info, Rules and Regulations",
             "image": "media/ProjectImages/django-icon_mjbwrm",
-            "github": "https://github.com/DaemonLab/Mess-Website"
+            "github": "https://github.com/DaemonLab/Mess-Website",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
@@ -2592,7 +4072,8 @@
             "category": "Ongoing / Completed",
             "description": "This application allows the user to host a game called Greed Control for all the players in the room who can join the game after authentication.",
             "image": "media/ProjectImages/flask-horizontal_gocxxa",
-            "github": "https://github.com/MihirK1212/greed-challenge-client"
+            "github": "https://github.com/MihirK1212/greed-challenge-client",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
@@ -2605,7 +4086,8 @@
             "category": "IITISoC 2022",
             "description": "Control-X is a responsive web application that hosts 3-4 games. Players can start a new game and invite others to join. This application also offers a leaderboard section, history, followers and many more.",
             "image": "media/ProjectImages/images_n7ew3q",
-            "github": "https://github.com/kr-2003/IITISOC_OnlineGamesWebsite"
+            "github": "https://github.com/kr-2003/IITISOC_OnlineGamesWebsite",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
@@ -2618,7 +4100,8 @@
             "category": "IITISoC 2022",
             "description": "Control-X is a responsive web application that hosts 3-4 games. Players can start a new game and invite others to join. This application also offers a leaderboard section, history, followers and many more.",
             "image": "media/ProjectImages/images_hkmyjq",
-            "github": "https://github.com/kr-2003/IITISOC_OnlineGamesWebsite"
+            "github": "https://github.com/kr-2003/IITISOC_OnlineGamesWebsite",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
@@ -2631,7 +4114,8 @@
             "category": "IITISoC 2022",
             "description": "This application is made for the accessibility of meals by the students and the management of students' data by authorities. It provides facilities like QR Scanning, history, payments, reviews etc.",
             "image": "media/ProjectImages/image9_d3jatu",
-            "github": "https://github.com/E13ctron/IITISoC-22-App-5-Mess_QR"
+            "github": "https://github.com/E13ctron/IITISoC-22-App-5-Mess_QR",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
@@ -2644,7 +4128,8 @@
             "category": "IITISoC 2022",
             "description": "The Game of Life is played on an infinite two-dimensional rectangular grid of cells. Each cell can either be alive or dead. Users can create various patterns based on the simple rules of the game.",
             "image": "media/ProjectImages/JavaScript-logo_nvu9s0",
-            "github": "https://github.com/rashimotwani/IITISoC-22-Web-3-GameOfLife"
+            "github": "https://github.com/rashimotwani/IITISoC-22-Web-3-GameOfLife",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
@@ -2657,7 +4142,8 @@
             "category": "IITISoC 2022",
             "description": "This app, for JEE entrance exam aspirants creates a medium of communication between IIT/NITians and upcoming JEE aspirants. It contains a channel of guides who can solve their doubts and motivate them towards their final goal.",
             "image": "media/ProjectImages/flutter5786_uloxox",
-            "github": "https://github.com/PrabhakarAgrawal/Guidance_app"
+            "github": "https://github.com/PrabhakarAgrawal/Guidance_app",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
@@ -2670,7 +4156,8 @@
             "category": "IITISoC 2022",
             "description": "This application aims to provide an Alumni Portal for IIT Indore and where current students can connect with the Alumni. It provides a platform to maintain alumni data and update the same.",
             "image": "media/ProjectImages/React-icon.svg_c6dbhz",
-            "github": "https://github.com/Rebel9829/IITISoC-22-Web-30-Alumni_Portal"
+            "github": "https://github.com/Rebel9829/IITISoC-22-Web-30-Alumni_Portal",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
@@ -2683,7 +4170,8 @@
             "category": "IITISoC 2022",
             "description": "A website where students and other members of the IITI community could read and post their life experiences as blogs. Users can visit other's profiles, format text, add tags and comment on the blogs as well.",
             "image": "media/ProjectImages/2560px-Flask_logo.svg_ehvsgh",
-            "github": "https://github.com/mansi-ch17/perspective"
+            "github": "https://github.com/mansi-ch17/perspective",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
@@ -2696,7 +4184,8 @@
             "category": "IITISoC 2021",
             "description": "This application gives you a Chrome Extension and a Progressive Web App (PWA) allowing you to control Youtube on your Desktop Browser from the PWA in your Mobile.",
             "image": "media/ProjectImages/images_k6haeq",
-            "github": "https://github.com/AshishRajIITI/Misc-6-Infinity-Remote"
+            "github": "https://github.com/AshishRajIITI/Misc-6-Infinity-Remote",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
@@ -2709,7 +4198,8 @@
             "category": "IITISoC 2021",
             "description": "ClockIn is an event schedular website made exclusively for the members of the IIT Indore Community. Using ClockIn the users can add events to their calendar, edit them, get reminders through emails all combined with different view modes.",
             "image": "media/ProjectImages/2560px-Node.js_logo.svg_lpwbzv",
-            "github": "https://github.com/rashimotwani/clockin"
+            "github": "https://github.com/rashimotwani/clockin",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
@@ -2722,7 +4212,8 @@
             "category": "IITISoC 2021",
             "description": "This application was made to replace the old drive system with which seniors used to share academic material with us, as their college IDs used to get deactivated after graduation. It takes inspiration from google drive structure.",
             "image": "media/ProjectImages/React-icon.svg_qnephy",
-            "github": "https://github.com/Suman-Jaiswal/classroom"
+            "github": "https://github.com/Suman-Jaiswal/classroom",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
@@ -2735,7 +4226,8 @@
             "category": "IITISoC 2021",
             "description": "This web app is made for the entire IITI Community where webinars, workshops and event recordings and different videos can be stored. Users can create their channels, upload videos and watch them.",
             "image": "media/ProjectImages/png-transparent-firebase-hd-logo-thumbnail_uzp2mr",
-            "github": "https://github.com/E13ctron/Web16_YoutubeClone"
+            "github": "https://github.com/E13ctron/Web16_YoutubeClone",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
@@ -2748,7 +4240,8 @@
             "category": "IITISoC 2021",
             "description": "This project aims to develop a full-stack social website for a restaurant with modern UI, realtime order updates and payment integration.",
             "image": "media/ProjectImages/React-icon.svg_zop5id",
-            "github": "https://github.com/Kuldeep-Singh-28/web19_Restaurant-social-website"
+            "github": "https://github.com/Kuldeep-Singh-28/web19_Restaurant-social-website",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
@@ -2761,7 +4254,8 @@
             "category": "IITISoC 2021",
             "description": "A portal where the retrieved data of the covid+ patients is registered and made available to the needy in the future. It provides an open chat option for people seeking advice and assistance in the mental health of patients.",
             "image": "media/ProjectImages/django-icon-1606x2048-lwmw1z73_jsorbn",
-            "github": "https://github.com/Bhavishya-tiwari/Web1_Covid-Survivors"
+            "github": "https://github.com/Bhavishya-tiwari/Web1_Covid-Survivors",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
@@ -2774,7 +4268,8 @@
             "category": "IITISoC 2021",
             "description": "A portal for getting various internship and job opportunities posted the Training and Placement Cell of IIT Indore. You can create an account and apply various filters find the perfect job for you.",
             "image": "media/ProjectImages/2560px-Node.js_logo.svg_giv79c",
-            "github": "https://github.com/pallavi-1812/Off-campus-Job-Opportunities-Portal"
+            "github": "https://github.com/pallavi-1812/Off-campus-Job-Opportunities-Portal",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
@@ -2787,33 +4282,36 @@
             "category": "IITISoC 2020",
             "description": "As most of the eateries in our campus ( except mess ) are overcrowded during peak time of the day which results in a lot of time waste of students and staff. This web application features pre booking your meal and taking away your meal when it is ready. There will be an option for getting it delivered to your place. This will save a lot of time and helps in maintaining social distancing.",
             "image": "media/ProjectImages/2560px-Node.js_logo.svg_ubvsga",
-            "github": "https://github.com/akashg3627/greasyspoon/"
+            "github": "https://github.com/akashg3627/greasyspoon/",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
         "model": "api.project",
         "pk": 20,
         "fields": {
-            "title": "Live Programming Contest Website",
+            "title": "Live Programming Contest",
             "subtitle": "Web Development",
             "domain": "None",
             "category": "IITISoC 2020",
             "description": "The website will tabulate all the ongoing and future programming on certain popular sites like codechef, codeforces, etc providing with the details on the timings and other critical details regarding them.",
             "image": "media/ProjectImages/React-icon.svg_txsxdd",
-            "github": "https://github.com/neelanshu2001/Contest"
+            "github": "https://github.com/neelanshu2001/Contest",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
         "model": "api.project",
         "pk": 21,
         "fields": {
-            "title": "Attendance Tool for Students residing in Hostels",
+            "title": "Attendance for Students in Hostels",
             "subtitle": "Software Development",
             "domain": "None",
             "category": "IITISoC 2020",
             "description": "The Project aims to create an online tool which could be used to keep track of all students residing inside the hostels on a day to day basis.",
             "image": "media/ProjectImages/2560px-Node.js_logo.svg_q7rw5r",
-            "github": "https://github.com/kushaangowda/IITISoC---Attendance-Tool"
+            "github": "https://github.com/kushaangowda/IITISoC---Attendance-Tool",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
@@ -2826,7 +4324,8 @@
             "category": "IITISoC 2020",
             "description": "Coronavirus live tracking website which will display the number of active cases and all the relevant information regarding it in different regions. The project can also use crowdsourcing so as to receive data from people on the internet.",
             "image": "media/ProjectImages/React-icon.svg_gi5gy1",
-            "github": "https://github.com/pranjall29/covid-19-project"
+            "github": "https://github.com/pranjall29/covid-19-project",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
@@ -2839,7 +4338,8 @@
             "category": "IITISoC 2020",
             "description": "Calculate the area and volume of different shapes depending upon the different dimensions provided. Introducing complex shapes and diagrams where a 2D/3D structure may comprise multiple smaller structures.",
             "image": "media/ProjectImages/flutter5786_bsbsju",
-            "github": "https://github.com/gg-dev-05/3dVolume-Area"
+            "github": "https://github.com/gg-dev-05/3dVolume-Area",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
@@ -2852,7 +4352,8 @@
             "category": "IITISoC 2020",
             "description": "A website that by which we can place an order La Fresco staff will receive the order and generate a unique code. A mail will be sent when the order is ready to collect in a definite time slot. In this way the number of contacts will be reduced and social distancing will be maintained.",
             "image": "media/ProjectImages/React-icon.svg_stpceg",
-            "github": "https://github.com/BugsBunny1812/LA-Fresco-In-Pocket"
+            "github": "https://github.com/BugsBunny1812/LA-Fresco-In-Pocket",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
@@ -2865,7 +4366,8 @@
             "category": "IITISoC 2020",
             "description": "A software by which we can recognize the face through security cameras, if any unpleasant thing happens then it sends you an alert and it will recognize the face and then try to match the person details from the database and gives you message about the person.",
             "image": "media/ProjectImages/Python-logo-notext.svg_oqno3c",
-            "github": "https://github.com/Team-Ragnarok/Face_Detection"
+            "github": "https://github.com/Team-Ragnarok/Face_Detection",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
@@ -2878,7 +4380,8 @@
             "category": "IITISoC 2018",
             "description": "The Mobile Application helps students at IITI to buy and use mess E-coupons based on per meal scheme. The E-coupons can also be transferred from one student to another.",
             "image": "media/ProjectImages/Java-Logo_vupl6s",
-            "github": "https://github.com/abhishek-kr-01/Mess"
+            "github": "https://github.com/abhishek-kr-01/Mess",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
@@ -2891,7 +4394,8 @@
             "category": "IITISoC 2018",
             "description": "Nightmare is survival shooter video game developed using Unity3D engine and is written in C#. Its a simple arcade style shooter where you kill enemies and earn points and create High Score.",
             "image": "media/ProjectImages/Unity_Technologies_logo.svg_dnphqq",
-            "github": "https://github.com/Ronak-B/IITISoC_Project/tree/master/Survival%20Shooter"
+            "github": "https://github.com/Ronak-B/IITISoC_Project/tree/master/Survival%20Shooter",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
@@ -2904,7 +4408,8 @@
             "category": "IITISoC 2018",
             "description": "Websites for the Programming, Electronics and CAE club of IIT Indore",
             "image": "media/ProjectImages/Vue.js_Logo_2.svg_cyh6om",
-            "github": "https://github.com/DaemonLab/technical-individual"
+            "github": "https://github.com/DaemonLab/technical-individual",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
@@ -2917,7 +4422,8 @@
             "category": "IITISoC 2018",
             "description": "It is a client-side web-development project which facilitates buying and selling of food-coupons online.",
             "image": "media/ProjectImages/Vue.js_Logo_2.svg_hgfmpf",
-            "github": "https://github.com/vandan-agarwal/IITI-MESS-MANAGEMENT"
+            "github": "https://github.com/vandan-agarwal/IITI-MESS-MANAGEMENT",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
@@ -2930,7 +4436,8 @@
             "category": "IITISoC 2018",
             "description": "The Literary Club website is made as a part of the IITISoC project under the web development section.",
             "image": "media/ProjectImages/Vue.js_Logo_2.svg_sqxtlm",
-            "github": "https://github.com/Ayyk-123/Ayyk-%20123.github.io"
+            "github": "https://github.com/Ayyk-123/Ayyk-%20123.github.io",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
@@ -2943,7 +4450,8 @@
             "category": "IITISoC 2017",
             "description": "The game is an infinite runner with the main objective of collecting as many bananas as possible. The game uses Unity Engine.",
             "image": "media/ProjectImages/Unity_Technologies_logo.svg_tnpsqa",
-            "github": "https://github.com/sreevatsank1999/Project_M"
+            "github": "https://github.com/sreevatsank1999/Project_M",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
@@ -2956,7 +4464,8 @@
             "category": "IITISoC 2017",
             "description": "This is a question answer web app like Quora where one can share his/her knowledge/experience in the form of text or pictures.",
             "image": "media/ProjectImages/2560px-Node.js_logo.svg_pgrjz5",
-            "github": "https://github.com/Mohit-Nathrani/question-answer-site"
+            "github": "https://github.com/Mohit-Nathrani/question-answer-site",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
@@ -2969,7 +4478,8 @@
             "category": "IITISoC 2017",
             "description": "A media player with an intuitive media library management capabilities built on Python and Qt.",
             "image": "media/ProjectImages/Python-logo-notext.svg_zwajsy",
-            "github": "https://github.com/kanishkarj/rave"
+            "github": "https://github.com/kanishkarj/rave",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
@@ -2982,7 +4492,8 @@
             "category": "IITISoC 2017",
             "description": "This is a question answer web app like Quora where one can share his/her knowledge/experience in the form of text or pictures.",
             "image": "media/ProjectImages/React-icon.svg_l8e0pb",
-            "github": "https://github.com/Harsh860/IITI-SOC"
+            "github": "https://github.com/Harsh860/IITI-SOC",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
@@ -2995,20 +4506,22 @@
             "category": "IITISoC 2017",
             "description": "This is a question answer web app like Quora where one can share his/her knowledge/experience in the form of text or pictures.",
             "image": "media/ProjectImages/php_e7mkcv",
-            "github": "https://github.com/kpranav1998/query"
+            "github": "https://github.com/kpranav1998/query",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
         "model": "api.project",
         "pk": 36,
         "fields": {
-            "title": "Computer learns to play mario.",
+            "title": "Computer Plays Mario",
             "subtitle": "Machine Learning",
             "domain": "None",
             "category": "IITISoC 2017",
             "description": "A machine learning algorithm that successfully learns to play Super Mario 64, after learning from test runs played by us.",
             "image": "media/ProjectImages/Tensorflow_logo.svg_zcezwp",
-            "github": "https://github.com/Mohit-Nathrani/question-answer-site"
+            "github": "https://github.com/Mohit-Nathrani/question-answer-site",
+            "created_on": "2024-01-29T12:36:21.880Z"
         }
     },
     {
@@ -3021,7 +4534,176 @@
             "category": "Inter IIT 12.0",
             "description": "� A community engagement platform built to engage people and attract towards the main product, available on \r\nTrumio website, which aims to increase university-Industry Collaborations.\r\n� Made a concept idea of community engagement platform, further developed its frontend and integrated with backend made by other team members.",
             "image": "media/ProjectImages/trumio_inc_logo_vmw7xp",
-            "github": "https://github.com/trumio-interiit/team_22"
+            "github": "https://github.com/trumio-interiit/team_22",
+            "created_on": "2024-01-29T12:36:21.880Z"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 39,
+        "fields": {
+            "title": "The Pclub Website",
+            "subtitle": "Full Stack Development",
+            "domain": "None",
+            "category": "Programming Club IITI",
+            "description": "Developed the front-end of website for the club to showcase different projects done by The Programming Club\r\nAlong with the previous, current and upcoming events of the club and the alumni of the club.",
+            "image": "media/ProjectImages/django-icon_eg1htz_qx7alx",
+            "github": "https://github.com/DaemonLab/Progclub-Website",
+            "created_on": "2024-01-29T12:36:21.880Z"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 40,
+        "fields": {
+            "title": "RepoHeaven",
+            "subtitle": "Web Development",
+            "domain": "None",
+            "category": "Completed",
+            "description": "Repo Heaven is a GitHub explorer website enables users to explore and find out about GitHub-hosted open-source projects.This website allows users to authenticate using their GitHub account, view their own repositories, and explore the commit history of those repositories",
+            "image": "media/ProjectImages/nextjs-icon-1024x617-rl2bcqfj_x5c3bh",
+            "github": "https://github.com/harsh1sinha/RepoHeaven",
+            "created_on": "2024-01-29T12:36:21.880Z"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 41,
+        "fields": {
+            "title": "Image Classifier",
+            "subtitle": "Software + ML",
+            "domain": "None",
+            "category": "Ongoing / Completed",
+            "description": "An Image classification website which uses SGD to classify animal images into respective animal names.",
+            "image": "media/ProjectImages/flask_he6kue",
+            "github": "https://github.com/harsh1sinha/Image-Classifier",
+            "created_on": "2024-01-29T12:36:21.880Z"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 42,
+        "fields": {
+            "title": "NFT Marketplace",
+            "subtitle": "Web Development",
+            "domain": "None",
+            "category": "Completed",
+            "description": "A frontend page for NFT marketplace which can be easily integrated with Smart contract to create a full fledged website",
+            "image": "media/ProjectImages/nextjs-icon-1024x617-rl2bcqfj_ybzc08",
+            "github": "https://github.com/harsh1sinha/NFT-marketplace-frontend",
+            "created_on": "2024-01-29T12:36:21.880Z"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 43,
+        "fields": {
+            "title": "Expense Management System",
+            "subtitle": "MERN",
+            "domain": "Web Development",
+            "category": "Completed",
+            "description": "An Expense Management System to take care of expenses done by an user. Users can add and delete the transactions details regarding expense and check their transaction history, total turnover over any custom time period range.",
+            "image": "media/ProjectImages/react_oh2qml",
+            "github": "https://github.com/ANJani9web/Expense_Mangement_System",
+            "created_on": "2024-01-29T12:36:21.880Z"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 44,
+        "fields": {
+            "title": "Pokemania",
+            "subtitle": "Web Development",
+            "domain": "None",
+            "category": "Completed",
+            "description": "This project aims to create a comprehensive Pok�dex website where users can explore detailed information about their favorite Pok�mon, from Bulbasaur to Zamazenta. Whether you're a seasoned Pok�mon Trainer or a casual fan, Pokemania is designed to be your ultimate resource for discovering and learning about these amazing creatures.",
+            "image": "media/ProjectImages/react_uhluys",
+            "github": "https://github.com/ANJani9web/dotflo_pokemon",
+            "created_on": "2024-01-29T12:36:21.880Z"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 45,
+        "fields": {
+            "title": "Weather And Air Report",
+            "subtitle": "Web Development",
+            "domain": "None",
+            "category": "Completed",
+            "description": "The Weather Report and Pollution extension provides real-time weather reports and air pollution levels for your location. Stay informed about the current weather conditions and the air quality index (AQI) to plan your activities accordingly.",
+            "image": "media/ProjectImages/html_w78jm4",
+            "github": "https://github.com/ANJani9web/Google-Extension",
+            "created_on": "2024-01-29T12:36:21.880Z"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 46,
+        "fields": {
+            "title": "Conferolive",
+            "subtitle": "Full Stack Development",
+            "domain": "None",
+            "category": "IITISOC 2023",
+            "description": "A Video Conferencing Website Where People Can Public Chat, Private Chat , Private and Public File Sharing.socket.io . Concepts used are Websockets , Webrtc etc . Deployed on amazon EC2 along with custom domain.Tech-stakcs used are NextJs for the frontend and Django, Django rest framework for the backend along with nodeJS.",
+            "image": "media/ProjectImages/django-icon_eg1htz_omkjyi",
+            "github": "https://github.com/Pradeep-Kumar-Rebbavarapu/IITISoC-23-Web-40-Video_conferencing",
+            "created_on": "2024-01-29T12:45:12.115Z"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 47,
+        "fields": {
+            "title": "Stadium Seat Booking",
+            "subtitle": "Backend Web Development",
+            "domain": "None",
+            "category": "Completed",
+            "description": "A platform to book and print tickets for stadium events, along with food items.",
+            "image": "media/ProjectImages/WhatsApp_Image_2024-01-29_at_18.17.37_153836d0_qy9kkp",
+            "github": "https://github.com/Naren-Sai-17/stadium_booking/tree/main",
+            "created_on": "2024-01-29T12:46:49.198Z"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 49,
+        "fields": {
+            "title": "Hostel Room Allocation",
+            "subtitle": "Web Development",
+            "domain": "None",
+            "category": "Gymkhana Web-Team",
+            "description": "A website to allow hostel management to release/manage forms which receives hostel resident's preferences of their roommates for room allocation purposes.",
+            "image": "media/ProjectImages/WhatsApp_Image_2024-01-29_at_18.17.39_3404a555_wglh2c",
+            "github": "https://github.com/helium9/HostX-dbms",
+            "created_on": "2024-01-29T12:53:52.777Z"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 50,
+        "fields": {
+            "title": "Classroom Attendance",
+            "subtitle": "Web Development, ML",
+            "domain": "None",
+            "category": "Completed",
+            "description": "Mark and store classroom attendance data in database from class photos.",
+            "image": "media/ProjectImages/WhatsApp_Image_2024-01-29_at_18.17.39_3404a555_nu3yma",
+            "github": "https://github.com/helium9/Face-Recognition-Attendance",
+            "created_on": "2024-01-29T12:53:43.580Z"
+        }
+    },
+    {
+        "model": "api.project",
+        "pk": 51,
+        "fields": {
+            "title": "MunchMates Vendor",
+            "subtitle": "App Dev",
+            "domain": "None",
+            "category": "IITISOC 2023",
+            "description": "Vendor Side app for the MunchMates Food delivery app (IITISoC'23 Gold, which is now being completed in GDSC). Lets vendors track their orders, edit their menu and manage deliveries.",
+            "image": "media/ProjectImages/flutter5786_yofb7l",
+            "github": "https://github.com/darrylad/MunchMates-Vendor",
+            "created_on": "2024-01-29T12:53:43.580Z"
         }
     },
     {
@@ -3029,14 +4711,14 @@
         "pk": 10,
         "fields": {
             "name": "P C Uma Mahesh",
-            "email": "pcumamahesh@gmail.com",
-            "position": "cVolunteer",
-            "division": "bSoftware Development",
-            "year": "Second",
+            "email": "cse220001052@iiti.ac.in",
+            "position": "bMember",
+            "division": "aCompetitive Programming",
+            "year": "cSecond",
             "github": "https://github.com/Hi-TechMissile",
             "codeforces": "https://codeforces.com/profile/Hi-TechMissile",
             "linkedin": "https://www.linkedin.com/in/p-c-uma-mahesh-221513258/",
-            "image": "media/TeamImages/ancientcodeforces_rsvewu",
+            "image": "media/TeamImages/Screenshot_2023-06-15-14-54-21-75_1c337646f29875672b5a61192b9010f9_-_P_C_ik98ek",
             "instagram": null,
             "phone_number": null
         }
@@ -3049,7 +4731,7 @@
             "email": "me220003022@iiti.ac.in",
             "position": "bMember",
             "division": "bSoftware Development",
-            "year": "Second",
+            "year": "cSecond",
             "github": "https://github.com/darrylad",
             "codeforces": "https://codeforces.com/profile/darrylad",
             "linkedin": "https://www.linkedin.com/in/darryl-david-0b7098190",
@@ -3066,7 +4748,7 @@
             "email": "me220003035@iiti.ac.in",
             "position": "bMember",
             "division": "bSoftware Development",
-            "year": "Second",
+            "year": "cSecond",
             "github": "https://github.com/harsh1sinha",
             "codeforces": "https://codeforces.com/profile/Harsh_Sinha",
             "linkedin": "https://www.linkedin.com/in/harsh-sinha-1ab270279/",
@@ -3083,11 +4765,11 @@
             "email": "ee210002067@iiti.ac.in",
             "position": "bMember",
             "division": "bSoftware Development",
-            "year": "Third",
+            "year": "bThird",
             "github": "https://github.com/exodus31",
             "codeforces": null,
             "linkedin": "https://www.linkedin.com/in/snandre",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_d5wsm6",
+            "image": "media/TeamImages/IMG_20230625_235049_-_Sarthak_Nandre_cmpjwp",
             "instagram": null,
             "phone_number": null
         }
@@ -3100,11 +4782,11 @@
             "email": "cse210001022@iiti.ac.in",
             "position": "bMember",
             "division": "bSoftware Development",
-            "year": "Third",
+            "year": "bThird",
             "github": "https://github.com/harshtalati2410",
             "codeforces": "https://codeforces.com/profile/codebro2410",
             "linkedin": "https://www.linkedin.com/in/harsh-talati-1486b6228",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_j1xrxs",
+            "image": "media/TeamImages/81c3aa83-5f6d-4e55-8c0e-5717f57cc8e2_-_Harsh_Talati_guv8uv",
             "instagram": null,
             "phone_number": null
         }
@@ -3121,7 +4803,7 @@
             "github": "https://github.com/Pradeep-Kumar-Rebbavarapu",
             "codeforces": "https://codeforces.com/profile/PradeepKumar11519",
             "linkedin": "https://www.linkedin.com/in/pradeep-kumar-rebbavarapu-820489259",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_eoio2z",
+            "image": "media/TeamImages/20221112_190208_-_Pradeep_Kumar_1_d5bqyc_gzawbb",
             "instagram": null,
             "phone_number": null
         }
@@ -3138,7 +4820,7 @@
             "github": "https://github.com/MihirKp25",
             "codeforces": "https://codeforces.com/profile/mihirkaushik03",
             "linkedin": "https://www.linkedin.com/in/mihir-patel-885193233/",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_nbvydh",
+            "image": "media/TeamImages/Mihir_Patel_-_Patel_Mihirkumar_jrgki1",
             "instagram": null,
             "phone_number": null
         }
@@ -3151,11 +4833,11 @@
             "email": "me220003016@iiti.ac.in",
             "position": "bMember",
             "division": "bSoftware Development",
-            "year": "Second",
+            "year": "cSecond",
             "github": "https://github.com/ayushawasthi24",
             "codeforces": "https://codeforces.com/profile/ayush2409",
             "linkedin": "https://www.linkedin.com/in/ayush-awasthi-a232b8254",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_tib0vh",
+            "image": "media/TeamImages/Ayush_Kumar_gqshqz",
             "instagram": null,
             "phone_number": null
         }
@@ -3168,11 +4850,11 @@
             "email": "cse220001004@iiti.ac.in",
             "position": "bMember",
             "division": "bSoftware Development",
-            "year": "Second",
+            "year": "cSecond",
             "github": "https://github.com/helium9",
             "codeforces": "https://codeforces.com/profile/static_flow",
             "linkedin": "https://www.linkedin.com/in/aditya-kshitiz-576135176/",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_zrqbsh",
+            "image": "media/TeamImages/1684592784668_-_Aditya_Kshitiz_tuxyzv",
             "instagram": null,
             "phone_number": null
         }
@@ -3189,7 +4871,7 @@
             "github": "https://github.com/Krish2208",
             "codeforces": "https://codeforces.com/profile/geektech22",
             "linkedin": "https://www.linkedin.com/in/krish-agrawal-472784146",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_rybp3v",
+            "image": "media/TeamImages/h9_-_Krish_Agrawal_eilclo",
             "instagram": null,
             "phone_number": null
         }
@@ -3202,11 +4884,11 @@
             "email": "cse210001083@iiti.ac.in",
             "position": "bMember",
             "division": "bSoftware Development",
-            "year": "Third",
+            "year": "bThird",
             "github": "http://github.com/warlord-k",
             "codeforces": null,
             "linkedin": "https://www.linkedin.com/in/yatharth-g",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_ukf6gz",
+            "image": "media/TeamImages/Yatharth_Gupta_-_Yatharth_Gupta_ymq7vt",
             "instagram": null,
             "phone_number": null
         }
@@ -3219,11 +4901,11 @@
             "email": "mems220005054@iiti.ac.in",
             "position": "bMember",
             "division": "bSoftware Development",
-            "year": "Second",
+            "year": "cSecond",
             "github": "https://github.com/TRISHANT131104",
             "codeforces": "https://codeforces.com/profile/Trishant_Talluri",
             "linkedin": "https://www.linkedin.com/in/trishant-talluri-6800a5253/",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_bcgseb",
+            "image": "media/TeamImages/IMG_20230112_184353_981_-_Trishant_Kumar_bqjosr",
             "instagram": null,
             "phone_number": null
         }
@@ -3236,11 +4918,11 @@
             "email": "me210003039@iiti.ac.in",
             "position": "bMember",
             "division": "cCyber Security",
-            "year": "Third",
+            "year": "bThird",
             "github": "https://github.com/mittal-ishaan",
             "codeforces": "https://codeforces.com/profile/ishaan",
             "linkedin": "https://www.linkedin.com/in/ishaan-mittal-/",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_hfggjb",
+            "image": "media/TeamImages/Ishaan_Photo_-_Ishaan_Mittal_fieibw",
             "instagram": null,
             "phone_number": null
         }
@@ -3253,11 +4935,11 @@
             "email": "cse210001065@iiti.ac.in",
             "position": "bMember",
             "division": "cCyber Security",
-            "year": "Third",
+            "year": "bThird",
             "github": "https://github.com/AaryaaRam",
             "codeforces": "https://codeforces.com/profile/AaryaaRam",
             "linkedin": "https://www.linkedin.com/in/aaryaa-ram-24646a243",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_ebhftw",
+            "image": "media/TeamImages/Aaryaa_Photo_Org_-_Shimgekar_Ram_ahjmvk",
             "instagram": null,
             "phone_number": null
         }
@@ -3270,11 +4952,11 @@
             "email": "cse220001009@iiti.ac.in",
             "position": "bMember",
             "division": "cCyber Security",
-            "year": "Second",
+            "year": "cSecond",
             "github": "https://github.com/Quantifier58",
             "codeforces": "https://codeforces.com/profile/Quantifier58",
             "linkedin": "https://www.linkedin.com/in/anirudh-gautam-69b790279/",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_jtjcuo",
+            "image": "media/TeamImages/Adobe_Scan_18-Oct-2022_3_-_Anirudh_Gautam_pktxc9",
             "instagram": null,
             "phone_number": null
         }
@@ -3287,11 +4969,11 @@
             "email": "cse210001041@iiti.ac.in",
             "position": "bMember",
             "division": "cCyber Security",
-            "year": "Third",
+            "year": "bThird",
             "github": "https://github.com/surya1176",
             "codeforces": "https://codeforces.com/profile/Ankara_messi1",
             "linkedin": "https://www.linkedin.com/in/surya-karthikeya-327255228/",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_xec84m",
+            "image": "media/TeamImages/suryakarthikeya_-_Mullapudi_Surya_aykyyw",
             "instagram": null,
             "phone_number": null
         }
@@ -3304,11 +4986,11 @@
             "email": "cse210001082@iiti.ac.in",
             "position": "bMember",
             "division": "cCyber Security",
-            "year": "Third",
+            "year": "bThird",
             "github": "https://www.github.com/Yashiiti",
             "codeforces": null,
             "linkedin": "https://www.linkedin.com/yash-vashistha",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_mbjjpz",
+            "image": "media/TeamImages/img_-_Yash_Vashistha_lehrji",
             "instagram": null,
             "phone_number": null
         }
@@ -3321,11 +5003,11 @@
             "email": "me220003008@iiti.ac.in",
             "position": "bMember",
             "division": "cCyber Security",
-            "year": "Second",
+            "year": "cSecond",
             "github": "https://github.com/ampady06",
             "codeforces": "https://codeforces.com/profile/ampadyappu",
             "linkedin": "https://www.linkedin.com/in/ampady-b-r-2a15a2254",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_nqstt1",
+            "image": "media/TeamImages/JPG100_-_Ampady_B_udnsmp",
             "instagram": null,
             "phone_number": null
         }
@@ -3338,11 +5020,11 @@
             "email": "ee220002074@iiti.ac.in",
             "position": "bMember",
             "division": "cCyber Security",
-            "year": "Second",
+            "year": "cSecond",
             "github": "https://github.com/SATTU3108",
             "codeforces": "https://codeforces.com/profile/satvik3184",
             "linkedin": "https://www.linkedin.com/in/satvik-desai-b77a2524b/",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_dagcr3",
+            "image": "media/TeamImages/WhatsApp_Image_2023-06-07_at_17.06.11_-_Satvik_Parag_v0zoub",
             "instagram": null,
             "phone_number": null
         }
@@ -3355,11 +5037,11 @@
             "email": "cse210001019@iiti.ac.in",
             "position": "bMember",
             "division": "cCyber Security",
-            "year": "Third",
+            "year": "bThird",
             "github": "https://github.com/Gourav-Ahlawat",
             "codeforces": "https://codeforces.com/profile/Hyp_d",
             "linkedin": "https://www.linkedin.com/in/gourav-ahlawat-525b15235",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_invvcg",
+            "image": "media/TeamImages/Photo_Admission_and_ID_card_-_Gourav_Ahlawat_amsi9g",
             "instagram": null,
             "phone_number": null
         }
@@ -3372,62 +5054,11 @@
             "email": "me220003085@iiti.ac.in",
             "position": "bMember",
             "division": "bSoftware Development",
-            "year": "Second",
+            "year": "cSecond",
             "github": "https://github.com/Rajat-Vishwa/",
             "codeforces": "https://codeforces.com/profile/rajat_vishwa",
             "linkedin": "https://www.linkedin.com/in/rajat-vishwakarma-679525254",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_wkqfvw",
-            "instagram": null,
-            "phone_number": null
-        }
-    },
-    {
-        "model": "api.team",
-        "pk": 31,
-        "fields": {
-            "name": "Riddhi Chandekar",
-            "email": "cse220001020@iiti.ac.in",
-            "position": "bMember",
-            "division": "cCyber Security",
-            "year": "Second",
-            "github": "http://github.com/kiki0982",
-            "codeforces": "https://codeforces.com/profile/riddhichandekar2108",
-            "linkedin": "https://www.linkedin.com/in/riddhi-chandekar-748059271/",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_gg6cfr",
-            "instagram": null,
-            "phone_number": null
-        }
-    },
-    {
-        "model": "api.team",
-        "pk": 32,
-        "fields": {
-            "name": "Abhishek",
-            "email": "mems220005001@iiti.ac.in",
-            "position": "bMember",
-            "division": "cCyber Security",
-            "year": "Second",
-            "github": "https://github.com/Abhiap2004",
-            "codeforces": "https://codeforces.com/profile/abhiap2004",
-            "linkedin": "https://www.linkedin.com/in/abhishek-a-p-66104425b/",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_xiahgq",
-            "instagram": null,
-            "phone_number": null
-        }
-    },
-    {
-        "model": "api.team",
-        "pk": 33,
-        "fields": {
-            "name": "Bharat Kaurav",
-            "email": "cse220001017@iiti.ac.in",
-            "position": "bMember",
-            "division": "cCyber Security",
-            "year": "Second",
-            "github": "https://github.com/TheNetherWatcher",
-            "codeforces": "https://codeforces.com/profile/bhrkrv2211",
-            "linkedin": "https://www.linkedin.com/in/bharat-kaurav2024",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_fmkaqg",
+            "image": "media/TeamImages/IMG_20230616_180700_-_Vishwakarma_Rajatkumar_qans39",
             "instagram": null,
             "phone_number": null
         }
@@ -3440,11 +5071,11 @@
             "email": "cse220001076@iiti.ac.in",
             "position": "bMember",
             "division": "cCyber Security",
-            "year": "Second",
+            "year": "cSecond",
             "github": "https://github.com/siddhesh434",
             "codeforces": "https://codeforces.com/profile/Siddhesh1234",
             "linkedin": "https://www.linkedin.com/in/siddhesh-waje-526480253",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_urv67p",
+            "image": "media/TeamImages/IMG_20230401_013724_050_-_Siddhesh_Nitin_dvqod9",
             "instagram": null,
             "phone_number": null
         }
@@ -3461,7 +5092,7 @@
             "github": "https://github.com/purav10",
             "codeforces": "https://codeforces.com/profile/avicii101",
             "linkedin": "https://www.linkedin.com/in/purav-biyani/",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_n2uc1y",
+            "image": "media/TeamImages/WhatsApp_Image_2023-06-15_at_15.44.13_-_Purav_Biyani_pdwugs",
             "instagram": null,
             "phone_number": null
         }
@@ -3478,7 +5109,7 @@
             "github": "https://github.com/LED-0102",
             "codeforces": "https://codeforces.com/profile/LED_0102",
             "linkedin": "https://www.linkedin.com/in/darshil-patel-30a880252",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_atbbdk",
+            "image": "media/TeamImages/Passport_Darshil_-_Darshil_Patel_gj2lvp",
             "instagram": null,
             "phone_number": null
         }
@@ -3495,7 +5126,7 @@
             "github": "https://github.com/gauravmahendraker",
             "codeforces": "https://codeforces.com/profile/gauravmahendraker",
             "linkedin": "https://www.linkedin.com/in/gaurav-mahendraker-3599ab223",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_dentbr",
+            "image": "media/TeamImages/IMG_20220501_102434588_HDR3_-_Mahendraker_Gaurav_wb7ovw",
             "instagram": null,
             "phone_number": null
         }
@@ -3529,7 +5160,7 @@
             "github": "https://github.com/1NileshKumar",
             "codeforces": null,
             "linkedin": "https://www.linkedin.com/in/nilesh-kumar-7103a6243/",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_dchf1c",
+            "image": "media/TeamImages/nilesh_-_Nilesh_Kumar_mgwlqj",
             "instagram": null,
             "phone_number": null
         }
@@ -3546,7 +5177,7 @@
             "github": "https://github.com/Vedant-03",
             "codeforces": "https://codeforces.com/profile/Vedant_05",
             "linkedin": "https://www.linkedin.com/in/vedantagrawal21/",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_joy3ng",
+            "image": "media/TeamImages/Photo_-_Vedant_Agrawal_paqrsx",
             "instagram": null,
             "phone_number": null
         }
@@ -3563,7 +5194,7 @@
             "github": "https://github.com/sushil538",
             "codeforces": "https://codeforces.com/profile/yadavsushil538",
             "linkedin": "https://www.linkedin.com/in/sushil-yadav-576a01238?trk=contact-info",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_t9mhwa",
+            "image": "media/TeamImages/IMG_20230626_111257_-_Yadav_Sushil_oxl7fi",
             "instagram": null,
             "phone_number": null
         }
@@ -3580,7 +5211,7 @@
             "github": "https://github.com/samd-990",
             "codeforces": "https://codeforces.com/profile/sam990",
             "linkedin": "https://www.linkedin.com/in/samyak-dhyani-a4aa89272/",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_ribzfs",
+            "image": "media/TeamImages/photo_samyak_dhyani_-_Samyak_Dhyani_f3eujy",
             "instagram": null,
             "phone_number": null
         }
@@ -3597,7 +5228,7 @@
             "github": "https://github.com/Naren-Sai-17",
             "codeforces": "https://codeforces.com/profile/Sai-17",
             "linkedin": "https://www.linkedin.com/in/naren-sai-1169951b1/",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_jri9gs",
+            "image": "media/TeamImages/IMG_20230617_175856_-_Naren_Kumar_czo20u",
             "instagram": null,
             "phone_number": null
         }
@@ -3614,7 +5245,7 @@
             "github": "https://github.com/ANJani9web",
             "codeforces": "https://codeforces.com/profile/Lucifer_09",
             "linkedin": "https://www.linkedin.com/in/anjani-kumar-38b805223/",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_nrpq69",
+            "image": "media/TeamImages/IMG-20221031-WA0003_-_Anjani_Kumar_rzfbes",
             "instagram": null,
             "phone_number": null
         }
@@ -3631,7 +5262,7 @@
             "github": "https://github.com/adiydvv",
             "codeforces": "https://codeforces.com/profile/adiydvv",
             "linkedin": "https://www.linkedin.com/in/aditya-yadav-60258b259/",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_ajqqtk",
+            "image": "media/TeamImages/me_-_Aditya_Yadav_daeyps",
             "instagram": null,
             "phone_number": null
         }
@@ -3648,7 +5279,7 @@
             "github": "https://github.com/PVSekhar1234",
             "codeforces": "https://codeforces.com/profile/P.V.Sekhar",
             "linkedin": "https://www.linkedin.com/in/p-v-sekhar-bb4612239/",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_ys2dym",
+            "image": "media/TeamImages/PVSekhar_-_Pilla_Venkata_cfpkp2",
             "instagram": null,
             "phone_number": null
         }
@@ -3665,7 +5296,7 @@
             "github": "https://github.com/VashisthaChaturvedi",
             "codeforces": "https://codeforces.com/profile/codevc_04",
             "linkedin": "https://www.linkedin.com/in/vashistha-chaturvedi-176b3324b/",
-            "image": "media/TeamImages/Screenshot_2024-01-24_at_10.12.11_PM_kcrhad",
+            "image": "media/TeamImages/Profile_Photo_-_Vashistha_Narayan_i8vx2w",
             "instagram": null,
             "phone_number": null
         }

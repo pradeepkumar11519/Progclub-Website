@@ -1,79 +1,90 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { useEffect,useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import VanillaTilt from 'vanilla-tilt';
-const options = {
-  reverse: true,
-  max: 20,
-  speed: 100,
-  scale: 1.02,
-  glare: true,
-  reset: true,
-  perspective: 10000,
-  transition: true,
-  "max-glare": 0.4,
-  "glare-prerender": false,
-  gyroscope: true,
-  gyroscopeMinAngleX: -45,
-  gyroscopeMaxAngleX: 45,
-  gyroscopeMinAngleY: -45,
-  gyroscopeMaxAngleY: 45
-}
+import {
+  useWindowSize,
+  useWindowWidth,
+  useWindowHeight,
+} from '@react-hook/window-size'
+
 export default function ProjectCard({ ele }) {
+  const [width, height] = useWindowSize()
+
+  const options = {
+    reverse: true,
+    max: width>600?15:20,
+    speed:width>600?200:400,
+    scale: 1.02,
+    glare: true,
+    reset: true,
+    perspective:width>600?50000:500,
+    transition: true,
+    "max-glare": 0.4,
+    "glare-prerender": false,
+    gyroscope: true,
+    gyroscopeMinAngleX: -45,
+    gyroscopeMaxAngleX: 45,
+    gyroscopeMinAngleY: -45,
+    gyroscopeMaxAngleY: 45
+  }
+
   function Tilt(props) {
-		const { children, options, ...rest } = props;
-		const tilt = useRef(null);
+    const { children, options, ...rest } = props;
+    const tilt = useRef(null);
 
-		useEffect(() => {
-			VanillaTilt.init(tilt.current, options);
-		}, [options]);
+    useEffect(() => {
+      VanillaTilt.init(tilt.current, options);
+    }, [options]);
 
-		return (<div ref={tilt} {...rest} >{children}</div>);
-	}
-	return (
-		<div id="ProjectPage" className='justify-center flex !mb-32  '>
-			<Tilt className="card  max-w-[500px] md:w-[500px] rounded-lg" options={options} >
-				<div className=''>
-					<div className="">
-						{/* <div className="circle"></div> */}
-						{/* <div className="circle"></div> */}
-						<div className="card-inner ">
-							<div className='grid grid-rows-[auto_auto]  '>
-								<div className='md:grid md:grid-cols-[auto_auto] px-10 py-5 w-full flex flex-col justify-center items-center'>
-									<div id="ProjectsImage" className='w-full h-full md:w-full md:h-full  rounded-xl md:rounded-[0px] flex bg-white items-center justify-center mb-5 md:mb-0 px-5 mx-auto'>
-										<Image src={ele.image}
-											width={97} height={96} placeholder='blur' className='w-fit h-fit ' blurDataURL={ele.image} />
-									</div>
-									<div className='w-fit md:w-full h-full ml-5'>
-										<div className='my-2  border-2 border-white bg-white text-black rounded-lg text-center break-all p-2  font-bold'>{ele.title}</div>
-										<div className='my-2  border-2 border-white bg-white text-black rounded-lg text-center break-all p-2 '>{ele.subtitle}</div>
-										<div className='my-2  border-2 border-white bg-white text-black rounded-lg text-center break-all p-2 '>{ele.category}</div>
-										<button></button>
-										<button></button>
-									</div>
-								</div>
-								<hr className='border-2 max-w-[400px]' />
-								<div className='h-full w-full  text-white text-center p-5'>
-									{ele.description}
-									<div className='my-5 flex'>
-										<Link target={"_blank"} href={ele.github} className='border-2 border-black bg-white p-2 rounded-full w-full text-black font-bold hover:underline hover:bg-black hover:text-white transition-all fade-in-out duration-500'>Github</Link>
-										{(ele.domain!=="None") && (
-											<Link target={"_blank"} href={ele.domain} className='border-2 border-black bg-white p-2 rounded-full w-full text-black font-bold hover:underline hover:bg-black hover:text-white transition-all fade-in-out duration-500'>Website Link</Link>
-										)}
-										
-									</div>
+    return (<div ref={tilt} {...rest} >{children}</div>);
+  }
+  return (
+    <div id="ProjectPage" className='justify-center flex !mb-28 '>
+      <Tilt className="card  max-w-[500px] md:w-[500px] rounded-lg" options={options} >
+        <div className=''>
+          <div className="">
+            {/* <div className="circle"></div> */}
+            {/* <div className="circle"></div> */}
+            <div className="card-inner ">
+              <div className='grid grid-rows-[auto_auto]  '>
+                <div className='md:grid md:grid-cols-[auto_auto] px-10 py-5 w-full flex flex-col justify-center items-center'>
+                  <div id="ProjectsImage" className='w-full h-full md:w-full md:h-full  rounded-xl md:rounded-[0px] flex bg-white items-center justify-center mb-5 md:mb-0 px-5 mx-auto'>
+                    <Image src={ele.image}
+                      width={97} height={96} placeholder='blur' className='w-fit h-fit ' blurDataURL={ele.image} />
+                  </div>
+                  <div className='w-fit md:w-full h-full ml-5'>
+                    <div className='my-2  border-2 border-white bg-white text-black rounded-lg text-center break-all p-2  font-bold'>{ele.title}</div>
+                    <div className='my-2  border-2 border-white bg-white text-black rounded-lg text-center break-all p-2 '>{ele.subtitle}</div>
+                    <div className='my-2  border-2 border-white bg-white text-black rounded-lg text-center break-all p-2 '>{ele.category}</div>
+                    <button></button>
+                    <button></button>
+                  </div>
+                </div>
+                <hr className='border-2 max-w-[400px]' />
+                <div className='w-full  text-white text-center p-5 !h-full'>
+                  <div className='h-[100px] overflow-y-scroll'>
+                    {ele.description}
+                  </div>
+                  <div className='my-5 flex'>
+                    <Link target={"_blank"} href={ele.github} className='border-2 border-black bg-white p-2 rounded-full w-full text-black font-bold hover:underline hover:bg-black hover:text-white transition-all fade-in-out duration-500'>Github</Link>
+                    {(ele.domain !== "None") && (
+                      <Link target={"_blank"} href={ele.domain} className='border-2 border-black bg-white p-2 rounded-full w-full text-black font-bold hover:underline hover:bg-black hover:text-white transition-all fade-in-out duration-500'>Website Link</Link>
+                    )}
 
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</Tilt>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Tilt>
 
 
-			<style jsx>
-				{`
+      <style jsx>
+        {`
         .card {
           
           height: fit-content;
@@ -127,7 +138,7 @@ export default function ProjectCard({ ele }) {
           }
         }
         `}
-			</style>
-		</div>
-	)
+      </style>
+    </div>
+  )
 }
