@@ -5,7 +5,7 @@ cloudinary==1.38.0
 defusedxml==0.7.1
 diff-match-patch==20230430
 dj-database-url==2.1.0
-Django==5.0.1
+Django
 django-admin-logs==1.1.0
 django-cloudinary-storage==0.3.0
 django-cors-headers==4.3.1

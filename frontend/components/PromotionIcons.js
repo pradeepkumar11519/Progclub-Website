@@ -1,49 +1,49 @@
-import React from 'react'
-import {AiFillInstagram,AiFillYoutube,AiFillLinkedin,AiFillFacebook} from 'react-icons/ai'
-import {BsDiscord} from 'react-icons/bs'
+import React from "react";
+import {
+    AiFillInstagram,
+    AiFillYoutube,
+    AiFillLinkedin,
+    AiFillFacebook,
+} from "react-icons/ai";
+import { BsDiscord } from "react-icons/bs";
 export default function PromotionIcons() {
     return (
-        <div className=' w-fit !mx-auto  z-[10000]'>
+        <div className=" w-fit !mx-auto  z-[10000]">
             <div className="wrapper">
                 <div className="navbar">
                     <div className="navbar__item">
                         <span className="navbar__icon">
-                           
-                                <AiFillInstagram className='!w-8 !h-8'/>
-                            
+                            <AiFillInstagram className="!w-8 !h-8" />
                         </span>
                     </div>
                     <div className="navbar__item">
                         <span className="navbar__icon">
-                          
-                                <AiFillYoutube className='!w-8 !h-8'/>
-                           
+                            <AiFillYoutube className="!w-8 !h-8" />
                         </span>
                     </div>
                     <div className="navbar__item">
                         <span className="navbar__icon">
-                            
-                                <AiFillLinkedin className='!w-8 !h-8'/>
-                            
+                            <AiFillLinkedin className="!w-8 !h-8" />
                         </span>
                     </div>
                     <div className="navbar__item">
                         <span className="navbar__icon">
-                            
-                                <BsDiscord className='!w-8 !h-8' />
-                            
+                            <BsDiscord className="!w-8 !h-8" />
                         </span>
                     </div>
                     <div className="navbar__item">
                         <span className="navbar__icon">
-                           
-                                <AiFillFacebook className='!w-8 !h-8'/>
-                            
+                            <AiFillFacebook className="!w-8 !h-8" />
                         </span>
                     </div>
                 </div>
             </div>
-            <svg style={{"display":"none"}} xmlns="http://www.w3.org/2000/svg" hidden xmlnsXlink="http://www.w3.org/1999/xlink">
+            <svg
+                style={{ display: "none" }}
+                xmlns="http://www.w3.org/2000/svg"
+                hidden
+                xmlnsXlink="http://www.w3.org/1999/xlink"
+            >
                 <defs>
                     <symbol id="icon-plus" viewBox="0 0 32 32">
                         <title>plus</title>
@@ -73,101 +73,101 @@ export default function PromotionIcons() {
             </svg>
             <style jsx>
                 {`
-                    
+                    .icon {
+                        display: inline-block;
+                        width: 1em;
+                        height: 1em;
+                        stroke-width: 0;
+                        stroke: currentColor;
+                        fill: currentColor;
+                    }
 
-.icon {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
-  }
-  
-  .navbar {
-    
-    display: inline-flex;
-    flex-wrap:wrap;
-    align-items: center;
-    justify-items:center;
-    margin:auto auto;
-    padding-bottom:20px;
-    box-shadow: 0px 20px 40px rgba(18, 34, 64, 0.1);
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    position: relative;
-  }
-  .navbar:after {
-    content: "";
-    width: 120px;
-    background: #d9e0ea;
-    position: absolute;
-    bottom: 8px;
-    left: 50%;
-    height: 3px;
-    transform: translatex(-50%);
-    opacity: 0.7;
-  }
-  .navbar__item {
-    width: 70px;
-    height: 70px;
-    position: relative;
-    cursor: pointer;
-    padding: 10px;
-    position: relative;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 21px;
-  }
-  .navbar__item::before, .navbar__item:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: currentColor;
-    border-radius: 50%;
-    transform: scale(0.8);
-    opacity: 0;
-    transition: all 0.55s cubic-bezier(0.71, 0.03, 0.23, 0.95);
-  }
-  .navbar__item::after {
-    box-shadow: 0 7px 15px currentColor;
-  }
-  .navbar__item {
-    color: white;
-  }
-  
-  .navbar__item:hover::before, .navbar__item:hover::after {
-    transform: translateY(-40px) scale(1.1);
-  }
-  .navbar__item:hover::before {
-    opacity: 1;
-  }
-  .navbar__item:hover::after {
-    opacity: 0.4;
-  }
-  .navbar__item:hover .navbar__icon {
-    transform: translateY(-37px) scale(1.25);
-    color: #fff;
-    transition-delay: 0.1s, 0.1s;
-  }
-  .navbar__icon {
-    transition: all 0.5s cubic-bezier(0.71, 0.03, 0.23, 0.95);
-    transition-delay: 0.1s;
-    display: inline-block;
-    position: relative;
-    z-index: 2;
-  }
-  
-  .navbar__item:hover > .navbar__icon{
-    color:black;
-  }
-  
+                    .navbar {
+                        display: inline-flex;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        justify-items: center;
+                        margin: auto auto;
+                        padding-bottom: 20px;
+                        box-shadow: 0px 20px 40px rgba(18, 34, 64, 0.1);
+                        border-bottom-left-radius: 30px;
+                        border-bottom-right-radius: 30px;
+                        position: relative;
+                    }
+                    .navbar:after {
+                        content: "";
+                        width: 120px;
+                        background: #d9e0ea;
+                        position: absolute;
+                        bottom: 8px;
+                        left: 50%;
+                        height: 3px;
+                        transform: translatex(-50%);
+                        opacity: 0.7;
+                    }
+                    .navbar__item {
+                        width: 70px;
+                        height: 70px;
+                        position: relative;
+                        cursor: pointer;
+                        padding: 10px;
+                        position: relative;
+                        display: inline-flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 21px;
+                    }
+                    .navbar__item::before,
+                    .navbar__item:after {
+                        content: "";
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        top: 0;
+                        left: 0;
+                        background-color: currentColor;
+                        border-radius: 50%;
+                        transform: scale(0.8);
+                        opacity: 0;
+                        transition: all 0.55s
+                            cubic-bezier(0.71, 0.03, 0.23, 0.95);
+                    }
+                    .navbar__item::after {
+                        box-shadow: 0 7px 15px currentColor;
+                    }
+                    .navbar__item {
+                        color: white;
+                    }
+
+                    .navbar__item:hover::before,
+                    .navbar__item:hover::after {
+                        transform: translateY(-40px) scale(1.1);
+                    }
+                    .navbar__item:hover::before {
+                        opacity: 1;
+                    }
+                    .navbar__item:hover::after {
+                        opacity: 0.4;
+                    }
+                    .navbar__item:hover .navbar__icon {
+                        transform: translateY(-37px) scale(1.25);
+                        color: #fff;
+                        transition-delay: 0.1s, 0.1s;
+                    }
+                    .navbar__icon {
+                        transition: all 0.5s
+                            cubic-bezier(0.71, 0.03, 0.23, 0.95);
+                        transition-delay: 0.1s;
+                        display: inline-block;
+                        position: relative;
+                        z-index: 2;
+                    }
+
+                    .navbar__item:hover > .navbar__icon {
+                        color: black;
+                    }
                 `}
             </style>
         </div>
-    )
+    );
 }
